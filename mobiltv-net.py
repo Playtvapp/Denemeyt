@@ -13,7 +13,7 @@ headers = {
 
 GITHUB_USER = os.getenv("GITHUB_USER", "Playtvapp")
 GITHUB_REPO = os.getenv("GITHUB_REPO", "denemeyt")
-GITHUB_BRANCH = os.getenv("GITHUB_BRANCH", "main")
+GITHUB_BRANCH = os.getenv("GITHUB_BRANCH", "TV")
 BASE_URL = f"https://raw.githubusercontent.com/{GITHUB_USER}/{GITHUB_REPO}/refs/heads/{GITHUB_BRANCH}"
 
 def get_all_channels():
