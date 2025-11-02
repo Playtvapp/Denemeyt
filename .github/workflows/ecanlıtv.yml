@@ -14,7 +14,7 @@ jobs:
       uses: actions/checkout@v4
       with:
         token: ${{ secrets.TV }} # <--- 1. DEĞİŞİKLİK: 403 hatası için PAT (TV) token'ı kullan.
-        ref: 'TV'               # <--- 2. DEĞİŞİKLİK: 'main' yerine 'TV' dalını checkout et.
+        ref: 'main'               # <--- 2. DEĞİŞİKLİK: 'main' yerine 'TV' dalını checkout et.
 
     - name: Set up Python
       uses: actions/setup-python@v5
