@@ -15,7 +15,7 @@ WEB_URL = "https://tv.ecanlitvizle.org/"
 FILE_NAME = "ecanlitvizle-org"
 DOMAIN = "ecanlitvizle.org"
 
-GITHUB_USER = os.getenv("GITHUB_USER", "Playtvapp)
+GITHUB_USER = os.getenv("GITHUB_USER", "Playtvapp")
 GITHUB_REPO = os.getenv("GITHUB_REPO", "Denemeyt")
 GITHUB_BRANCH = os.getenv("GITHUB_BRANCH", "main")
 BASE_URL = f"https://raw.githubusercontent.com/{GITHUB_USER}/{GITHUB_REPO}/refs/heads/{GITHUB_BRANCH}"
