@@ -40,9 +40,9 @@ jobs:
         
         # Sadece değişiklik varsa commit at ve push'la
         git diff --quiet && git diff --staged --quiet || {
-          git commit -m "Update streams [CI]"
+          git commit -m "Update denemeyt [CI]"
           
           # <--- 3. DEĞİŞİKLİK: 'main' yerine 'TV' dalından pull ve 'TV' dalına push yap.
-          git pull --rebase origin TV
-          git push origin HEAD:TV
+          git pull --rebase origin main
+          git push origin HEAD:main
         }
