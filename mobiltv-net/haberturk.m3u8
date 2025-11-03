@@ -1,8 +1,8 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:BANDWIDTH=2000000,RESOLUTION=1280x720,CODECS="avc1.4d401f,mp4a.40.2",NAME="720p"
-https://cdn501.freebroadcast.vip/haberturk720.m3u8?tkn=8m4ljxL-jE8x3Lf7IYhcVQ&tms=1762201274&hst=tr.mobiltv.net&ip=20.55.87.182&source=haberturk-master
+https://cdn505.freebroadcast.vip/haberturk720.m3u8?tkn=Cl2o5kUhQ1AF1wU9bvOj0Q&tms=1762208804&hst=tr.mobiltv.net&ip=20.161.60.20&source=haberturk-master
 #EXT-X-STREAM-INF:BANDWIDTH=1200000,RESOLUTION=720x576,CODECS="avc1.42c01e,mp4a.40.2",NAME="480p"
-https://cdn501.freebroadcast.vip/haberturk.m3u8?tkn=8m4ljxL-jE8x3Lf7IYhcVQ&tms=1762201274&hst=tr.mobiltv.net&ip=20.55.87.182&source=haberturk-master
+https://cdn505.freebroadcast.vip/haberturk.m3u8?tkn=Cl2o5kUhQ1AF1wU9bvOj0Q&tms=1762208804&hst=tr.mobiltv.net&ip=20.161.60.20&source=haberturk-master
 #EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=640x360,CODECS="avc1.42c01e,mp4a.40.2",NAME="360p"
-https://cdn501.freebroadcast.vip/haberturk360.m3u8?tkn=8m4ljxL-jE8x3Lf7IYhcVQ&tms=1762201274&hst=tr.mobiltv.net&ip=20.55.87.182&source=haberturk-master
+https://cdn505.freebroadcast.vip/haberturk360.m3u8?tkn=Cl2o5kUhQ1AF1wU9bvOj0Q&tms=1762208804&hst=tr.mobiltv.net&ip=20.161.60.20&source=haberturk-master
