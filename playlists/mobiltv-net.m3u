@@ -239,9 +239,6 @@ https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/f
 #EXTINF:-1 tvg-id="" tvg-name="KRT Tv" tvg-logo="",KRT Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/krttv.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Kanal 32" tvg-logo="",Kanal 32
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/kanal32.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Tek Rumeli Tv" tvg-logo="",Tek Rumeli Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/tekrumelitv.m3u8
@@ -290,6 +287,9 @@ https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/k
 #EXTINF:-1 tvg-id="" tvg-name="Kanal 33" tvg-logo="",Kanal 33
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/kanal33.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Kanal Avrupa" tvg-logo="",Kanal Avrupa
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/kanalavrupa.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Kanal V" tvg-logo="",Kanal V
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/kanalv.m3u8
@@ -329,6 +329,9 @@ https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/a
 #EXTINF:-1 tvg-id="" tvg-name="ARB 24" tvg-logo="",ARB 24
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/arb24.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Minika Go" tvg-logo="",Minika Go
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/minikago.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Ekol Tv" tvg-logo="",Ekol Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/ekoltv.m3u8
