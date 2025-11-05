@@ -1,8 +1,8 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:BANDWIDTH=2000000,RESOLUTION=1280x720,CODECS="avc1.4d401f,mp4a.40.2",NAME="720p"
-https://cdn502.freebroadcast.vip/halktv720.m3u8?tkn=aw0vOpi0Q-D3QiB2-NVnPw&tms=1762326624&hst=tr.mobiltv.net&ip=20.169.72.21&source=halktv-master
+https://cdn501.freebroadcast.vip/halktv720.m3u8?tkn=VU5U6y2K3OF7X_rZAhBHKQ&tms=1762330899&hst=tr.mobiltv.net&ip=40.76.117.242&source=halktv-master
 #EXT-X-STREAM-INF:BANDWIDTH=1200000,RESOLUTION=720x576,CODECS="avc1.42c01e,mp4a.40.2",NAME="480p"
-https://cdn502.freebroadcast.vip/halktv.m3u8?tkn=aw0vOpi0Q-D3QiB2-NVnPw&tms=1762326624&hst=tr.mobiltv.net&ip=20.169.72.21&source=halktv-master
+https://cdn501.freebroadcast.vip/halktv.m3u8?tkn=VU5U6y2K3OF7X_rZAhBHKQ&tms=1762330899&hst=tr.mobiltv.net&ip=40.76.117.242&source=halktv-master
 #EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=640x360,CODECS="avc1.42c01e,mp4a.40.2",NAME="360p"
-https://cdn502.freebroadcast.vip/halktv360.m3u8?tkn=aw0vOpi0Q-D3QiB2-NVnPw&tms=1762326624&hst=tr.mobiltv.net&ip=20.169.72.21&source=halktv-master
+https://cdn501.freebroadcast.vip/halktv360.m3u8?tkn=VU5U6y2K3OF7X_rZAhBHKQ&tms=1762330899&hst=tr.mobiltv.net&ip=40.76.117.242&source=halktv-master
