@@ -1,0 +1,57 @@
+# Bu dosyayı şu yola kaydetmelisiniz: .github/workflows/update_m3u.yml
+name: Türkiye IPTV Listesini Güncelle
+
+on:
+  # Her saat başında otomatik olarak çalıştır
+  schedule:
+    - cron: '0 * * * *'
+  
+  # Manuel olarak da çalıştırabilmek için
+  workflow_dispatch:
+
+jobs:
+  build-and-commit:
+    runs-on: ubuntu-latest
+    
+    # Bu işin depoya kod yazma (commit atma) izni olması gerekir
+    permissions:
+      contents: write
+      
+    steps:
+      # 1. Deponuzdaki kodları (rus.m3u, filter_m3u.py) klonlar
+      - name: Depoyu Klonla (Checkout)
+        uses: actions/checkout@v4
+
+      # 2. Python 3.10 sürümünü kurar
+      - name: Python 3.10 Kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      # 3. Python betiğini çalıştırır (Bu betik turkey.m3u dosyasını oluşturur)
+      - name: M3U Filtreleme Script'ini Çalıştır
+        run: python filter_m3u.py
+
+      # 4. Oluşturulan turkey.m3u dosyasında değişiklik varsa depoya commit'ler
+      - name: Değişiklikleri Kontrol Et ve Commit'le
+        run: |
+          # Git için bot kimliğini ayarla
+          git config --global user.name 'GitHub Actions Bot'
+          git config --global user.email 'github-actions-bot@users.noreply.github.com'
+          
+          # Dosyada değişiklik olup olmadığını kontrol et
+          # 'git status -s' komutu boş bir sonuç dönerse (değişiklik yoksa) script durur
+          if [[ -z $(git status -s $OUTPUT_FILE) ]]; then
+            echo "Değişiklik yok, commit atılmayacak."
+          else
+            echo "Değişiklikler bulundu, commit atılıyor..."
+            # Yeni dosyayı (veya değişen dosyayı) Git'e ekle
+            git add $OUTPUT_FILE
+            # Commit mesajı oluştur
+            git commit -m "Oto-güncelleme: Türkiye M3U listesi (Build ${{ github.run_number }})"
+            # Değişiklikleri depoya yolla (push)
+            git push
+          fi
+        env:
+          # Python script'indeki çıktı dosyası adını buraya da yazın
+          OUTPUT_FILE: turkey.m3u
