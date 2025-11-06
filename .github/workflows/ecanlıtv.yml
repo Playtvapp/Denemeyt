@@ -2,7 +2,7 @@ name: Update ecanlitvizle-org
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # Run every 6 hours (Yorumunuza göre düzelttim, */2 her 2 saattir)
+    - cron: '0 */2 * * *'  # Run every 6 hours
   workflow_dispatch:  # Allow manual trigger
 
 jobs:
@@ -12,9 +12,6 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
-      with:
-        token: ${{ secrets.TV }} # <--- 1. DEĞİŞİKLİK: 403 hatası için PAT (TV) token'ı kullan.
-        ref: 'main'               # <--- 2. DEĞİŞİKLİK: 'main' yerine 'TV' dalını checkout et.
 
     - name: Set up Python
       uses: actions/setup-python@v5
@@ -29,7 +26,6 @@ jobs:
       env:
         GITHUB_USER: ${{ github.repository_owner }}
         GITHUB_REPO: ${{ github.event.repository.name }}
-        # GITHUB_BRANCH burada ayarlanmadığı için .py dosyası varsayılan olan 'TV'yi kullanacak. Bu istediğimiz şey.
       run: python ecanlitvizle-org.py
 
     - name: Commit and push changes
@@ -37,12 +33,8 @@ jobs:
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add ecanlitvizle-org/ playlists/
-        
-        # Sadece değişiklik varsa commit at ve push'la
         git diff --quiet && git diff --staged --quiet || {
-          git commit -m "Update denemeyt [CI]"
-          
-          # <--- 3. DEĞİŞİKLİK: 'main' yerine 'TV' dalından pull ve 'TV' dalına push yap.
+          git commit -m "Update streams"
           git pull --rebase origin main
-          git push origin HEAD:main
+          git push
         }
