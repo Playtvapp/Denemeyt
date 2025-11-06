@@ -3,21 +3,37 @@ from bs4 import BeautifulSoup
 import re
 import os
 import shutil
+from html import unescape
+from typing import Optional, Dict, List
+from urllib.parse import urlparse
 
-# Get cookies from environment variables
-LS_ACCOUNT_KEY = os.getenv("LS_ACCOUNT_KEY", "")
-LS_ACCOUNT_NUM_KEY = os.getenv("LS_ACCOUNT_NUM_KEY", "")
-LS_TOKEN_KEY = os.getenv("LS_TOKEN_KEY", "")
+headers = {
+    "Reimport requests
+from bs4 import BeautifulSoup
+import re
+import os
+import shutil
+from html import unescape
+from typing import Optional, Dict, List
+from urllib.parse import urlparse
 
-# GitHub repository configuration
+
 GITHUB_USER = os.getenv("GITHUB_USER", "Playtvapp")
 GITHUB_REPO = os.getenv("GITHUB_REPO", "denemeyt")
 GITHUB_BRANCH = os.getenv("GITHUB_BRANCH", "TV")
-BASE_URL = f"https://raw.githubusercontent.com/{GITHUB_USER}/{GITHUB_REPO}/refs/heads/{GITHUB_BRANCH}"
+BASE_URL = f"https://raw.githubusercontent.com/{GITHUB_USER}/{GITHUB_REPO}/refs/heads/{GITHUB_BRANCHferer": "https://tv.vin/"
+}
+
+GITHUB_USER = os.getenv("GITHUB_USER", "Playtvapp")
+GITHUB_REPO = os.getenv("GITHUB_REPO", "denemeyt")
+GITHUB_BRANCH = os.getenv("GITHUB_BRANCH", "TV")
+BASE_URL = f"https://raw.githubusercontent.com/{GITHUB_USER}/{GITHUB_REPO}/refs/heads/{GITHUB_BRANCH
+
+
 
 headers = {
     "Cookie": f"LS_ACCOUNT_KEY={LS_ACCOUNT_KEY}; LS_ACCOUNT_NUM_KEY={LS_ACCOUNT_NUM_KEY}; LS_TOKEN_KEY={LS_TOKEN_KEY}",
-    "Referer": "https://tv.vin/"
+    "Referer": https://tv.vin/""
 }
 
 pattern = r'file:\s*[\'"]([^\'"]*\.m3u8[^\'"]*)[\'"]'
