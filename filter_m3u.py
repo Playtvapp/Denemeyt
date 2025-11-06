@@ -2,34 +2,35 @@
 import os
 
 # --- AYARLAR ---
-# Kaynak M3U dosyasının adı (Bu dosyanın reponuzda, bu script ile aynı dizinde olması gerekir)
+# Kaynak M3U dosyasının adı
 SOURCE_FILE = 'rus.m3u'
-# Çıktı olarak oluşturulacak yeni M3U dosyasının adı
-OUTPUT_FILE = 'turkey.m3u'
-# Filtrelenmesini istediğiniz kategori adı (Büyük/küçük harfe duyarlıdır)
-CATEGORY_NAME = 'Türkiye'
+
+# Filtrelenecek kategorileri ve çıktı dosyalarını burada tanımlayın
+# Format: (Kategori Adı, Çıktı Dosyası Adı)
+FILTERS_TO_APPLY = [
+    ('Türkiye', 'turkey.m3u'),
+    ('XXX', 'xxx.m3u')
+]
 # --- AYARLAR SONU ---
 
-def filter_m3u_channels():
+def read_and_parse_source(source_file):
     """
-    Ana M3U dosyasını okur, belirtilen kategoriye göre filtreler
-    ve yeni bir M3U dosyası oluşturur.
+    Kaynak M3U dosyasını okur ve kanalları bloklara ayırır.
+    Header'ı ve kanal bloklarının bir listesini döndürür.
     """
-    print(f"'{SOURCE_FILE}' dosyası okunuyor...")
-    
-    # Kaynak dosyanın var olup olmadığını kontrol et
-    if not os.path.exists(SOURCE_FILE):
-        print(f"HATA: '{SOURCE_FILE}' dosyası bulunamadı.")
+    print(f"'{source_file}' dosyası okunuyor...")
+    if not os.path.exists(source_file):
+        print(f"HATA: '{source_file}' dosyası bulunamadı.")
         print("Lütfen bu dosyayı (rus.m3u) GitHub reponuza eklediğinizden emin olun.")
-        return
+        return None, None
 
     try:
         # Dosyayı oku ve satırları temizle
-        with open(SOURCE_FILE, 'r', encoding='utf-8') as f:
+        with open(source_file, 'r', encoding='utf-8') as f:
             lines = [line.strip() for line in f.readlines()]
     except Exception as e:
         print(f"Dosya okunurken bir hata oluştu: {e}")
-        return
+        return None, None
 
     header = ""
     all_channels = []
@@ -57,30 +58,34 @@ def filter_m3u_channels():
     # Döngü bittikten sonra son kanalı da listeye ekle
     if current_channel_block:
         all_channels.append(current_channel_block)
+        
+    print(f"Toplam {len(all_channels)} kanal bulundu.")
+    return header, all_channels
 
-    print(f"Toplam {len(all_channels)} kanal bulundu. '{CATEGORY_NAME}' kategorisi için filtreleme yapılıyor...")
-
+def filter_and_write(header, all_channels, category_name, output_file):
+    """
+    Verilen kanal listesini kategoriye göre filtreler ve yeni dosyayı yazar.
+    """
+    print(f"'{category_name}' kategorisi için filtreleme yapılıyor...")
+    
     filtered_channels = []
     # Kanalları filtrele
     for block in all_channels:
         block_string = '\n'.join(block)
         
-        # Hem group-title="Türkiye" hem de #EXTGRP:Türkiye formatlarını kontrol et
-        if f'group-title="{CATEGORY_NAME}"' in block_string or f'#EXTGRP:{CATEGORY_NAME}' in block_string:
+        # Hem group-title="KATEGORİ" hem de #EXTGRP:KATEGORİ formatlarını kontrol et
+        if f'group-title="{category_name}"' in block_string or f'#EXTGRP:{category_name}' in block_string:
             filtered_channels.append(block)
 
     if not filtered_channels:
-        print(f"'{CATEGORY_NAME}' kategorisinde hiç kanal bulunamadı. Çıktı dosyası oluşturulmadı.")
-        # İsteğe bağlı olarak boş bir turkey.m3u oluşturabilirsiniz
-        # with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-        #     f.write(header + '\n' if header else '#EXTM3U\n')
+        print(f"'{category_name}' kategorisinde hiç kanal bulunamadı. '{output_file}' oluşturulmadı.")
         return
 
-    print(f"'{CATEGORY_NAME}' kategorisinde {len(filtered_channels)} kanal bulundu. '{OUTPUT_FILE}' dosyası oluşturuluyor...")
+    print(f"'{category_name}' kategorisinde {len(filtered_channels)} kanal bulundu. '{output_file}' dosyası oluşturuluyor...")
 
     # Yeni M3U dosyasını yaz
     try:
-        with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
+        with open(output_file, 'w', encoding='utf-8') as f:
             if header:
                 f.write(header + '\n')
             else:
@@ -90,10 +95,25 @@ def filter_m3u_channels():
             for block in filtered_channels:
                 f.write('\n'.join(block) + '\n')
         
-        print(f"'{OUTPUT_FILE}' dosyası başarıyla oluşturuldu.")
+        print(f"'{output_file}' dosyası başarıyla oluşturuldu.")
 
     except Exception as e:
-        print(f"'{OUTPUT_FILE}' dosyası yazılırken bir hata oluştu: {e}")
+        print(f"'{output_file}' dosyası yazılırken bir hata oluştu: {e}")
+
+def main():
+    """
+    Ana betik. Dosyayı bir kez okur ve tüm filtreleri uygular.
+    """
+    header, all_channels = read_and_parse_source(SOURCE_FILE)
+    
+    if all_channels is None:
+        print("Ana dosya okunamadı. İşlem durduruldu.")
+        return
+
+    # Tanımlanan tüm filtreler için döngü başlat
+    for category, output_file in FILTERS_TO_APPLY:
+        filter_and_write(header, all_channels, category, output_file)
+        print("-" * 20) # Filtreler arası ayırıcı
 
 if __name__ == "__main__":
-    filter_m3u_channels()
+    main()
