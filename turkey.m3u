@@ -1,0 +1,694 @@
+#EXTM3U url-tvg="http://srvru.play-x.ru/epg.xml.gz?q=eyJ1c2VySWQiOiJ0cnVhbmdlbiJ9.vq7_3EdcO56S4H7zGhCJnRm0kOpmtXRW2w-xscHum4EZYNQzY3ux6tUPj7CHkUesnpuU0Md_eIKcm1Qz8-aY1w" description="Medium" size="Medium" background="#11609e"
+#EXTINF:-1 group-title="Türkiye",Haber 61 TV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/4576add0/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-52153" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/tt/trt_kurdi_tr.png",TRT KURDI
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/2a63fff6/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-52169" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/uu/ulke_tv_tr.png",ULKE TV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n14985c1c/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-8222" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/gg/gstv_in.png",GS TV Galatasaray
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/59854869/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-732" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/ss/sports_tv_tr.png",Sports TV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n1af8dd0a/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55349" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/bb/be_in_tr_movies_action_01_hd.png",beIN MOVIES ACTION  HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/636f0644/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-134" tvg-logo="http://srvru.play-x.ru/logos/podmoskovie.png",360 HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/27271c5c/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-53122" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/aa/a_spor_tr.png",A Spor HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/34fa3770/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",A2 TV Turkey HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/75a6532/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-53072" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/aa/atv_at_hd.png",ATV HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/40c2fc46/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-52420" tvg-logo="http://srvru.play-x.ru/logos/bbc-earth.png",BBC Earth HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/3e3ff2fc/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-2495" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/bb/be_in_tr_iz_hd.png",beIN IZ HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/3fdfc2e0/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55350" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/bb/be_in_tr_movies_action_02_hd.png",beIN MOVIES ACTION 2 HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/a795b82/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55358" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/bb/be_in_tr_movies_family_hd.png",beIN MOVIES FAMILY HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/32bb2ae6/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55357" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/bb/bein-movies-premiere-2-qa-tr.png",beIN MOVIES PREMIERE 2 HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/2b39da9f/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55356" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/bb/bein-movies-premiere-qa-tr.png",beIN MOVIES PREMIERE HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n46481ecf/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55359" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/bb/be_in_tr_movies_stars_hd.png",beIN MOVIES STARS HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n5aaf5033/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55360" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/bb/be_in_tr_movies_turk_hd.png",beIN MOVIES TURK HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/30d7590/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55362" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/bb/be_in_tr_series_comedy_hd.png",beIN SERIES 1
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/25a1cc13/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55362" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/bb/be_in_tr_series_comedy_hd.png",beIN SERIES 2
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/25a1cc14/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55362" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/bb/be_in_tr_series_comedy_hd.png",beIN SERIES 4
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/25a1cc16/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-51253" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/bb/bloomberg_ht.png",BLOOMBERGHT HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n1fbffd1e/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-51288" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/cc/cnn_turk.png",CNN TURK HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n3071afe8/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",DISCOVERY CHANNEL TURK  HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/35bbbfb0/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-99" tvg-logo="http://srvru.play-x.ru/logos/investigation-discovery.png",ID
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n2db0fbd8/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-66" tvg-logo="http://srvru.play-x.ru/logos/disney-kanal.png",Disney JR.HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/5a8da183/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55378" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/dd/dizismart-max-tr.png",DIZISMART MAX HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/5e858470/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-2047" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/dd/dmax_de.png",DMAX HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/694e43af/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-6096" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/dd/dream_tv_tr_turk.png",DREAM TURK
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n667f135c/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-54938" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/ff/fbtv_fenerbahce.png",FB TV HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/11e7ac43/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-1478" tvg-logo="http://srvru.play-x.ru/logos/filmbox-hd.png",FilmBox HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n4f42abbe/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-81" tvg-logo="http://srvru.play-x.ru/logos/fox-hd.png",FOX HD  Turkiye
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/74464501/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-53959" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/hh/haber_turk.png",HABERTURK HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n4b8ad867/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55294" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/kk/kanal7_tr.png",KANAL 7 HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/141f69af/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-51907" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/kk/kanal_d_tr.png",KANAL D HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/14255282/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55169" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/mm/minika_cocuk.png",minika COCUK
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/64898b07/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55170" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/mm/minika_go.png",minikaGO
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/7a94f6e2/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55375" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/mm/moviesmart-turk-tr.png",MOVIE SMART TURK HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/2b1be6e/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-20638" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/nn/nba_tv_us.png",NBA TV HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/461ebeda/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-100029" tvg-logo="http://srvru.play-x.ru/logos/n-tv-hd.png",NTV HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/56f1fc59/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55380" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/ss/s_sport_tr.png",S SPORT HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n3d97b37e/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-1095" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/cc/channel-s-uk.png",S SPORT2 HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n755722fc/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-8299" tvg-logo="http://srvru.play-x.ru/logos/show-tv-tk.png",SHOW HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/7b085612/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-53556" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/ss/show_max_tr.png",SHOW MAX HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/7c71736e/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55336" tvg-logo="https://dl.dropboxusercontent.com/s/8150jfohomrze7x/sin-1001.png",SINEMA 1001 HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n564e6ff6/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55337" tvg-logo="https://dl.dropboxusercontent.com/s/lsjz0bd5zjvtrct/sin-1002.png",SINEMA 1002 HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n564dfb97/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55339" tvg-logo="https://dl.dropboxusercontent.com/s/y9fhr7mrd4u4mqh/sin-ai2.png",SİNEMA AİLE 2 HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/29434e77/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55338" tvg-logo="https://dl.dropboxusercontent.com/s/lo01lzs2bum8zbc/sin-ai.png",SİNEMA AİLE HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n194394f7/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55341" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/ss/sinema-aksiyon-2-tr.png",SİNEMA AKSİYON 2 HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n2cbc97dc/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55343" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/ss/sinema-komedi-2-tr.png",SINEMA KOMEDI 2 HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/649e8537/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55342" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/ss/sinema-komedi-tr.png",SİNEMA KOMEDİ HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n21a3cbd7/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55376" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/ss/spor-smart-tr.png",SPORSMART HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n7ad52960/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-8305" tvg-logo="http://srvru.play-x.ru/logos/star-tv-tr.png",Star TV HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n3255a1c7/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-53557" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/tt/teve_2_tr.png",Teve2 HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n70adce09/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-322" tvg-logo="http://srvru.play-x.ru/logos/tlc-hd.png",TLC HD Tur
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n43972831/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-52155" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/tt/trt_belgesel_tr.png",TRT BELGESEL HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n463a0d0e/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-8333" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/tt/trt_cocuk.png",TRT COCUK HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/7600f1e6/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-9358" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/tt/trt_haber.png",TRT HABER HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n69c38d63/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-52152" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/tt/trt_muzik.png",TRT Muzik HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n420395a1/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-8354" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/tt/trt_spor_tr.png",TRT SPOR HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n401700db/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-8353" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/tt/trt_turk_tr.png",TRT Turk HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/35eb1d4b/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-51762" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/tt/trt_world_tr.png",TRT WORLD HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n5350dd7f/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-6098" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/tt/trt1.png",TRT1 HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n3ecbc90c/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-52150" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/tt/tv100-tr.png",TV 100 HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/2699053c/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-5114" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/tt/tv4_pl.png",TV 4 HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n3ad3cfa7/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-8571" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/tt/tv_24_news_th.png",TV24 HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n39d62895/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-8169" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/tt/tv8_tr.png",TV8 HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/613d9bf3/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55437" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/bb/be_in_tr_sports_01_hd.png",BeIN Sport 1 HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/7b3e9d02/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55438" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/bb/be_in_tr_sports_02_hd.png",BeIN Sport 2 HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/7b3f1161/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55439" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/bb/be_in_tr_sports_03_hd.png",BeIN Sport 3 HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/7b3f85c0/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55381" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/tt/tv85_tr.png",TV8.5 HD TR
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n7d697bee/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-2018" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/aa/auto_motor_sport_channel.png",AutoMotorSport HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/4e497c81/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-54331" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/bb/beyaz_tv_tr.png",Beyaz TV HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/nb350d44/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55346" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/bb/be_in_tr_box_office_01_hd.png",Bein Box Office 1 HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n17a49a71/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55347" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/bb/be_in_tr_box_office_02_hd.png",Bein Box Office 2 HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n17a42612/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55348" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/bb/be_in_tr_box_office_03_hd.png",Bein Box Office 3 HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n17a3b1b3/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-20139" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/bb/bein-sports-haber-qa-tr.png",Bein Sports Haber HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/69214e5c/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55440" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/bb/be_in_tr_sports_04_hd.png",Bein Sport 4 HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/41d5761f/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",Bein Spotrs MAX 1 HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n5ba0ac47/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",Bein Spotrs MAX 2 HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n5ba037e8/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-101" tvg-logo="http://srvru.play-x.ru/logos/investigation-discovery.png",Discovery ID
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n1c467f88/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-81" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/ff/fx_us.png",FX HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n26ec0323/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-88" tvg-logo="http://srvru.play-x.ru/logos/global-star-tv.png",Global Haber HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/4d61b656/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-9085" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/ff/film_and_arts_br.png",Film Screen
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/2f8f6e1b/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",GUNEYDOGU
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n22f6ad20/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-52243" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/nn/nat_geo_wild_us.png",Nat Geo Wild HD TR
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/3f66c6c7/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-727" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/nn/number1_tr_tv_turk.png",NR1 Turk HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/7333bfa2/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-52269" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/pp/power_turk_tr_tv.png",Power Turk HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n7b59e726/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55340" tvg-logo="https://dl.dropboxusercontent.com/s/ezzbikqaji6qdbp/sin-aks.png",SİNEMA AKSİYON HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/27610bf6/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55344" tvg-logo="https://dl.dropboxusercontent.com/s/qt96r5chfde9tcz/sin-yer.png",Sinema Yerli
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/1c7015b1/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55345" tvg-logo="https://dl.dropboxusercontent.com/s/0jdxlmaimww4lhi/sin-yer2.png",Sinema Yerli 2
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n3f3e8e7d/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-131" tvg-logo="http://srvru.play-x.ru/logos/national-geographic-hd.png",National Geographic HD TR
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/6d9e1c3a/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-8353" tvg-logo="http://srvru.play-x.ru/logos/trt-4k.png",TRT 4K UHD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n5c6dd21/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-53882" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/tt/tivibu_tr_spor.png",Tivibuspor 1 HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/68310483/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-53883" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/tt/tivibu_tr_spor_2.png",Tivibuspor 2 HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/683178e2/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-53884" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/tt/tivibu_tr_spor_3.png",Tivibuspor 3 HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/6831ed41/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-8351" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/tt/trt_avaz_tr.png",TRT Avaz
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/6472c8e5/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",ERi-TV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/47830520/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",24 TV Canli Yayini
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/9daba53/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-52158" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/tt/trt-2-tr.png",TRT 2
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n2628b605/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-8353" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/tt/trt_turk_tr.png",TRT Eba Ilkokul
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/7b7fbaa8/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-8353" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/tt/trt_turk_tr.png",TRT Eba Ortaokul
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n5043f2ea/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-52156" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/tt/trt_arapca_tr.png",TRT Arabi
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/29e47fc0/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",EkoTürk
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n2c1077a3/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",Halk TV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/616eb45d/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",Exxen 1 HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n1591a736/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",Exxen 2 HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n159132d7/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",Exxen 6 HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n158f615b/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",Exxen 7 HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n158eecfc/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",Exxen 8 HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n158e789d/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-53123" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/aa/a_haber_tr.png",A HABER HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n11d3286e/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-53124" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/aa/a_news_tr.png",A NEWS HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n1e459f23/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-1617" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/aa/a-para-tr.png",A PARA HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/4464d0b0/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-9006" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/aa/agro-tv-ro.png",AGRO TV HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/3ecd2bea/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55152" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/aa/akit_tv_tr.png",AKIT TV HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/ne8c83a4/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-54113" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/aa/aksu-tv-tr.png",AKSU TV HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/35257853/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",Alma Lusa
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/4d339a6b/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-40" tvg-logo="http://srvru.play-x.ru/logos/baby-tv.png",BABY TV TR
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/4c67871f/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",BEIN GURME HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n30e672d5/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-54114" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/bb/bengu_turk.png",BENGUTURK
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/7cd90ae6/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",BluTV Play 1
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n42f48c5b/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",BluTV Play 2
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n42f48c5a/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-51236" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/bb/bayrak_radyosu_tv_1.png",BRT 1 HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/16951534/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-1730" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/bb/brt-2-cy.png",BRT 2 HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/16958993/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-54176" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/bb/brtv_tr.png",BRTV  HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/1986501b/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-1627" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/mm/mercan_tv_tr.png",MERCAN TV HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n331aa6c3/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-42" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/cc/cartoonito_it.png",Cartoonito
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/6016d4a3/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-54115" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/kk/kanal_cay_tr.png",CAY TV HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/74e25b08/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",CIFTCI TV HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n1b0e5f/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",CINE 1 HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n55c312bf/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-52154" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/dd/diyanet-tv-tr.png",DIYANET TV HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n3cdf5e3/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",DocuScreen HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/4bd7c626/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-54116" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/dd/dost_tv_tr.png",DOST HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/6db3ca83/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",EDESSA TV HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/7523d262/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-7108" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/ee/edge_sport_uk.png",EDGE Sport
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n3486b2c2/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",EKOTURK HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n73d0081a/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",ES TV HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/2d506eb5/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-1609" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/ee/eurod.png",EURO D HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n69fa1402/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",CNBC-E
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/43cf8931/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",EKOL TV HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n75518bf6/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-53692" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/kk/kibris_genc_tv_cy.png",GENC TV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n4f8283e/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",GOZDE TV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n74764164/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",GZT HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/4b53b448/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",HT SPOR
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/470684a7/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-51805" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/kk/kanal3_bg.png",KANAL 3 HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/141d9833/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-53691" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/kk/kibris_tv_cy.png",KIBRIS TV HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n3bf72821/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",SZC
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/7791a94f/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-1623" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/tt/tek_rumeli_tv.png",TEK RUMELI TV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n40d7e809/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-95" tvg-logo="http://srvru.play-x.ru/logos/history-hd.png",HISTORY CHANNEL HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/ff0c192/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55335" tvg-logo="https://dl.dropboxusercontent.com/s/oyr6y37ur55kczx/sin2.png",SİNEMA 2
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n2bf60a59/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55334" tvg-logo="https://dl.dropboxusercontent.com/s/g5nr2m74hvn680n/sin.png",SİNEMA TV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n52cb3c53/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-53882" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/tt/tivibu_tr_spor.png",TİVİBU SPOR HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/46b1552/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",TİVİBU TANITIM HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n7d7d906a/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-8354" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/tt/trt_spor_tr.png",TRT 3-SPOR
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n90b59cf/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-8354" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/tt/trt_spor_tr.png",TRT SPOR YILDIZ
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n4b38ae9e/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",VAV TV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/638d0444/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",D anadolu
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n2dd56861/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",EKİNTÜRK TV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n6e465170/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-1623" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/tt/tek_rumeli_tv.png",RUMELİ TV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/6c743d6/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",SERHAT TV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/299792da/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55328" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/tt/tele_1_tr.png",TELE 1 HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/79772254/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-8352" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/tt/tv8_tr_international.png",TV 8 INT
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n1f6dc1ea/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",DİZİ PREMIUM
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/757e0d66/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-78" tvg-logo="http://srvru.play-x.ru/logos/fashion-tv.png",FASHION TV TR
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n479ef8d9/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-196" tvg-logo="http://srvru.play-x.ru/logos/viasat-history.png",VIASAT HISTORY
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n753f7707/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-52860" tvg-logo="https://dl.dropboxusercontent.com/s/90k85k62tsagqa7/Kanal12.jpg",KANAL 12
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/31d5f0cb/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",KANAL 15
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/31d5f0ce/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-1630" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/kk/kanal-23-tr.png",KANAL 23
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/31d5f0eb/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-1622" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/kk/kanal_26_tr.png",KANAL 26
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/31d5f0ee/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",KANAL 58
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/31d5f14d/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-1628" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/kk/kanal-firat-tr.png",KANAL FIRAT
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/70b3f578/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55397" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/kk/kanal_v_tr.png",KANAL V
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n3832e794/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55388" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/kk/kanal_malatya_tr.png",MALATYA VUSLAT TV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n2fb5b7a3/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-8330" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/mm/mk_tv_in.png",MK TV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n268f45e9/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-53232" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/ss/sat7_turk.png",SAT7TURK
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/7a93ee78/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-54120" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/ss/sun_tv_tr.png",SUN RTV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n6eef048d/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-54441" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/tt/tempo-tv-tr.png",TEMPO TV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n5486a4ec/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",TRAKYA TURK
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/52df5dfd/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-54125" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/tt/tv_41_tr.png",TV 41
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n2627a552/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-2241" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/tt/tva_ostbayern_de.png",TV A
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/7aa3e1f0/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",Tivi6
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n261db8ff/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",íKRA  TV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/6120cfc/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",ANADOLUM
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n4347806e/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-7117" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/ff/flash_tv_cn.png",FLASH HABER HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n7b4cdd9d/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-8146" tvg-logo="https://dl.dropboxusercontent.com/s/d2o2gqcabfympfk/tvfm.jpg",FM TV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n26f101b2/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-53384" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/gg/grt-md.png",GRT TV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/4ae2f9c6/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",GUNEYDOGU TV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/4003c3c2/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",HRT TV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/4c97d265/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-12015" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/kk/k_tv_at.png",K KARDELEN TV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/3bc34488/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",KADIRGA TV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n47134762/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55295" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/kk/kanal7_avrupa.png",KANAL 7 AVRUPA HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/9c8f40/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-1952" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/kk/kanal_urfa.png",KANAL URFA
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/142dc842/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",KOZA TV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n1fa693b6/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-54383" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/ll/lalegul_tv_tr.png",LALEGUL TV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/6ab9dff/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",LINE TV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/a5b4b41/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",MELTEM TV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n78b913d3/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",REHBER TV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/7a4f34db/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",TH TURKHABER
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/1d80e8bd/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-54458" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/uu/ulusal_kanal.png",ULUSAL 1 TV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/1f8c8e24/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",ZAROK TV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/4f9fcd68/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-51770" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/dd/denizli_rt_tr.png",DRT DENIZLI TV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/1d336b4e/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-751" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/kk/kanal33_tr.png",KANAL 33
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/31d5f10a/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-828" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/kk/kanal_avrupa.png",KANAL AVRUPA
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n6206052d/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",KUDUS TV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/43df24b7/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-54875" tvg-logo="https://dl.dropboxusercontent.com/s/4kad636rxkuexwx/luys.png",LUYS TV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/1f76d272/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-1949" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/oo/on-4-tr.png",ON4 TV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/5842d4da/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",TURKSAT TANITIM HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/228252d/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-3240" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/tt/tv5_monde_fr_be_ch.png",TV5
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/7791ac86/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",BIR TV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/41db0264/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",EGEMAX TV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/3674e4d4/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",KANAL 32
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/31d5f109/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-1951" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/kk/kon-tv-tr.png",KON TV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/51895b85/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",KOY TV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/518e5b9a/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",ORDU ALTAS TV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n33474afa/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-54123" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/tt/tgrt_haber.png",TGRT HABER HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n3c5d94dc/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-8302" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/tt/tmb_tv_tr.png",TMB TV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/60c355a6/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-51792" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/tt/tv1_bg.png",TV 1
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/7aa3e1e0/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-54126" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/tt/tv52_tr.png",TV 52
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n2627a532/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-1625" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/tt/tv_den_tr.png",TV DEN
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/613339dc/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-676" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/tt/tv_tv_ru.png",TV KAYSERI
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/2b44f2bb/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",TV264
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n2627617f/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",TV42
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/7aa3e44d/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-72" tvg-logo="http://srvru.play-x.ru/logos/eurosport.png",EUROSPORT 1 TR
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n8488fad/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-73" tvg-logo="http://srvru.play-x.ru/logos/eurosport-2.png",EUROSPORT 2 TR
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n8481b4e/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-51830" tvg-logo="http://srvru.play-x.ru/logos/love-nature.png",LOVE NATURE
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n260fa758/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-51011" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/ll/lider_tv.png",LİDER HABER HD
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n45f6c43a/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-20638" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/nn/nba_tv_us.png",NBA TV TR
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/461ec05c/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55421" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/ss/spor-smart-tr.png",SPORSMART 2
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n5ecd11f2/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",T.A.Y TV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n2b8ab2a3/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye",YENİ KOCAELİ TV
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/n4197a160/index.m3u8?q=7170e086faf29a20f6b11698846effd1
+#EXTINF:-1 group-title="Türkiye" tvg-id="hlsproxy-55377" tvg-logo="http://srvru.play-x.ru/proxy/https://www.lyngsat-logo.com/logo/tv/cc/cocuk-smart-tr.png",ÇOCUKSMART
+#EXTGRP:Türkiye
+http://srvru.play-x.ru/channel/2fe44da5/index.m3u8?q=7170e086faf29a20f6b11698846effd1
