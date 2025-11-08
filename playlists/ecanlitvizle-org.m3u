@@ -17,9 +17,6 @@ https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/ecanlitvizle-
 #EXTINF:-1 tvg-id="" tvg-name="HALK TV HD" tvg-logo="https://tv.ecanlitvizle.org/logo/halk-tv-izle.png",HALK TV HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/ecanlitvizle-org/halktv.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SÖZCÜ TV" tvg-logo="https://tv.ecanlitvizle.org/logo/szc-tv-sozcu-televizyonu-canli-izle.png",SÖZCÜ TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/ecanlitvizle-org/sozcutv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="HABERTÜRK" tvg-logo="https://tv.ecanlitvizle.org/logo/haberturk-izle.png",HABERTÜRK
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/ecanlitvizle-org/haberturk.m3u8
