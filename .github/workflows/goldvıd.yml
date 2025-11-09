@@ -1,14 +1,10 @@
-name: M3U Playlist Güncelleme
+name: M3U Playlist Güncelleme (Kolay Yöntem)
 
 on:
-  # 1. Manuel olarak çalıştırma (GitHub Arayüzü > Actions sekmesinden)
+  # Manuel olarak çalıştırma (Actions sekmesinden)
   workflow_dispatch:
   
-  # 2. Zamanlanmış görev (schedule)
-  # Bu örnek her 6 saatte bir çalışır (UTC zaman dilimine göre)
-  # Kendi istediğiniz bir zamana göre ayarlayabilirsiniz.
-  # "cron: '0 */6 * * *'"  (Her 6 saatte bir)
-  # "cron: '0 4 * * *'"     (Her gün UTC 04:00'te)
+  # Her 6 saatte bir otomatik çalıştırma
   schedule:
     - cron: '0 */6 * * *'
 
@@ -16,48 +12,40 @@ jobs:
   fetch-and-commit:
     runs-on: ubuntu-latest
 
-    # !!! ÖNEMLİ: Bu bölüm, iş akışına depoya yazma izni verir !!!
+    # Depoya yazma izni (commit için gerekli)
     permissions:
-      contents: write  # Depo içeriğine yazma izni (commit yapmak için)
+      contents: write  
 
     steps:
-      # 1. Depodaki kodu klonla
+      # 1. Depoyu Klonla
       - name: Depoyu Klonla (Checkout)
         uses: actions/checkout@v4
 
-      # 2. Python 3.10'u kur
+      # 2. Python 3.10 Kur
       - name: Python 3.10 Kur
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-          cache: 'pip' # pip bağımlılıklarını önbelleğe al
+          cache: 'pip' 
 
-      # 3. Python bağımlılıklarını kur (requests)
+      # 3. Bağımlılıkları Kur (requests)
       - name: Bağımlılıkları Kur
         run: pip install requests
 
       # 4. Python betiğini çalıştır
+      # (Artık 'env:' bloğuna gerek yok, çünkü şifre kodun içinde)
       - name: Playlist'i Çek (fetch_playlist.py)
-        # BU ADIM ÇOK ÖNEMLİ:
-        # GitHub Secrets'ta tanımladığınız VOD_USERNAME ve VOD_PASSWORD
-        # sırlarını 'env:' ile python betiğine ortam değişkeni olarak aktarır.
-        env:
-          VOD_USERNAME: ${{ secrets.VOD_USERNAME }}
-          VOD_PASSWORD: ${{ secrets.VOD_PASSWORD }}
         run: python fetch_playlist.py
 
-      # 5. Oluşturulan dosyayı (indirilen_playlist.m3u) depoya commit et
+      # 5. Değişiklikleri Depoya Gönder (Commit)
       - name: Değişiklikleri Depoya Gönder (Commit)
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           
-          # 'indirilen_playlist.m3u' dosyasını ekle
           git add indirilen_playlist.m3u
           
-          # Sadece 'git status' bir değişiklik gösteriyorsa commit yap
-          # (Eğer playlist değişmediyse boş commit atmaz)
+          # Sadece dosya değiştiyse commit at
           git diff-index --quiet HEAD || git commit -m "Otomatik Güncelleme: M3U playlist yenilendi"
           
-          # Değişiklikleri depoya 'push' et
           git push
