@@ -1,0 +1,54 @@
+# Bu iş akışı dosyasını projenizin .github/workflows/ klasörüne ekleyin
+# Örn: .github/workflows/main.yml
+
+name: Python Betiğini Çalıştır ve Değişiklikleri Kaydet
+
+# Bu iş akışının ne zaman tetikleneceğini belirler
+on:
+  push:
+    branches:
+      - main  # Sadece 'main' dalına push yapıldığında çalışır
+  workflow_dispatch:  # Manuel olarak da tetiklemeyi sağlar
+
+jobs:
+  build-and-commit:
+    runs-on: ubuntu-latest
+
+    # !!! ÖNEMLİ: Bu bölüm, iş akışına depoya yazma izni verir !!!
+    permissions:
+      contents: write  # Depo içeriğine yazma izni (commit yapmak için)
+
+    steps:
+      # 1. Depodaki kodu klonla
+      - name: Depoyu Klonla (Checkout)
+        uses: actions/checkout@v4
+
+      # 2. Python'u kur
+      - name: Python 3.x Kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10' # İstediğiniz Python sürümünü belirtebilirsiniz
+
+      # 3. Python betiğini çalıştır (Örn: M3U dosyasını oluştur)
+      - name: Python Betiğini Çalıştır
+        run: |
+          # Gerekirse kütüphane kurabilirsiniz
+          # pip install requests
+          python create_playlist.py
+
+      # 4. (İsteğe bağlı) Oluşturulan dosyayı depoya commit et
+      # Bu adımı, betiğinizin oluşturduğu dosyaları (örn: my_playlist.m3u)
+      # otomatik olarak depoya geri göndermek için kullanabilirsiniz.
+      - name: Değişiklikleri Depoya Gönder (Commit)
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          
+          # Tüm yeni/değişen dosyaları ekle
+          git add -A
+          
+          # Sadece 'git status' bir değişiklik gösteriyorsa commit yap
+          # Aksi halde iş akışı hata verir
+          git diff-index --quiet HEAD || git commit -m "Otomatik: Çalma listesi güncellendi"
+          
+          git push
