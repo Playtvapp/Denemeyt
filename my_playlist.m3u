@@ -1,0 +1,7 @@
+#EXTM3U
+#EXTINF:-1,Örnek Kanal 1 (Canlı)
+http://example.com/stream/channel1
+#EXTINF:7200,Örnek Film
+http://example.com/movie/sample_movie.mp4
+#EXTINF:185,Örnek Müzik
+http://example.com/music/track1.mp3
