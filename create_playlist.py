@@ -1,51 +1,79 @@
 # -*- coding: utf-8 -*-
 
-def create_m3u_playlist(filename="my_playlist.m3u"):
+import requests
+import sys  # Hata mesajlarını standart hata çıkışına (stderr) yazdırmak için
+
+# --- !!! ÇOK ÖNEMLİ GÜVENLİK UYARISI !!! ---
+# Bu URL, kullanıcı adı ve şifre gibi hassas bilgileri (credentials) içermektedir.
+# Bu betiği veya bu URL'yi ASLA başkalarıyla paylaşmayın veya
+# herkese açık bir depoya (GitHub gibi) yüklemeyin.
+# Bu bilgileri kodun içine "hardcode" yapmak (doğrudan yazmak)
+# son derece güvensiz bir yöntemdir.
+# -------------------------------------------------
+PLAYLIST_URL = "https://goldvod.org/get.php?username=hpgdisco&password=123456&type=m3u_plus&output=m3u"
+
+# İndirilen içeriğin kaydedileceği dosya adı
+OUTPUT_FILENAME = "indirilen_playlist.m3u"
+
+def fetch_and_save_m3u():
     """
-    Basit bir .m3u çalma listesi dosyası oluşturur.
+    Belirtilen URL'den M3U playlist'ini çeker ve bir dosyaya kaydeder.
     """
+    print(f"Playlist çekiliyor: {PLAYLIST_URL}")
     
-    # Çalma listesine eklenecek örnek içerikler
-    # Her bir öğe bir sözlüktür:
-    # 'title': Parça başlığı
-    # 'duration': Süre (saniye cinsinden, -1 genellikle canlı yayınlar için kullanılır)
-    # 'url': Medya kaynağının URL'si
-    tracks = [
-        {
-            "title": "Örnek Kanal 1 (Canlı)",
-            "duration": -1,
-            "url": "http://example.com/stream/channel1"
-        },
-        {
-            "title": "Örnek Film",
-            "duration": 7200,  # 2 saat (saniye cinsinden)
-            "url": "http://example.com/movie/sample_movie.mp4"
-        },
-        {
-            "title": "Örnek Müzik",
-            "duration": 185,   # 3 dakika 5 saniye
-            "url": "http://example.com/music/track1.mp3"
-        }
-    ]
-
     try:
-        with open(filename, 'w', encoding='utf-8') as f:
-            # M3U dosyasının standart başlığı
-            f.write("#EXTM3U\n")
+        # Belirtilen URL'ye GET isteği gönder
+        # timeout=10: Sunucudan 10 saniye içinde yanıt gelmezse hata ver.
+        response = requests.get(PLAYLIST_URL, timeout=10)
+        
+        # HTTP hata kodlarını (4xx, 5xx) kontrol et
+        # Eğer bir hata varsa (örn: 401 Unauthorized, 404 Not Found)
+        # bir istisna (exception) fırlatacaktır.
+        response.raise_for_status()
+        
+        # Yanıtın metin içeriğini al (M3U içeriği)
+        # response.text, içeriğin kodlamasını (encoding) tahmin etmeye çalışır
+        playlist_content = response.text
+        
+        # İçeriği yerel bir dosyaya yaz
+        # encoding='utf-8' Türkçe karakterler ve özel semboller için önemlidir.
+        with open(OUTPUT_FILENAME, 'w', encoding='utf-8') as f:
+            f.write(playlist_content)
             
-            for track in tracks:
-                # Her parça için #EXTINF etiketi
-                # format: #EXTINF:<süre>,<başlık>
-                f.write(f"#EXTINF:{track['duration']},{track['title']}\n")
-                
-                # Medya URL'si
-                f.write(f"{track['url']}\n")
-                
-            print(f"Başarılı: '{filename}' dosyası oluşturuldu.")
+        print(f"\nBaşarılı!")
+        print(f"Playlist '{OUTPUT_FILENAME}' dosyasına başarıyla kaydedildi.")
 
+    except requests.exceptions.HTTPError as errh:
+        print(f"\n[HATA] HTTP Hatası:", file=sys.stderr)
+        print(f"Detay: {errh}", file=sys.stderr)
+        print("Lütfen URL'yi, kullanıcı adınızı veya şifrenizi kontrol edin.", file=sys.stderr)
+        print("Sunucu erişime izin vermemiş olabilir (örn: 401 Unauthorized).", file=sys.stderr)
+        
+    except requests.exceptions.ConnectionError as errc:
+        print(f"\n[HATA] Bağlantı Hatası:", file=sys.stderr)
+        print(f"Detay: {errc}", file=sys.stderr)
+        print("Sunucuya bağlanılamadı. İnternet bağlantınızı veya URL'yi kontrol edin.", file=sys.stderr)
+        
+    except requests.exceptions.Timeout as errt:
+        print(f"\n[HATA] Zaman Aşımı:", file=sys.stderr)
+        print(f"Detay: {errt}", file=sys.stderr)
+        print("Sunucu 10 saniye içinde yanıt vermedi.", file=sys.stderr)
+        
+    except requests.exceptions.RequestException as err:
+        # Diğer 'requests' kütüphanesi hataları için
+        print(f"\n[HATA] İstek Hatası:", file=sys.stderr)
+        print(f"Detay: {err}", file=sys.stderr)
+        
     except IOError as e:
-        print(f"Hata: Dosya yazılırken bir sorun oluştu. {e}")
+        # Dosya yazma hataları için
+        print(f"\n[HATA] Dosya Yazma Hatası:", file=sys.stderr)
+        print(f"Detay: {e}", file=sys.stderr)
+        print(f"'{OUTPUT_FILENAME}' dosyası yazılamadı. İzinlerinizi kontrol edin.", file=sys.stderr)
+    except Exception as e:
+        # Beklenmedik diğer tüm hatalar
+        print(f"\n[BEKLENMEDİK HATA]: {e}", file=sys.stderr)
 
-# Betiği çalıştır
+
+# Betiği ana program olarak çalıştır
 if __name__ == "__main__":
-    create_m3u_playlist()
+    fetch_and_save_m3u()
