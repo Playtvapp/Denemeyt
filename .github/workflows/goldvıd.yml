@@ -44,7 +44,7 @@ jobs:
         env:
           VOD_USERNAME: ${{ secrets.VOD_USERNAME }}
           VOD_PASSWORD: ${{ secrets.VOD_PASSWORD }}
-        run: python create_playlist.py
+        run: python fetch_playlist.py
 
       # 5. Oluşturulan dosyayı (indirilen_playlist.m3u) depoya commit et
       - name: Değişiklikleri Depoya Gönder (Commit)
