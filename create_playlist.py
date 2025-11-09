@@ -1,42 +1,54 @@
 # -*- coding: utf-8 -*-
 
 import requests
-import sys  # Hata mesajlarını standart hata çıkışına (stderr) yazdırmak için
+import sys
+import os  # Ortam değişkenlerini okumak için eklendi
 
-# --- !!! ÇOK ÖNEMLİ GÜVENLİK UYARISI !!! ---
-# Bu URL, kullanıcı adı ve şifre gibi hassas bilgileri (credentials) içermektedir.
-# Bu betiği veya bu URL'yi ASLA başkalarıyla paylaşmayın veya
-# herkese açık bir depoya (GitHub gibi) yüklemeyin.
-# Bu bilgileri kodun içine "hardcode" yapmak (doğrudan yazmak)
-# son derece güvensiz bir yöntemdir.
-# -------------------------------------------------
-PLAYLIST_URL = "https://goldvod.org/get.php?username=hpgdisco&password=123456&type=m3u_plus&output=m3u"
-
-# İndirilen içeriğin kaydedileceği dosya adı
+# Kaydedilecek dosya adı
 OUTPUT_FILENAME = "indirilen_playlist.m3u"
 
 def fetch_and_save_m3u():
     """
-    Belirtilen URL'den M3U playlist'ini çeker ve bir dosyaya kaydeder.
+    Ortam değişkenlerinden alınan bilgilerle M3U playlist'ini çeker
+    ve bir dosyaya kaydeder.
     """
-    print(f"Playlist çekiliyor: {PLAYLIST_URL}")
+    
+    # Adım 1: Hassas bilgileri GitHub Secrets'tan (ortam değişkenleri aracılığıyla) al
+    # GitHub Actions workflow'unda bu değişkenler 'env:' bloğu ile sağlanacak.
+    username = os.environ.get("VOD_USERNAME")
+    password = os.environ.get("VOD_PASSWORD")
+    
+    # Bilgilerin eksik olup olmadığını kontrol et
+    if not username or not password:
+        print("[HATA] VOD_USERNAME veya VOD_PASSWORD ortam değişkenleri ayarlanmamış.", file=sys.stderr)
+        print("Lütfen GitHub Depo Ayarları > Secrets and variables > Actions kısmından bu sırları ekleyin.", file=sys.stderr)
+        sys.exit(1) # Hata koduyla çık
+
+    # Adım 2: URL'yi güvenli bilgilerle dinamik olarak oluştur
+    base_url = "https://goldvod.org/get.php"
+    params = {
+        "username": username,
+        "password": password,
+        "type": "m3u_plus",
+        "output": "m3u"
+    }
+    
+    # requests kütüphanesi, 'params' sözlüğünü URL'ye güvenli bir şekilde ekler
+    # (örn: https://.../get.php?username=...&password=... vb.)
+
+    print(f"Playlist çekiliyor: {base_url}?username={username}&type=m3u_plus (Şifre gizlendi)")
     
     try:
-        # Belirtilen URL'ye GET isteği gönder
-        # timeout=10: Sunucudan 10 saniye içinde yanıt gelmezse hata ver.
-        response = requests.get(PLAYLIST_URL, timeout=10)
+        # Adım 3: İsteği gönder
+        response = requests.get(base_url, params=params, timeout=20)
         
         # HTTP hata kodlarını (4xx, 5xx) kontrol et
-        # Eğer bir hata varsa (örn: 401 Unauthorized, 404 Not Found)
-        # bir istisna (exception) fırlatacaktır.
         response.raise_for_status()
         
         # Yanıtın metin içeriğini al (M3U içeriği)
-        # response.text, içeriğin kodlamasını (encoding) tahmin etmeye çalışır
         playlist_content = response.text
         
         # İçeriği yerel bir dosyaya yaz
-        # encoding='utf-8' Türkçe karakterler ve özel semboller için önemlidir.
         with open(OUTPUT_FILENAME, 'w', encoding='utf-8') as f:
             f.write(playlist_content)
             
@@ -44,35 +56,17 @@ def fetch_and_save_m3u():
         print(f"Playlist '{OUTPUT_FILENAME}' dosyasına başarıyla kaydedildi.")
 
     except requests.exceptions.HTTPError as errh:
-        print(f"\n[HATA] HTTP Hatası:", file=sys.stderr)
-        print(f"Detay: {errh}", file=sys.stderr)
-        print("Lütfen URL'yi, kullanıcı adınızı veya şifrenizi kontrol edin.", file=sys.stderr)
-        print("Sunucu erişime izin vermemiş olabilir (örn: 401 Unauthorized).", file=sys.stderr)
+        print(f"\n[HATA] HTTP Hatası: {errh}", file=sys.stderr)
+        if response.status_code == 401:
+            print("Erişim reddedildi (401 Unauthorized). Lütfen GitHub Secrets'taki kullanıcı adı/şifreyi kontrol edin.", file=sys.stderr)
         
     except requests.exceptions.ConnectionError as errc:
-        print(f"\n[HATA] Bağlantı Hatası:", file=sys.stderr)
-        print(f"Detay: {errc}", file=sys.stderr)
-        print("Sunucuya bağlanılamadı. İnternet bağlantınızı veya URL'yi kontrol edin.", file=sys.stderr)
-        
+        print(f"\n[HATA] Bağlantı Hatası: {errc}", file=sys.stderr)
     except requests.exceptions.Timeout as errt:
-        print(f"\n[HATA] Zaman Aşımı:", file=sys.stderr)
-        print(f"Detay: {errt}", file=sys.stderr)
-        print("Sunucu 10 saniye içinde yanıt vermedi.", file=sys.stderr)
-        
-    except requests.exceptions.RequestException as err:
-        # Diğer 'requests' kütüphanesi hataları için
-        print(f"\n[HATA] İstek Hatası:", file=sys.stderr)
-        print(f"Detay: {err}", file=sys.stderr)
-        
-    except IOError as e:
-        # Dosya yazma hataları için
-        print(f"\n[HATA] Dosya Yazma Hatası:", file=sys.stderr)
-        print(f"Detay: {e}", file=sys.stderr)
-        print(f"'{OUTPUT_FILENAME}' dosyası yazılamadı. İzinlerinizi kontrol edin.", file=sys.stderr)
+        print(f"\n[HATA] Zaman Aşımı: {errt}", file=sys.stderr)
     except Exception as e:
-        # Beklenmedik diğer tüm hatalar
         print(f"\n[BEKLENMEDİK HATA]: {e}", file=sys.stderr)
-
+        sys.exit(1) # Genel hata durumunda da çık
 
 # Betiği ana program olarak çalıştır
 if __name__ == "__main__":
