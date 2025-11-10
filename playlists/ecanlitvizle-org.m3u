@@ -116,9 +116,6 @@ https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/ecanlitvizle-
 #EXTINF:-1 tvg-id="" tvg-name="REHBER TV" tvg-logo="https://tv.ecanlitvizle.org/logo/rehber-tv.png",REHBER TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/ecanlitvizle-org/rehbertv.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="DOST TV" tvg-logo="https://tv.ecanlitvizle.org/logo/dost-tv-izle.png",DOST TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/ecanlitvizle-org/dosttv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TRT TÜRK" tvg-logo="https://tv.ecanlitvizle.org/logo/trt-turk-izle.png",TRT TÜRK
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/ecanlitvizle-org/trtturk.m3u8
@@ -161,6 +158,9 @@ https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/ecanlitvizle-
 #EXTINF:-1 tvg-id="" tvg-name="TEMPO TV" tvg-logo="https://tv.ecanlitvizle.org/logo/tempo-tv-izle.png",TEMPO TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/ecanlitvizle-org/tempotv.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="KANAL URFA" tvg-logo="https://tv.ecanlitvizle.org/logo/kanal-urfa-tv-izle.png",KANAL URFA
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/ecanlitvizle-org/kanalurfa.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="FM TV" tvg-logo="https://tv.ecanlitvizle.org/logo/fm-tv-izle.png",FM TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/ecanlitvizle-org/fmtv.m3u8
@@ -188,9 +188,6 @@ https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/ecanlitvizle-
 #EXTINF:-1 tvg-id="" tvg-name="THTÜRK HABER" tvg-logo="https://tv.ecanlitvizle.org/logo/turk-haber-tv-canli.jpg",THTÜRK HABER
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/ecanlitvizle-org/thturkhaber.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BRTV" tvg-logo="https://tv.ecanlitvizle.org/logo/brtv-canli.png",BRTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/ecanlitvizle-org/brtvkarabuk.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="PARS TV" tvg-logo="https://tv.ecanlitvizle.org/logo/pars-tv.png",PARS TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/ecanlitvizle-org/parstv.m3u8
