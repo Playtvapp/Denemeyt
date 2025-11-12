@@ -29,6 +29,9 @@ https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/ecanlitvizle-
 #EXTINF:-1 tvg-id="" tvg-name="ÜLKE TV" tvg-logo="https://tv.ecanlitvizle.org/logo/ulke-tv-izle.png",ÜLKE TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/ecanlitvizle-org/ulketv.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="360 TV HD" tvg-logo="https://tv.ecanlitvizle.org/logo/360-tv-izle.png",360 TV HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/ecanlitvizle-org/360tv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="A HABER HD" tvg-logo="https://tv.ecanlitvizle.org/logo/a-haber-canli.png",A HABER HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/ecanlitvizle-org/ahaber.m3u8
@@ -38,9 +41,6 @@ https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/ecanlitvizle-
 #EXTINF:-1 tvg-id="" tvg-name="HABER GLOBAL" tvg-logo="https://tv.ecanlitvizle.org/logo/haber-global-canli.png",HABER GLOBAL
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/ecanlitvizle-org/haberglobal.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="24 TV HD" tvg-logo="https://tv.ecanlitvizle.org/logo/kanal-24-izle.png",24 TV HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/ecanlitvizle-org/24tv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="EKOL TV" tvg-logo="https://tv.ecanlitvizle.org/logo/ekol-tv-canli.png",EKOL TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/ecanlitvizle-org/ekoltv.m3u8
@@ -143,9 +143,6 @@ https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/ecanlitvizle-
 #EXTINF:-1 tvg-id="" tvg-name="VUSLAT TV" tvg-logo="https://tv.ecanlitvizle.org/logo/vuslat-tv-izle.png",VUSLAT TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/ecanlitvizle-org/vuslattv.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="KANAL 33" tvg-logo="https://tv.ecanlitvizle.org/logo/kanal-33.png",KANAL 33
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/ecanlitvizle-org/kanal33.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="LİNE TV" tvg-logo="https://tv.ecanlitvizle.org/logo/bursa-line-tv-izle.png",LİNE TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/ecanlitvizle-org/linetv.m3u8
