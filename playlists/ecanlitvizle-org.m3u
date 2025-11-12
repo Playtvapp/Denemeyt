@@ -29,9 +29,6 @@ https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/ecanlitvizle-
 #EXTINF:-1 tvg-id="" tvg-name="ÜLKE TV" tvg-logo="https://tv.ecanlitvizle.org/logo/ulke-tv-izle.png",ÜLKE TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/ecanlitvizle-org/ulketv.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="360 TV HD" tvg-logo="https://tv.ecanlitvizle.org/logo/360-tv-izle.png",360 TV HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/ecanlitvizle-org/360tv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="A HABER HD" tvg-logo="https://tv.ecanlitvizle.org/logo/a-haber-canli.png",A HABER HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/ecanlitvizle-org/ahaber.m3u8
