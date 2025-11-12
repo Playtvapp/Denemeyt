@@ -26,6 +26,9 @@ https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/b
 #EXTINF:-1 tvg-id="" tvg-name="NTV" tvg-logo="",NTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/ntv.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Ülke Tv" tvg-logo="",Ülke Tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/ulketv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="A Haber" tvg-logo="",A Haber
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/ahaber.m3u8
@@ -47,12 +50,18 @@ https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/2
 #EXTINF:-1 tvg-id="" tvg-name="TGRT Haber" tvg-logo="",TGRT Haber
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/tgrthaber.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Bengütürk Tv" tvg-logo="",Bengütürk Tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/benguturktv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="360 Tv" tvg-logo="",360 Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/360tv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TRT Çocuk" tvg-logo="",TRT Çocuk
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/trtcocuk.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Minika Çocuk" tvg-logo="",Minika Çocuk
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/minikacocuk.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TVNet" tvg-logo="",TVNet
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/tvnet.m3u8
@@ -80,9 +89,6 @@ https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/t
 #EXTINF:-1 tvg-id="" tvg-name="Kanal Fırat" tvg-logo="",Kanal Fırat
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/kanalfirat.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Show Türk" tvg-logo="",Show Türk
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/showturk.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Euro Star" tvg-logo="",Euro Star
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/eurostar.m3u8
@@ -206,9 +212,9 @@ https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/s
 #EXTINF:-1 tvg-id="" tvg-name="TV100" tvg-logo="",TV100
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/tv100.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Teve2" tvg-logo="",Teve2
+#EXTINF:-1 tvg-id="" tvg-name="Tele1" tvg-logo="",Tele1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/teve2.m3u8
+https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/tele1.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TGRT Belgesel" tvg-logo="",TGRT Belgesel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/tgrtbelgesel.m3u8
