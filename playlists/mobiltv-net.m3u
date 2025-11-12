@@ -83,9 +83,6 @@ https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/b
 #EXTINF:-1 tvg-id="" tvg-name="A Para" tvg-logo="",A Para
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/apara.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Disney Channel" tvg-logo="",Disney Channel
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/trtcocuk.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TRT Spor Yıldız" tvg-logo="",TRT Spor Yıldız
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/trtspor2.m3u8
@@ -104,9 +101,6 @@ https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/a
 #EXTINF:-1 tvg-id="" tvg-name="Ekotürk" tvg-logo="",Ekotürk
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/ekoturktv.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Euro D" tvg-logo="",Euro D
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/eurod.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Xezer Tv" tvg-logo="",Xezer Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/xezertv.m3u8
@@ -182,9 +176,6 @@ https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/a
 #EXTINF:-1 tvg-id="" tvg-name="Kanal Urfa" tvg-logo="",Kanal Urfa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/kanalurfa.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Güneydoğu Tv" tvg-logo="",Güneydoğu Tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/guneydogutv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Line Tv" tvg-logo="",Line Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/linetv.m3u8
@@ -284,12 +275,6 @@ https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/k
 #EXTINF:-1 tvg-id="" tvg-name="NR1 Türk Tv" tvg-logo="",NR1 Türk Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/nr1turktv.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Kanal 26" tvg-logo="",Kanal 26
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/kanal26.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Kanal 33" tvg-logo="",Kanal 33
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/kanal33.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Kanal Avrupa" tvg-logo="",Kanal Avrupa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Playtvapp/Denemeyt/refs/heads/TV/mobiltv-net/kanalavrupa.m3u8
