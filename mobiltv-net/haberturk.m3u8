@@ -1,8 +1,8 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:BANDWIDTH=2000000,RESOLUTION=1280x720,CODECS="avc1.4d401f,mp4a.40.2",NAME="720p"
-https://cdn505.mobiltv.net/haberturk720.m3u8?tkn=e31IW4JgqfQXdKgSS4o_eg&tms=1762957272&hst=tr.mobiltv.net&ip=20.171.51.209&utkn=d77c754a0527c7a4e3b5fcd7fe443619&source=haberturk-master
+https://cdn505.mobiltv.net/haberturk720.m3u8?tkn=ej3vbr_ERq5P7l5EN_F7QA&tms=1762965562&hst=tr.mobiltv.net&ip=172.182.226.65&utkn=d77c754a0527c7a4e3b5fcd7fe443619&source=haberturk-master
 #EXT-X-STREAM-INF:BANDWIDTH=1200000,RESOLUTION=720x576,CODECS="avc1.42c01e,mp4a.40.2",NAME="480p"
-https://cdn505.mobiltv.net/haberturk.m3u8?tkn=e31IW4JgqfQXdKgSS4o_eg&tms=1762957272&hst=tr.mobiltv.net&ip=20.171.51.209&utkn=d77c754a0527c7a4e3b5fcd7fe443619&source=haberturk-master
+https://cdn505.mobiltv.net/haberturk.m3u8?tkn=ej3vbr_ERq5P7l5EN_F7QA&tms=1762965562&hst=tr.mobiltv.net&ip=172.182.226.65&utkn=d77c754a0527c7a4e3b5fcd7fe443619&source=haberturk-master
 #EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=640x360,CODECS="avc1.42c01e,mp4a.40.2",NAME="360p"
-https://cdn505.mobiltv.net/haberturk360.m3u8?tkn=e31IW4JgqfQXdKgSS4o_eg&tms=1762957272&hst=tr.mobiltv.net&ip=20.171.51.209&utkn=d77c754a0527c7a4e3b5fcd7fe443619&source=haberturk-master
+https://cdn505.mobiltv.net/haberturk360.m3u8?tkn=ej3vbr_ERq5P7l5EN_F7QA&tms=1762965562&hst=tr.mobiltv.net&ip=172.182.226.65&utkn=d77c754a0527c7a4e3b5fcd7fe443619&source=haberturk-master
