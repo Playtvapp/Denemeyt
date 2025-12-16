@@ -123,12 +123,12 @@ https://goldvod.org/live/hpgdisco/123456/114.m3u8
 https://goldvod.org/live/hpgdisco/123456/284.m3u8
 #EXTINF:-1 tvg-id="ülketv.tr" tvg-name="ULKE TV" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/ulke_tv_vsd.png" group-title="|TR| HABER",ULKE TV
 https://goldvod.org/live/hpgdisco/123456/117.m3u8
-#EXTINF:-1 tvg-id="historychannel.tr" tvg-name="HISTORY CHANNEL" tvg-logo="https://res.cloudinary.com/aenetworks/image/upload/c_fill,w_230,h_264,g_auto/v1/logo_4_zds74r?_a=BAVAZGID0" group-title="|TR| BELGESEL",HISTORY CHANNEL
-https://goldvod.org/live/hpgdisco/123456/165.m3u8
+#EXTINF:-1 tvg-id="historychannel.tr" tvg-name="HISTORY CHANNEL HD" tvg-logo="https://res.cloudinary.com/aenetworks/image/upload/c_fill,w_230,h_264,g_auto/v1/logo_4_zds74r?_a=BAVAZGID0" group-title="|TR| BELGESEL",HISTORY CHANNEL HD
+https://goldvod.org/live/hpgdisco/123456/10149.m3u8
 #EXTINF:-1 tvg-id="halktv.tr" tvg-name="HALK TV HD" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/halk_tv_5IU.png" group-title="|TR| HABER",HALK TV HD
 https://goldvod.org/live/hpgdisco/123456/285.m3u8
-#EXTINF:-1 tvg-id="discoverychannel.tr" tvg-name="DISCOVERY CHANNEL 4K" tvg-logo="https://gbzottvsc25.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/10/0926268422105eb7f426_op_0_XL.webp" group-title="|TR| BELGESEL",DISCOVERY CHANNEL 4K
-https://goldvod.org/live/hpgdisco/123456/503.m3u8
+#EXTINF:-1 tvg-id="historychannel.tr" tvg-name="HISTORY CHANNEL" tvg-logo="https://res.cloudinary.com/aenetworks/image/upload/c_fill,w_230,h_264,g_auto/v1/logo_4_zds74r?_a=BAVAZGID0" group-title="|TR| BELGESEL",HISTORY CHANNEL
+https://goldvod.org/live/hpgdisco/123456/165.m3u8
 #EXTINF:-1 tvg-id="HALKTV.tr" tvg-name="HALK TV" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/halk_tv_5IU.png" group-title="|TR| HABER",HALK TV
 https://goldvod.org/live/hpgdisco/123456/106.m3u8
 #EXTINF:-1 tvg-id="tv100.tr" tvg-name="TV 100 HD" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/tv100_FRE.png" group-title="|TR| HABER",TV 100 HD
@@ -175,6 +175,8 @@ https://goldvod.org/live/hpgdisco/123456/352.m3u8
 https://goldvod.org/live/hpgdisco/123456/115.m3u8
 #EXTINF:-1 tvg-id="beinsport5fhd.tr" tvg-name="beIN SPORT 5 FHD" tvg-logo="https://prod-media.beinsports.com/image/0a5052334511e344f15ae0bfafd47a67.png" group-title="|TR| SPOR",beIN SPORT 5 FHD
 https://goldvod.org/live/hpgdisco/123456/354.m3u8
+#EXTINF:-1 tvg-id="discoverychannel.tr" tvg-name="DISCOVERY CHANNEL 4K" tvg-logo="https://gbzottvsc25.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/10/0926268422105eb7f426_op_0_XL.webp" group-title="|TR| BELGESEL",DISCOVERY CHANNEL 4K
+https://goldvod.org/live/hpgdisco/123456/503.m3u8
 #EXTINF:-1 tvg-id="discoverychannel.tr" tvg-name="DISCOVERY CHANNEL HD" tvg-logo="https://gbzottvsc25.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/10/0926268422105eb7f426_op_0_XL.webp" group-title="|TR| BELGESEL",DISCOVERY CHANNEL HD
 https://goldvod.org/live/hpgdisco/123456/370.m3u8
 #EXTINF:-1 tvg-id="DISCOVERYCHANNEL.tr" tvg-name="DISCOVERY CHANNEL" tvg-logo="https://gbzottvsc25.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/10/0926268422105eb7f426_op_0_XL.webp" group-title="|TR| BELGESEL",DISCOVERY CHANNEL
@@ -185,18 +187,16 @@ https://goldvod.org/live/hpgdisco/123456/371.m3u8
 https://goldvod.org/live/hpgdisco/123456/9954.m3u8
 #EXTINF:-1 tvg-id="lovenature.tr" tvg-name="LOVE NATURE" tvg-logo="https://gbzottvsc25.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/31/0937564329435eb88428_op_0_XL.webp" group-title="|TR| BELGESEL",LOVE NATURE
 https://goldvod.org/live/hpgdisco/123456/157.m3u8
-#EXTINF:-1 tvg-id="bbcearth.tr" tvg-name="BBC EARTH HD" tvg-logo="https://dsmart-static-v2.ercdn.net//resize-width/500/content/e/Bj/11896/Thumbnail.png?v=636996527021886315" group-title="|TR| BELGESEL",BBC EARTH HD
-https://goldvod.org/live/hpgdisco/123456/454.m3u8
 #EXTINF:-1 tvg-id="beinboxoffice1.tr" tvg-name="beIN BOX OFFICE 1" tvg-logo="https://apkx.xyz/tv-tum-dunya-logolar/logolar/tv-tum-dunya-logolar/turkey/be_in_tr_box_office_01_hd.png" group-title="|TR| SİNEMA &amp; DİZİ",beIN BOX OFFICE 1
 https://goldvod.org/live/hpgdisco/123456/161.m3u8
 #EXTINF:-1 tvg-id="beinboxoffice1.tr" tvg-name="beIN BOX OFFICE 1 W" tvg-logo="https://apkx.xyz/tv-tum-dunya-logolar/logolar/tv-tum-dunya-logolar/turkey/be_in_tr_box_office_01_hd.png" group-title="|TR| SİNEMA &amp; DİZİ",beIN BOX OFFICE 1 W
 https://goldvod.org/live/hpgdisco/123456/303.m3u8
 #EXTINF:-1 tvg-id="beinboxoffice2.tr" tvg-name="beIN BOX OFFICE 2" tvg-logo="https://apkx.xyz/tv-tum-dunya-logolar/logolar/tv-tum-dunya-logolar/turkey/be_in_tr_box_office_02_hd.png" group-title="|TR| SİNEMA &amp; DİZİ",beIN BOX OFFICE 2
 https://goldvod.org/live/hpgdisco/123456/162.m3u8
+#EXTINF:-1 tvg-id="bbcearth.tr" tvg-name="BBC EARTH HD" tvg-logo="https://dsmart-static-v2.ercdn.net//resize-width/500/content/e/Bj/11896/Thumbnail.png?v=636996527021886315" group-title="|TR| BELGESEL",BBC EARTH HD
+https://goldvod.org/live/hpgdisco/123456/454.m3u8
 #EXTINF:-1 tvg-id="bbcearth.tr" tvg-name="BBC EARTH" tvg-logo="https://dsmart-static-v2.ercdn.net//resize-width/500/content/e/Bj/11896/Thumbnail.png?v=636996527021886315" group-title="|TR| BELGESEL",BBC EARTH
 https://goldvod.org/live/hpgdisco/123456/128.m3u8
-#EXTINF:-1 tvg-id="viasatexplore.tr" tvg-name="VIASAT EXPLORE 4K" tvg-logo="https://gbzottvsc35.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/42/1031241804645eb9542c_op_0_XL.webp" group-title="|TR| BELGESEL",VIASAT EXPLORE 4K
-https://goldvod.org/live/hpgdisco/123456/9528.m3u8
 #EXTINF:-1 tvg-id="beINSports5.tr" tvg-name="beIN SPORTS 5" tvg-logo="https://prod-media.beinsports.com/image/0a5052334511e344f15ae0bfafd47a67.png" group-title="|TR| SPOR",beIN SPORTS 5
 https://goldvod.org/live/hpgdisco/123456/136.m3u8
 #EXTINF:-1 tvg-id="beinsportmax1.tr" tvg-name="beIN SPORT MAX 1" tvg-logo="https://cdn.livesoccertv.com/images/channels/thumbnails/bein-sports-max1-turkey.png" group-title="|TR| SPOR",beIN SPORT MAX 1
@@ -211,8 +211,8 @@ https://goldvod.org/live/hpgdisco/123456/443.m3u8
 https://goldvod.org/live/hpgdisco/123456/274.m3u8
 #EXTINF:-1 tvg-id="beinboxoffice2.tr" tvg-name="beIN BOX OFFICE 2 W" tvg-logo="https://apkx.xyz/tv-tum-dunya-logolar/logolar/tv-tum-dunya-logolar/turkey/be_in_tr_box_office_02_hd.png" group-title="|TR| SİNEMA &amp; DİZİ",beIN BOX OFFICE 2 W
 https://goldvod.org/live/hpgdisco/123456/304.m3u8
-#EXTINF:-1 tvg-id="viasatexplore.tr" tvg-name="VIASAT EXPLORE" tvg-logo="https://gbzottvsc35.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/42/1031241804645eb9542c_op_0_XL.webp" group-title="|TR| BELGESEL",VIASAT EXPLORE
-https://goldvod.org/live/hpgdisco/123456/444.m3u8
+#EXTINF:-1 tvg-id="viasatexplore.tr" tvg-name="VIASAT EXPLORE 4K" tvg-logo="https://gbzottvsc35.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/42/1031241804645eb9542c_op_0_XL.webp" group-title="|TR| BELGESEL",VIASAT EXPLORE 4K
+https://goldvod.org/live/hpgdisco/123456/9528.m3u8
 #EXTINF:-1 tvg-id="beinboxoffice3.tr" tvg-name="beIN BOX OFFICE 3" tvg-logo="https://apkx.xyz/tv-tum-dunya-logolar/logolar/tv-tum-dunya-logolar/turkey/be_in_tr_box_office_03_hd.png" group-title="|TR| SİNEMA &amp; DİZİ",beIN BOX OFFICE 3
 https://goldvod.org/live/hpgdisco/123456/163.m3u8
 #EXTINF:-1 tvg-id="beinboxoffice3.tr" tvg-name="beIN BOX OFFICE 3 W" tvg-logo="https://apkx.xyz/tv-tum-dunya-logolar/logolar/tv-tum-dunya-logolar/turkey/be_in_tr_box_office_03_hd.png" group-title="|TR| SİNEMA &amp; DİZİ",beIN BOX OFFICE 3 W
@@ -223,8 +223,8 @@ https://goldvod.org/live/hpgdisco/123456/346.m3u8
 https://goldvod.org/live/hpgdisco/123456/172.m3u8
 #EXTINF:-1 tvg-id="TİVİBUSPOR1.tr" tvg-name="Tivibu Spor 1 HD" tvg-logo="https://apkx.xyz/tv-tum-dunya-logolar/logolar/tv-tum-dunya-logolar/TURKIYE/TIVIBUSPOR.png" group-title="|TR| SPOR",Tivibu Spor 1 HD
 https://goldvod.org/live/hpgdisco/123456/98.m3u8
-#EXTINF:-1 tvg-id="viasathistory.tr" tvg-name="VIASAT HISTORY FHD" tvg-logo="https://gbzottvsc25.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/56/1030552152605eb8f42a_op_0_XL.webp" group-title="|TR| BELGESEL",VIASAT HISTORY FHD
-https://goldvod.org/live/hpgdisco/123456/446.m3u8
+#EXTINF:-1 tvg-id="viasatexplore.tr" tvg-name="VIASAT EXPLORE" tvg-logo="https://gbzottvsc35.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/42/1031241804645eb9542c_op_0_XL.webp" group-title="|TR| BELGESEL",VIASAT EXPLORE
+https://goldvod.org/live/hpgdisco/123456/444.m3u8
 #EXTINF:-1 tvg-id="tivibuspor2.tr" tvg-name="Tivibu Spor 2 HD" tvg-logo="https://apkx.xyz/tv-tum-dunya-logolar/logolar/tv-tum-dunya-logolar/TURKIYE/TIVIBUSPOR2.png" group-title="|TR| SPOR",Tivibu Spor 2 HD
 https://goldvod.org/live/hpgdisco/123456/99.m3u8
 #EXTINF:-1 tvg-id="salontv1.tr" tvg-name="SALON TV 1" tvg-logo="https://apkx.xyz/tv-tum-dunya-logolar/logolar/tv-tum-dunya-logolar/turkey/salon1.png" group-title="|TR| SİNEMA &amp; DİZİ",SALON TV 1
@@ -277,10 +277,10 @@ https://goldvod.org/live/hpgdisco/123456/130.m3u8
 https://goldvod.org/live/hpgdisco/123456/290.m3u8
 #EXTINF:-1 tvg-id="tvnet.tr" tvg-name="TVNET" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/tvnet_uFd.png" group-title="|TR| HABER",TVNET
 https://goldvod.org/live/hpgdisco/123456/118.m3u8
+#EXTINF:-1 tvg-id="viasathistory.tr" tvg-name="VIASAT HISTORY FHD" tvg-logo="https://gbzottvsc25.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/56/1030552152605eb8f42a_op_0_XL.webp" group-title="|TR| BELGESEL",VIASAT HISTORY FHD
+https://goldvod.org/live/hpgdisco/123456/446.m3u8
 #EXTINF:-1 tvg-id="viasathistory.tr" tvg-name="VIASAT HISTORY HD" tvg-logo="https://gbzottvsc25.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/56/1030552152605eb8f42a_op_0_XL.webp" group-title="|TR| BELGESEL",VIASAT HISTORY HD
 https://goldvod.org/live/hpgdisco/123456/445.m3u8
-#EXTINF:-1 tvg-id="viasathistory.tr" tvg-name="VIASAT HISTORY" tvg-logo="https://gbzottvsc25.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/56/1030552152605eb8f42a_op_0_XL.webp" group-title="|TR| BELGESEL",VIASAT HISTORY
-https://goldvod.org/live/hpgdisco/123456/164.m3u8
 #EXTINF:-1 tvg-id="BEYAZTV.tr" tvg-name="Beyaz TV" tvg-logo="https://www.beyaztv.com.tr/images/logo.png" group-title="|TR| ULUSAL",Beyaz TV
 https://goldvod.org/live/hpgdisco/123456/4.m3u8
 #EXTINF:-1 tvg-id="trtçocuk.tr" tvg-name="TRT ÇOCUK HD" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/trt_cocuk_0BW.png" group-title="|TR| ÇOCUK",TRT ÇOCUK HD
@@ -325,8 +325,8 @@ https://goldvod.org/live/hpgdisco/123456/291.m3u8
 https://goldvod.org/live/hpgdisco/123456/216.m3u8
 #EXTINF:-1 tvg-id="GZT TV.tr" tvg-name="GZT TV" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/gzttv.png" group-title="|TR| HABER",GZT TV
 https://goldvod.org/live/hpgdisco/123456/217.m3u8
-#EXTINF:-1 tvg-id="davincilearning.tr" tvg-name="Da Vinci Learning" tvg-logo="https://apkx.xyz/tv-tum-dunya-logolar/logolar/tv-tum-dunya-logolar/turkeyT/da_vici_learning.png" group-title="|TR| BELGESEL",Da Vinci Learning
-https://goldvod.org/live/hpgdisco/123456/120.m3u8
+#EXTINF:-1 tvg-id="viasathistory.tr" tvg-name="VIASAT HISTORY" tvg-logo="https://gbzottvsc25.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/56/1030552152605eb8f42a_op_0_XL.webp" group-title="|TR| BELGESEL",VIASAT HISTORY
+https://goldvod.org/live/hpgdisco/123456/164.m3u8
 #EXTINF:-1 tvg-id="gztht.tr" tvg-name="GZT HT" tvg-logo="https://cdn-tr.tivimivi.com/images//channels/1760745834996_images.png" group-title="|TR| HABER",GZT HT
 https://goldvod.org/live/hpgdisco/123456/218.m3u8
 #EXTINF:-1 tvg-id="krt.tr" tvg-name="KRT TV HD" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/krt_tv_7YR.png" group-title="|TR| HABER",KRT TV HD
@@ -335,8 +335,8 @@ https://goldvod.org/live/hpgdisco/123456/292.m3u8
 https://goldvod.org/live/hpgdisco/123456/220.m3u8
 #EXTINF:-1 tvg-id="ekol.tr" tvg-name="EKOL TV HD" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/ekol_tv_Fms.png" group-title="|TR| HABER",EKOL TV HD
 https://goldvod.org/live/hpgdisco/123456/293.m3u8
-#EXTINF:-1 tvg-id="animaux.tr" tvg-name="ANIMAUX" tvg-logo="https://www.animauxtv.fr/upload/media/animaux-600af678206e1.png" group-title="|TR| BELGESEL",ANIMAUX
-https://goldvod.org/live/hpgdisco/123456/343.m3u8
+#EXTINF:-1 tvg-id="davincilearning.tr" tvg-name="Da Vinci Learning" tvg-logo="https://apkx.xyz/tv-tum-dunya-logolar/logolar/tv-tum-dunya-logolar/turkeyT/da_vici_learning.png" group-title="|TR| BELGESEL",Da Vinci Learning
+https://goldvod.org/live/hpgdisco/123456/120.m3u8
 #EXTINF:-1 tvg-id="dosttv.tr" tvg-name="DOST TV" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/dost_tv_rsq.png" group-title="|TR| DİNİ KANALLAR",DOST TV
 https://goldvod.org/live/hpgdisco/123456/188.m3u8
 #EXTINF:-1 tvg-id="TV5.tr" tvg-name="TV5" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/tv_5_QtK.png" group-title="|TR| DİNİ KANALLAR",TV5
@@ -427,8 +427,8 @@ https://goldvod.org/live/hpgdisco/123456/332.m3u8
 https://goldvod.org/live/hpgdisco/123456/93.m3u8
 #EXTINF:-1 tvg-id="globalboxcomedy.tr" tvg-name="GLOBAL BOX COMEDY" group-title="|TR| SİNEMA &amp; DİZİ",GLOBAL BOX COMEDY
 https://goldvod.org/live/hpgdisco/123456/333.m3u8
-#EXTINF:-1 tvg-id="beinhomeentertainmenthd.tr" tvg-name="beIN IZ" tvg-logo="https://www.digiturkburada.com.tr/kanal3/kanal-buyuk/bein-iz-hd-buyuk.png?rkt=DfS6Tgv6Hjr93k3" group-title="|TR| BELGESEL",beIN IZ
-https://goldvod.org/live/hpgdisco/123456/173.m3u8
+#EXTINF:-1 tvg-id="animaux.tr" tvg-name="ANIMAUX" tvg-logo="https://www.animauxtv.fr/upload/media/animaux-600af678206e1.png" group-title="|TR| BELGESEL",ANIMAUX
+https://goldvod.org/live/hpgdisco/123456/343.m3u8
 #EXTINF:-1 tvg-id="globalboxdram.tr" tvg-name="GLOBAL BOX DRAM" group-title="|TR| SİNEMA &amp; DİZİ",GLOBAL BOX DRAM
 https://goldvod.org/live/hpgdisco/123456/334.m3u8
 #EXTINF:-1 tvg-id="ssport2.tr" tvg-name="S SPORT 2 FHD" tvg-logo="https://gbzottvsc25.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/45/1003073844435eb9542c_op_0_XL.webp" group-title="|TR| SPOR",S SPORT 2 FHD
@@ -463,8 +463,8 @@ https://goldvod.org/live/hpgdisco/123456/517.m3u8
 https://goldvod.org/live/hpgdisco/123456/90.m3u8
 #EXTINF:-1 tvg-id="minikago.tr" tvg-name="4K MİNİ KA GO" tvg-logo="https://apkx.xyz/tv-tum-dunya-logolar/logolar/tv-tum-dunya-logolar/turkey/minika_go.png" group-title="|TR| ÇOCUK",4K MİNİ KA GO
 https://goldvod.org/live/hpgdisco/123456/516.m3u8
-#EXTINF:-1 tvg-id="beingurme.tr" tvg-name="beIN Gurme" tvg-logo="https://www.digiturkburada.com.tr/kanal3/kanal-buyuk/bein-gurme-hd-buyuk.png?rkt=DfS6Tgv6Hjr93k3" group-title="|TR| BELGESEL",beIN Gurme
-https://goldvod.org/live/hpgdisco/123456/179.m3u8
+#EXTINF:-1 tvg-id="beinhomeentertainmenthd.tr" tvg-name="beIN IZ" tvg-logo="https://www.digiturkburada.com.tr/kanal3/kanal-buyuk/bein-iz-hd-buyuk.png?rkt=DfS6Tgv6Hjr93k3" group-title="|TR| BELGESEL",beIN IZ
+https://goldvod.org/live/hpgdisco/123456/173.m3u8
 #EXTINF:-1 tvg-id="minikago.tr" tvg-name="MİNİKA GO" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/minika_go_1WO.png" group-title="|TR| ÇOCUK",MİNİKA GO
 https://goldvod.org/live/hpgdisco/123456/91.m3u8
 #EXTINF:-1 tvg-id="cartoonnetwork.tr" tvg-name="4K CARTOON NETWORK" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/cartoon_network_ir7.png" group-title="|TR| ÇOCUK",4K CARTOON NETWORK
@@ -481,10 +481,10 @@ https://goldvod.org/live/hpgdisco/123456/338.m3u8
 https://goldvod.org/live/hpgdisco/123456/339.m3u8
 #EXTINF:-1 tvg-id="globalboxyerli.tr" tvg-name="GLOBAL BOX YERLI" group-title="|TR| SİNEMA &amp; DİZİ",GLOBAL BOX YERLI
 https://goldvod.org/live/hpgdisco/123456/340.m3u8
+#EXTINF:-1 tvg-id="beingurme.tr" tvg-name="beIN Gurme" tvg-logo="https://www.digiturkburada.com.tr/kanal3/kanal-buyuk/bein-gurme-hd-buyuk.png?rkt=DfS6Tgv6Hjr93k3" group-title="|TR| BELGESEL",beIN Gurme
+https://goldvod.org/live/hpgdisco/123456/179.m3u8
 #EXTINF:-1 tvg-id="çiftçitv.tr" tvg-name="ÇİFTÇİ TV" tvg-logo="https://brsottvsc02.tvplus.com.tr:33207/CPS/images/universal/film/logo/202505/20250528/34/1051257598535eb78424_op_0_XL.webp" group-title="|TR| BELGESEL",ÇİFTÇİ TV
 https://goldvod.org/live/hpgdisco/123456/361.m3u8
-#EXTINF:-1 tvg-id="TRT BELGESEL.tr" tvg-name="TRT Belgesel" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/trt_belgesel_OFg.png" group-title="|TR| BELGESEL",TRT Belgesel
-https://goldvod.org/live/hpgdisco/123456/94.m3u8
 #EXTINF:-1 tvg-id="disneyjunior.tr" tvg-name="DISNEY JUNIOR" tvg-logo="https://gbzottvsc25.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250624/88/1037336465695eb9542c_op_0_XL.webp" group-title="|TR| ÇOCUK",DISNEY JUNIOR
 https://goldvod.org/live/hpgdisco/123456/372.m3u8
 #EXTINF:-1 tvg-id="redboxanmasyon.tr" tvg-name="REDBOX ANİMASYON" group-title="|TR| SİNEMA &amp; DİZİ",REDBOX ANİMASYON
@@ -629,6 +629,8 @@ https://goldvod.org/live/hpgdisco/123456/398.m3u8
 https://goldvod.org/live/hpgdisco/123456/475.m3u8
 #EXTINF:-1 tvg-id="tabspor1.tr" tvg-name="TABİİ SPOR 1" tvg-logo="https://img.sporekrani.com/tr_c_limit,w_80,h_80/channels/385e3f8f-838d-4971-8797-fa456eb91dc5.png" group-title="|TR| SPOR",TABİİ SPOR 1
 https://goldvod.org/live/hpgdisco/123456/437.m3u8
+#EXTINF:-1 tvg-id="TRT BELGESEL.tr" tvg-name="TRT Belgesel" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/trt_belgesel_OFg.png" group-title="|TR| BELGESEL",TRT Belgesel
+https://goldvod.org/live/hpgdisco/123456/94.m3u8
 #EXTINF:-1 tvg-id="trt2.tr" tvg-name="TRT 2 HD" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/trt2_KB4.png" group-title="|TR| BELGESEL",TRT 2 HD
 https://goldvod.org/live/hpgdisco/123456/295.m3u8
 #EXTINF:-1 tvg-id="trt2.tr" tvg-name="TRT 2" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/trt2_KB4.png" group-title="|TR| BELGESEL",TRT 2
@@ -637,8 +639,6 @@ https://goldvod.org/live/hpgdisco/123456/124.m3u8
 https://goldvod.org/live/hpgdisco/123456/296.m3u8
 #EXTINF:-1 tvg-id="tlc.tr" tvg-name="TLC" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/tlc_yum.png" group-title="|TR| BELGESEL",TLC
 https://goldvod.org/live/hpgdisco/123456/95.m3u8
-#EXTINF:-1 tvg-id="dmax.tr" tvg-name="DMAX 4K" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/dmax_ly3.png" group-title="|TR| BELGESEL",DMAX 4K
-https://goldvod.org/live/hpgdisco/123456/505.m3u8
 #EXTINF:-1 tvg-id="maxtvvzyon4.tr" tvg-name="MAX TV VİZYON 4" group-title="|TR| SİNEMA &amp; DİZİ",MAX TV VİZYON 4
 https://goldvod.org/live/hpgdisco/123456/419.m3u8
 #EXTINF:-1 tvg-id="tabtv.tr" tvg-name="TABİİ TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjR-C-7CuOlLtah67pLIESTYbhqKxB2yCFL6WGo5ofBKpvPk20MpYFOz2o&s=10" group-title="|TR| SİNEMA &amp; DİZİ",TABİİ TV
@@ -647,8 +647,8 @@ https://goldvod.org/live/hpgdisco/123456/462.m3u8
 https://goldvod.org/live/hpgdisco/123456/461.m3u8
 #EXTINF:-1 tvg-id="kralakrtv.tr" tvg-name="KRAL ŞAKİR TV" group-title="|TR| ÇOCUK",KRAL ŞAKİR TV
 https://goldvod.org/live/hpgdisco/123456/409.m3u8
-#EXTINF:-1 tvg-id="dmax.tr" tvg-name="DMAX HD" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/dmax_ly3.png" group-title="|TR| BELGESEL",DMAX HD
-https://goldvod.org/live/hpgdisco/123456/297.m3u8
+#EXTINF:-1 tvg-id="dmax.tr" tvg-name="DMAX 4K" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/dmax_ly3.png" group-title="|TR| BELGESEL",DMAX 4K
+https://goldvod.org/live/hpgdisco/123456/505.m3u8
 #EXTINF:-1 tvg-id="goldvodfastandfurious.tr" tvg-name="GOLDVOD TV HIZLI VE ÖFKELİ" tvg-logo="https://img.yabancidizibox.com/images/film/poster/hizli-ve-ofkeli-2023.jpg" group-title="|TR| 7/24 BOXSET",GOLDVOD TV HIZLI VE ÖFKELİ
 https://goldvod.org/live/hpgdisco/123456/456.m3u8
 #EXTINF:-1 tvg-id="goldvodtvtestere.tr" tvg-name="GOLDVOD TV TESTERE" tvg-logo="https://img.yabancidizibox.com/images/film/poster/testere-2011.jpg" group-title="|TR| 7/24 BOXSET",GOLDVOD TV TESTERE
@@ -741,12 +741,12 @@ https://goldvod.org/live/hpgdisco/123456/424.m3u8
 https://goldvod.org/live/hpgdisco/123456/489.m3u8
 #EXTINF:-1 tvg-id="pepetv.tr" tvg-name="PEPE TV" group-title="|TR| ÇOCUK",PEPE TV
 https://goldvod.org/live/hpgdisco/123456/425.m3u8
-#EXTINF:-1 tvg-id="dmax.tr" tvg-name="DMAX" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/dmax_ly3.png" group-title="|TR| BELGESEL",DMAX
-https://goldvod.org/live/hpgdisco/123456/97.m3u8
+#EXTINF:-1 tvg-id="dmax.tr" tvg-name="DMAX HD" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/dmax_ly3.png" group-title="|TR| BELGESEL",DMAX HD
+https://goldvod.org/live/hpgdisco/123456/297.m3u8
 #EXTINF:-1 tvg-id="pjamamaskellertv.tr" tvg-name="PİJAMA MASKELİLER TV" group-title="|TR| ÇOCUK",PİJAMA MASKELİLER TV
 https://goldvod.org/live/hpgdisco/123456/426.m3u8
-#EXTINF:-1 tvg-id="yabantv.tr" tvg-name="YABAN TV HD" tvg-logo="https://www.digiturkburada.com.tr/kanal3/kanal-buyuk/yaban-tv-buyuk.png?rkt=DfS6Tgv6Hjr93k3" group-title="|TR| BELGESEL",YABAN TV HD
-https://goldvod.org/live/hpgdisco/123456/448.m3u8
+#EXTINF:-1 tvg-id="dmax.tr" tvg-name="DMAX" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/dmax_ly3.png" group-title="|TR| BELGESEL",DMAX
+https://goldvod.org/live/hpgdisco/123456/97.m3u8
 #EXTINF:-1 tvg-id="pokemontv.tr" tvg-name="POKEMON TV" group-title="|TR| ÇOCUK",POKEMON TV
 https://goldvod.org/live/hpgdisco/123456/427.m3u8
 #EXTINF:-1 tvg-id="brt1.tr" tvg-name="BRT 1 HD" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/brt1_76r.png" group-title="|TR| ULUSAL",BRT 1 HD
@@ -18559,8 +18559,8 @@ https://goldvod.org/live/hpgdisco/123456/9522.m3u8
 https://goldvod.org/live/hpgdisco/123456/9524.m3u8
 #EXTINF:-1 tvg-id="tvnet.tr" tvg-name="4K TR: TVNET HD |D" tvg-logo="https://www.tvnet.com.tr/dist/img/logo.png" group-title="|TR| HABER",4K TR: TVNET HD |D
 https://goldvod.org/live/hpgdisco/123456/9527.m3u8
-#EXTINF:-1 tvg-id="yabantv.tr" tvg-name="YABAN TV" tvg-logo="https://www.digiturkburada.com.tr/kanal3/kanal-buyuk/yaban-tv-buyuk.png?rkt=DfS6Tgv6Hjr93k3" group-title="|TR| BELGESEL",YABAN TV
-https://goldvod.org/live/hpgdisco/123456/447.m3u8
+#EXTINF:-1 tvg-id="yabantv.tr" tvg-name="YABAN TV HD" tvg-logo="https://www.digiturkburada.com.tr/kanal3/kanal-buyuk/yaban-tv-buyuk.png?rkt=DfS6Tgv6Hjr93k3" group-title="|TR| BELGESEL",YABAN TV HD
+https://goldvod.org/live/hpgdisco/123456/448.m3u8
 #EXTINF:-1 tvg-id="adatv.tr" tvg-name="ADA TV |D" tvg-logo="https://gundemkibriscom.teimg.com/crop/1280x720/gundemkibris-com/images/haberler/151151.jpg" group-title="|TR| YEREL",ADA TV |D
 https://goldvod.org/live/hpgdisco/123456/9529.m3u8
 #EXTINF:-1 tvg-id="adanatvae.tr" tvg-name="ADANA TV A |E" group-title="|TR| YEREL",ADANA TV A |E
@@ -19409,10 +19409,10 @@ https://goldvod.org/live/hpgdisco/123456/9950.m3u8
 https://goldvod.org/live/hpgdisco/123456/9951.m3u8
 #EXTINF:-1 tvg-id="radyoyuksel.tr" tvg-name="Radyo Yuksel" group-title="|TR| TÜRKİYE RADYOLARI",Radyo Yuksel
 https://goldvod.org/live/hpgdisco/123456/9952.m3u8
+#EXTINF:-1 tvg-id="yabantv.tr" tvg-name="YABAN TV" tvg-logo="https://www.digiturkburada.com.tr/kanal3/kanal-buyuk/yaban-tv-buyuk.png?rkt=DfS6Tgv6Hjr93k3" group-title="|TR| BELGESEL",YABAN TV
+https://goldvod.org/live/hpgdisco/123456/447.m3u8
 #EXTINF:-1 tvg-id="TRTBELGESEL.tr" tvg-name="TGRT Belgesel" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/tgrt_belgesel_Ucv.png" group-title="|TR| BELGESEL",TGRT Belgesel
 https://goldvod.org/live/hpgdisco/123456/96.m3u8
-#EXTINF:-1 tvg-name="Belgesel TV" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/belgesel.png" group-title="|TR| BELGESEL",Belgesel TV
-https://goldvod.org/live/hpgdisco/123456/103.m3u8
 #EXTINF:-1 tvg-id="aztv.tr" tvg-name="AzTV" tvg-logo="http://portal.connect.az:8180/media/upload/epg_icons/260/260.png" group-title="|TR| KARMA LİSTE",AzTV
 https://goldvod.org/live/hpgdisco/123456/9955.m3u8
 #EXTINF:-1 tvg-id="bakutv.tr" tvg-name="Baku.TV" tvg-logo="http://portal.connect.az:8180/media/upload/epg_icons/428/428.png" group-title="|TR| KARMA LİSTE",Baku.TV
@@ -19799,3 +19799,7 @@ https://goldvod.org/live/hpgdisco/123456/10145.m3u8
 https://goldvod.org/live/hpgdisco/123456/10146.m3u8
 #EXTINF:-1 tvg-id="rainews24.tr" tvg-name="Rai News 24" tvg-logo="http://portal.connect.az:8180/media/upload/epg_icons/466/466.png" group-title="|TR| KARMA LİSTE",Rai News 24
 https://goldvod.org/live/hpgdisco/123456/10147.m3u8
+#EXTINF:-1 tvg-id="drama1.tr" tvg-name="GOLDVOD TV DRAM 1" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/Drama_HD_logo_2022.svg/1024px-Drama_HD_logo_2022.svg.png?20221228181125" group-title="|TR| 7/24 BOXSET",GOLDVOD TV DRAM 1
+https://goldvod.org/live/hpgdisco/123456/10148.m3u8
+#EXTINF:-1 tvg-name="Belgesel TV" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/belgesel.png" group-title="|TR| BELGESEL",Belgesel TV
+https://goldvod.org/live/hpgdisco/123456/103.m3u8
