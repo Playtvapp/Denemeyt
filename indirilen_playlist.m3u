@@ -649,12 +649,12 @@ https://goldvod.org/live/hpgdisco/123456/461.m3u8
 https://goldvod.org/live/hpgdisco/123456/409.m3u8
 #EXTINF:-1 tvg-id="tlc.tr" tvg-name="TLC" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/tlc_yum.png" group-title="|TR| BELGESEL",TLC
 https://goldvod.org/live/hpgdisco/123456/95.m3u8
+#EXTINF:-1 tvg-id="goldvodkemalsunal.tr" tvg-name="GOLDVOD TV KEMAL SUNAL" tvg-logo="https://img.favpng.com/12/23/24/kemal-sunal-filmografisi-logo-organization-human-behavior-png-favpng-YzrdyJR2yiYu67uYuknFDwkWH.jpg" group-title="|TR| 7/24 BOXSET",GOLDVOD TV KEMAL SUNAL
+https://goldvod.org/live/hpgdisco/123456/9515.m3u8
+#EXTINF:-1 tvg-id="goldvodsenersen.tr" tvg-name="GOLDVOD TV ŞENER ŞEN" group-title="|TR| 7/24 BOXSET",GOLDVOD TV ŞENER ŞEN
+https://goldvod.org/live/hpgdisco/123456/10152.m3u8
 #EXTINF:-1 tvg-id="goldvodfastandfurious.tr" tvg-name="GOLDVOD TV HIZLI VE ÖFKELİ" tvg-logo="https://img.yabancidizibox.com/images/film/poster/hizli-ve-ofkeli-2023.jpg" group-title="|TR| 7/24 BOXSET",GOLDVOD TV HIZLI VE ÖFKELİ
 https://goldvod.org/live/hpgdisco/123456/456.m3u8
-#EXTINF:-1 tvg-id="goldvodtvtestere.tr" tvg-name="GOLDVOD TV TESTERE" tvg-logo="https://img.yabancidizibox.com/images/film/poster/testere-2011.jpg" group-title="|TR| 7/24 BOXSET",GOLDVOD TV TESTERE
-https://goldvod.org/live/hpgdisco/123456/457.m3u8
-#EXTINF:-1 tvg-id="goldvodtvakallarladans.tr" tvg-name="GOLDVOD TV ÇAKALLARLA DANS" tvg-logo="https://img.yabancidizibox.com/images/film/poster/cakallarla-dans-2025.jpg" group-title="|TR| 7/24 BOXSET",GOLDVOD TV ÇAKALLARLA DANS
-https://goldvod.org/live/hpgdisco/123456/458.m3u8
 #EXTINF:-1 tvg-id="test.tr" tvg-name="Test" group-title="|TR| DİNİ KANALLAR",Test
 https://goldvod.org/live/hpgdisco/123456/459.m3u8
 #EXTINF:-1 tvg-id="spertrktv.tr" tvg-name="SÜPER TÜRK TV" tvg-logo="https://pbs.twimg.com/media/FqfJ37nXsAAD9-2.png" group-title="|TR| SİNEMA &amp; DİZİ",SÜPER TÜRK TV
@@ -18533,8 +18533,8 @@ https://goldvod.org/live/hpgdisco/123456/9396.m3u8
 https://goldvod.org/live/hpgdisco/123456/273.m3u8
 #EXTINF:-1 tvg-id="360.tr" tvg-name="360 TV" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/360_N7s.png" group-title="|TR| ULUSAL",360 TV
 https://goldvod.org/live/hpgdisco/123456/35.m3u8
-#EXTINF:-1 tvg-id="goldvodkemalsunal.tr" tvg-name="GOLDVOD TV KEMAL SUNAL" tvg-logo="https://img.favpng.com/12/23/24/kemal-sunal-filmografisi-logo-organization-human-behavior-png-favpng-YzrdyJR2yiYu67uYuknFDwkWH.jpg" group-title="|TR| 7/24 BOXSET",GOLDVOD TV KEMAL SUNAL
-https://goldvod.org/live/hpgdisco/123456/9515.m3u8
+#EXTINF:-1 tvg-id="goldvodtvtestere.tr" tvg-name="GOLDVOD TV TESTERE" tvg-logo="https://img.yabancidizibox.com/images/film/poster/testere-2011.jpg" group-title="|TR| 7/24 BOXSET",GOLDVOD TV TESTERE
+https://goldvod.org/live/hpgdisco/123456/457.m3u8
 #EXTINF:-1 tvg-id="btv.tr" tvg-name="Bİ TV" tvg-logo="https://asset.artidijitalmedya.com/image/188x188/channels/v1/logo_293.png?v=9" group-title="|TR| ULUSAL",Bİ TV
 https://goldvod.org/live/hpgdisco/123456/473.m3u8
 #EXTINF:-1 tvg-id="4ktrbengtrkd.tr" tvg-name="4K  BENGÜ TÜRK" tvg-logo="https://benguturkcom.teimg.com/benguturk-com/uploads/2024/10/benguturk-logo-light.svg" group-title="|TR| ULUSAL",4K  BENGÜ TÜRK
@@ -19413,9 +19413,11 @@ https://goldvod.org/live/hpgdisco/123456/9952.m3u8
 https://goldvod.org/live/hpgdisco/123456/448.m3u8
 #EXTINF:-1 tvg-id="yabantv.tr" tvg-name="YABAN TV" tvg-logo="https://www.digiturkburada.com.tr/kanal3/kanal-buyuk/yaban-tv-buyuk.png?rkt=DfS6Tgv6Hjr93k3" group-title="|TR| BELGESEL",YABAN TV
 https://goldvod.org/live/hpgdisco/123456/447.m3u8
-#EXTINF:-1 tvg-id="dram1.tr" tvg-name="GOLDVOD TV DRAMA 1" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/Drama_HD_logo_2022.svg/1024px-Drama_HD_logo_2022.svg.png?20221228181125" group-title="|TR| 7/24 BOXSET",GOLDVOD TV DRAMA 1
-https://goldvod.org/live/hpgdisco/123456/10148.m3u8
 #EXTINF:-1 tvg-id="TRTBELGESEL.tr" tvg-name="TGRT Belgesel" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/tgrt_belgesel_Ucv.png" group-title="|TR| BELGESEL",TGRT Belgesel
 https://goldvod.org/live/hpgdisco/123456/96.m3u8
 #EXTINF:-1 tvg-name="Belgesel TV" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/belgesel.png" group-title="|TR| BELGESEL",Belgesel TV
 https://goldvod.org/live/hpgdisco/123456/103.m3u8
+#EXTINF:-1 tvg-id="goldvodtvakallarladans.tr" tvg-name="GOLDVOD TV ÇAKALLARLA DANS" tvg-logo="https://img.yabancidizibox.com/images/film/poster/cakallarla-dans-2025.jpg" group-title="|TR| 7/24 BOXSET",GOLDVOD TV ÇAKALLARLA DANS
+https://goldvod.org/live/hpgdisco/123456/458.m3u8
+#EXTINF:-1 tvg-id="goldvodyesilcam1.tr" tvg-name="GOLDVOD TV YESILÇAM 1" tvg-logo="https://goldvod.org/tv/logo/yesilcam1.jpg" group-title="|TR| 7/24 BOXSET",GOLDVOD TV YESILÇAM 1
+https://goldvod.org/live/hpgdisco/123456/10151.m3u8
