@@ -19421,3 +19421,5 @@ https://goldvod.org/live/hpgdisco/123456/103.m3u8
 https://goldvod.org/live/hpgdisco/123456/458.m3u8
 #EXTINF:-1 tvg-id="goldvodyesilcam1.tr" tvg-name="GOLDVOD TV YESILÇAM 1" tvg-logo="https://goldvod.org/tv/logo/yesilcam1.jpg" group-title="|TR| 7/24 BOXSET",GOLDVOD TV YESILÇAM 1
 https://goldvod.org/live/hpgdisco/123456/10151.m3u8
+#EXTINF:-1 tvg-id="goldvodtransformers.tr" tvg-name="GOLDVOD TV TRANSFORMERS" tvg-logo="https://www.paramountmovies.com/uploads/movies/transformers-one/tfone-pm-800x1200-c.jpg" group-title="|TR| 7/24 BOXSET",GOLDVOD TV TRANSFORMERS
+https://goldvod.org/live/hpgdisco/123456/10153.m3u8
