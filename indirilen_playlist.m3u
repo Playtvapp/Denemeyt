@@ -323,7 +323,7 @@ https://goldvod.org/live/hpgdisco/123456/291.m3u8
 https://goldvod.org/live/hpgdisco/123456/216.m3u8
 #EXTINF:-1 tvg-id="GZT TV.tr" tvg-name="GZT TV" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/gzttv.png" group-title="|TR| HABER",GZT TV
 https://goldvod.org/live/hpgdisco/123456/217.m3u8
-#EXTINF:-1 tvg-id="habitat.tr" tvg-name="Habitat" tvg-logo="https://easilycdn.net/images/live/5b75d119.png" group-title="|TR| BELGESEL",Habitat
+#EXTINF:-1 tvg-id="habitat.tr" tvg-name="Habitat" tvg-logo="https://habitattv.com.tr/hbtt/assets/img/HABITAT_TV_LOGO_small.png" group-title="|TR| BELGESEL",Habitat
 https://goldvod.org/live/hpgdisco/123456/10196.m3u8
 #EXTINF:-1 tvg-id="gztht.tr" tvg-name="GZT HT" tvg-logo="https://cdn-tr.tivimivi.com/images//channels/1760745834996_images.png" group-title="|TR| HABER",GZT HT
 https://goldvod.org/live/hpgdisco/123456/218.m3u8
