@@ -49,7 +49,7 @@ logo=https://yt3.ggpht.com/pdVy_rG78xQRFbsEJjBy2u3BfLE6oSDCKX9BBQBufV2KQVRYM70Tb
 
 
 isim=Adanalı
-içerik=https://m.youtube.com/watch?v=na_jT2Q1rfA?si=W_tqMYjIe87K_L3c
+içerik=https://m.youtube.com/watch?v=sF1AgroEr60?si=Me1qP1bIMzBMk68o
 logo=https://ntcmedya.com/wp-content/uploads/2016/08/adanaliposter.jpg
 
 
