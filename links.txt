@@ -47,9 +47,9 @@ içerik=https://m.youtube.com/watch?v=5Whk9MVTpI4&pp=ygUTw4dpemdpIGZpbG0gY2FubMS
 logo=https://yt3.ggpht.com/pdVy_rG78xQRFbsEJjBy2u3BfLE6oSDCKX9BBQBufV2KQVRYM70Tb5PZIB7s1oHdKbR7qPZcvA=s48-c-k-c0x00ffffff-no-rj
 
 
-isim=Akıllı Arabalar
-içerik=https://m.youtube.com/watch?v=jdGwhgvsXKs
-logo=https://yt3.googleusercontent.com/6F6rwcNBlMpzTOnCbGGS74rZREBwN-g8mEAE5aKMll74xYEfqhnOLOILO4T26U3PJ4EainJW=s900-c-k-c0x00ffffff-no-rj
+isim=Leyla ile Mecnun
+içerik=https://m.youtube.com/watch?v=3nlND4audLg?si=BFq-qaaIcShQi6RV
+logo=https://img-s1.onedio.com/id-682f7236257417dd5597655b/rev-0/w-600/h-502/f-jpg/s-dc99d6ad1583d5fd8f5cf49482c6dbc65c647393.jpg
 
 
 
