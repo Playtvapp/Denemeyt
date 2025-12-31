@@ -15,11 +15,11 @@ içerik=https://m.youtube.com/watch?v=6B-nPOdP720
 logo=https://yt3.ggpht.com/gWxG3v8R74BMB5GWgX0v9HoFKmKLtTl533CgLfoHcRfRXQPTTcAYgvrnplkwqOmq4GZnmOLkbw=s48-c-k-c0x00ffffff-no-rj
 
 isim=TRT Haber
-içerik=https://m.youtube.com/watch?v=rD3bKBMXKKY&pp=ygUYQ2FubMSxIGhhYmVyIGthbmFsbGFyxLEg
+içerik=https://m.youtube.com/watch?v=EvlMtGiuNE4?si=nBemNZqOU6ZunG2h
 logo=https://yt3.ggpht.com/X-b7tJvjfBMDHCAafwyNV89qJ_FlzlXChymSisVsncnPpgOLLHknR6n1wtm8huk0SJz3KhNRTQ=s48-c-k-c0x00ffffff-no-rj
 
 isim=Halk TV
-içerik=https://m.youtube.com/watch?v=VBU0QX6brew&pp=ygUYQ2FubMSxIGhhYmVyIGthbmFsbGFyxLEg
+içerik=https://m.youtube.com/watch?v=na_jT2Q1rfA?si=W_tqMYjIe87K_L3c
 logo=https://yt3.ggpht.com/u8lIyigiEuofBWzGVRVJ_WOOdXp6cPTt9-02Kp8lG4XgMHXx0ZB_lwNINw4sLJaAk6ej35ueeA=s48-c-k-c0x00ffffff-no-rj
 
 isim=Sözcü TV
