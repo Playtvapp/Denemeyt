@@ -1,6 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="trt4k.tr" tvg-name="TRT 4K" tvg-logo="https://www.canlitv.me/poster/trt-4k.png" group-title="|TR| ULUSAL",TRT 4K
-https://goldvod.org/live/hpgdisco/123456/10156.m3u8
 #EXTINF:-1 tvg-id="trt1.tr" tvg-name="TRT 1 4K" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/trt1_D9T.png" group-title="|TR| ULUSAL",TRT 1 4K
 https://goldvod.org/live/hpgdisco/123456/9513.m3u8
 #EXTINF:-1 tvg-id="trt1.tr" tvg-name="TRT 1 FHD" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/trt1_D9T.png" group-title="|TR| ULUSAL",TRT 1 FHD
@@ -27,14 +25,8 @@ https://goldvod.org/live/hpgdisco/123456/151.m3u8
 https://goldvod.org/live/hpgdisco/123456/264.m3u8
 #EXTINF:-1 tvg-id="now.tr" tvg-name="NOW TV FHD" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/now_turk_3T9.png" group-title="|TR| ULUSAL",NOW TV FHD
 https://goldvod.org/live/hpgdisco/123456/265.m3u8
-#EXTINF:-1 tvg-id="beinsports1sd.tr" tvg-name="SD: beIN Sports 1" tvg-logo="https://easilycdn.net/images/live/sd-1.png" group-title="|TR| SPOR",SD: beIN Sports 1
-https://goldvod.org/live/hpgdisco/123456/10157.m3u8
-#EXTINF:-1 tvg-id="sdbeinsports2.tr" tvg-name="SD: beIN Sports 2" tvg-logo="https://easilycdn.net/images/live/sd-2.png" group-title="|TR| SPOR",SD: beIN Sports 2
-https://goldvod.org/live/hpgdisco/123456/10158.m3u8
 #EXTINF:-1 tvg-id="now.tr" tvg-name="NOW TV HD" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/now_turk_3T9.png" group-title="|TR| ULUSAL",NOW TV HD
 https://goldvod.org/live/hpgdisco/123456/3.m3u8
-#EXTINF:-1 tvg-id="sdbeinsports3.tr" tvg-name="SD: beIN Sports 3" tvg-logo="https://easilycdn.net/images/live/sd-3.png" group-title="|TR| SPOR",SD: beIN Sports 3
-https://goldvod.org/live/hpgdisco/123456/10159.m3u8
 #EXTINF:-1 tvg-id="showtv.tr" tvg-name="SHOW TV FHD (O)" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/show_tv_SpJ.png" group-title="|TR| ULUSAL",SHOW TV FHD (O)
 https://goldvod.org/live/hpgdisco/123456/478.m3u8
 #EXTINF:-1 tvg-id="show.tr" tvg-name="4K SHOW TV" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/show_tv_SpJ.png" group-title="|TR| ULUSAL",4K SHOW TV
@@ -43,10 +35,6 @@ https://goldvod.org/live/hpgdisco/123456/521.m3u8
 https://goldvod.org/live/hpgdisco/123456/266.m3u8
 #EXTINF:-1 tvg-id="showtv.tr" tvg-name="SHOW TV HD" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/show_tv_SpJ.png" group-title="|TR| ULUSAL",SHOW TV HD
 https://goldvod.org/live/hpgdisco/123456/6.m3u8
-#EXTINF:-1 tvg-id="sdbeinsports4.tr" tvg-name="SD: beIN Sports 4" tvg-logo="https://easilycdn.net/images/live/sd-4.png" group-title="|TR| SPOR",SD: beIN Sports 4
-https://goldvod.org/live/hpgdisco/123456/10160.m3u8
-#EXTINF:-1 tvg-id="sdbeinsports5.tr" tvg-name="SD: beIN Sports 5" tvg-logo="https://easilycdn.net/images/live/sd-5.png" group-title="|TR| SPOR",SD: beIN Sports 5
-https://goldvod.org/live/hpgdisco/123456/10161.m3u8
 #EXTINF:-1 tvg-id="showtürk.tr" tvg-name="SHOW TÜRK" tvg-logo="https://www.showturk.com.tr/scripts/assets/dist/images/logo.svg" group-title="|TR| ULUSAL",SHOW TÜRK
 https://goldvod.org/live/hpgdisco/123456/9516.m3u8
 #EXTINF:-1 tvg-id="showtürkavrupa.tr" tvg-name="SHOW TÜRK AVRUPA" tvg-logo="https://www.showturk.com.tr/scripts/assets/dist/images/logo.svg" group-title="|TR| ULUSAL",SHOW TÜRK AVRUPA
@@ -57,40 +45,12 @@ https://goldvod.org/live/hpgdisco/123456/9525.m3u8
 https://goldvod.org/live/hpgdisco/123456/267.m3u8
 #EXTINF:-1 tvg-id="TV8.tr" tvg-name="TV 8 HD" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/tv8_Hkc.png" group-title="|TR| ULUSAL",TV 8 HD
 https://goldvod.org/live/hpgdisco/123456/15.m3u8
-#EXTINF:-1 tvg-id="sdbeinsportsmax1.tr" tvg-name="SD: beIN Sports MAX 1" tvg-logo="https://easilycdn.net/images/live/sd-max-1.png" group-title="|TR| SPOR",SD: beIN Sports MAX 1
-https://goldvod.org/live/hpgdisco/123456/10162.m3u8
 #EXTINF:-1 tvg-id="tv85.tr" tvg-name="TV 8 INT HD" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/tv8_5_4or.png" group-title="|TR| ULUSAL",TV 8 INT HD
 https://goldvod.org/live/hpgdisco/123456/268.m3u8
 #EXTINF:-1 tvg-id="tv85.tr" tvg-name="4K  TV8,5" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/tv8_5_4or.png" group-title="|TR| ULUSAL",4K  TV8,5
 https://goldvod.org/live/hpgdisco/123456/9526.m3u8
 #EXTINF:-1 tvg-id="TV85.tr" tvg-name="TV 8,5 HD" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/tv8_5_4or.png" group-title="|TR| ULUSAL",TV 8,5 HD
 https://goldvod.org/live/hpgdisco/123456/20.m3u8
-#EXTINF:-1 tvg-id="babytvhd.tr" tvg-name="Baby TV HD" tvg-logo="https://easilycdn.net/images/live/3b1905f1.png" group-title="|TR| ÇOCUK",Baby TV HD
-https://goldvod.org/live/hpgdisco/123456/10198.m3u8
-#EXTINF:-1 tvg-id="ducktv.tr" tvg-name="Duck TV" tvg-logo="https://easilycdn.net/images/live/e1e4fbd3.png" group-title="|TR| ÇOCUK",Duck TV
-https://goldvod.org/live/hpgdisco/123456/10199.m3u8
-#EXTINF:-1 tvg-id="minikagoo.tr" tvg-name="Minika Goo" tvg-logo="https://easilycdn.net/images/live/2ecce876.png" group-title="|TR| ÇOCUK",Minika Goo
-https://goldvod.org/live/hpgdisco/123456/10200.m3u8
-#EXTINF:-1 tvg-id="minkaocuk.tr" tvg-name="Minıka Çocuk" tvg-logo="https://easilycdn.net/images/live/ac0b9155.png" group-title="|TR| ÇOCUK",Minıka Çocuk
-https://goldvod.org/live/hpgdisco/123456/10201.m3u8
-#EXTINF:-1 tvg-id="spacetoon.tr" tvg-name="Spacetoon" tvg-logo="https://easilycdn.net/images/live/69da61e4.png" group-title="|TR| ÇOCUK",Spacetoon
-https://goldvod.org/live/hpgdisco/123456/10202.m3u8
-#EXTINF:-1 tvg-id="id.tr" tvg-name="ID" tvg-logo="https://easilycdn.net/images/live/1e98aa0a.png" group-title="|TR| BELGESEL",ID
-https://goldvod.org/live/hpgdisco/123456/10179.m3u8
-#EXTINF:-1 tvg-id="beinz.tr" tvg-name="beIN İZ" tvg-logo="https://easilycdn.net/images/live/14633611.png" group-title="|TR| BELGESEL",beIN İZ
-https://goldvod.org/live/hpgdisco/123456/10180.m3u8
-#EXTINF:-1 tvg-id="nationalgeographic.tr" tvg-name="National Geographic" tvg-logo="https://easilycdn.net/images/live/16c45aef.png" group-title="|TR| BELGESEL",National Geographic
-https://goldvod.org/live/hpgdisco/123456/10181.m3u8
-#EXTINF:-1 tvg-id="sdbeinsportsmax2.tr" tvg-name="SD: beIN Sports MAX 2" tvg-logo="https://easilycdn.net/images/live/sd-max-2.png" group-title="|TR| SPOR",SD: beIN Sports MAX 2
-https://goldvod.org/live/hpgdisco/123456/10163.m3u8
-#EXTINF:-1 tvg-id="hdbeinsports1.tr" tvg-name="HD: beIN Sports 1" tvg-logo="https://easilycdn.net/images/live/hd-1.png" group-title="|TR| SPOR",HD: beIN Sports 1
-https://goldvod.org/live/hpgdisco/123456/10164.m3u8
-#EXTINF:-1 tvg-id="hdbeinsports2.tr" tvg-name="HD: beIN Sports 2" tvg-logo="https://easilycdn.net/images/live/hd-2.png" group-title="|TR| SPOR",HD: beIN Sports 2
-https://goldvod.org/live/hpgdisco/123456/10165.m3u8
-#EXTINF:-1 tvg-id="hdbeinsports3.tr" tvg-name="HD: beIN Sports 3" tvg-logo="https://easilycdn.net/images/live/hd-3.png" group-title="|TR| SPOR",HD: beIN Sports 3
-https://goldvod.org/live/hpgdisco/123456/10166.m3u8
-#EXTINF:-1 tvg-id="disneyjunor.tr" tvg-name="Disney Junıor" tvg-logo="https://easilycdn.net/images/live/d2fd6e5b.png" group-title="|TR| ÇOCUK",Disney Junıor
-https://goldvod.org/live/hpgdisco/123456/10203.m3u8
 #EXTINF:-1 tvg-id="trthaber.tr" tvg-name="TRT HABER HD" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/trt_haber_BOU.png" group-title="|TR| HABER",TRT HABER HD
 https://goldvod.org/live/hpgdisco/123456/279.m3u8
 #EXTINF:-1 tvg-id="TRTHABER.tr" tvg-name="TRT Haber" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/trt_haber_BOU.png" group-title="|TR| HABER",TRT Haber
@@ -123,80 +83,16 @@ https://goldvod.org/live/hpgdisco/123456/114.m3u8
 https://goldvod.org/live/hpgdisco/123456/284.m3u8
 #EXTINF:-1 tvg-id="ülketv.tr" tvg-name="ULKE TV" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/ulke_tv_vsd.png" group-title="|TR| HABER",ULKE TV
 https://goldvod.org/live/hpgdisco/123456/117.m3u8
-#EXTINF:-1 tvg-id="nationalgeographicwld.tr" tvg-name="National Geographic Wıld" tvg-logo="https://easilycdn.net/images/live/9cadffcf.png" group-title="|TR| BELGESEL",National Geographic Wıld
-https://goldvod.org/live/hpgdisco/123456/10182.m3u8
 #EXTINF:-1 tvg-id="halktv.tr" tvg-name="HALK TV HD" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/halk_tv_5IU.png" group-title="|TR| HABER",HALK TV HD
 https://goldvod.org/live/hpgdisco/123456/285.m3u8
-#EXTINF:-1 tvg-id="bbcearthh.tr" tvg-name="BBC Earthh" tvg-logo="https://easilycdn.net/images/live/79019d47.png"" group-title="|TR| BELGESEL",BBC Earthh
-https://goldvod.org/live/hpgdisco/123456/10183.m3u8
 #EXTINF:-1 tvg-id="HALKTV.tr" tvg-name="HALK TV" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/halk_tv_5IU.png" group-title="|TR| HABER",HALK TV
 https://goldvod.org/live/hpgdisco/123456/106.m3u8
 #EXTINF:-1 tvg-id="tv100.tr" tvg-name="TV 100 HD" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/tv100_FRE.png" group-title="|TR| HABER",TV 100 HD
 https://goldvod.org/live/hpgdisco/123456/286.m3u8
 #EXTINF:-1 tvg-id="TV100.tr" tvg-name="TV 100" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/tv100_FRE.png" group-title="|TR| HABER",TV 100
 https://goldvod.org/live/hpgdisco/123456/110.m3u8
-#EXTINF:-1 tvg-id="hdbeinsports4.tr" tvg-name="HD: beIN Sports 4" tvg-logo="https://easilycdn.net/images/live/hd-4.png" group-title="|TR| SPOR",HD: beIN Sports 4
-https://goldvod.org/live/hpgdisco/123456/10167.m3u8
-#EXTINF:-1 tvg-id="hdbeinsports5.tr" tvg-name="HD: beIN Sports 5" tvg-logo="https://easilycdn.net/images/live/hd-5.png" group-title="|TR| SPOR",HD: beIN Sports 5
-https://goldvod.org/live/hpgdisco/123456/10168.m3u8
-#EXTINF:-1 tvg-id="hdbeinsportsmax1.tr" tvg-name="HD: beIN Sports MAX 1" tvg-logo="https://easilycdn.net/images/live/hd-max-1.png" group-title="|TR| SPOR",HD: beIN Sports MAX 1
-https://goldvod.org/live/hpgdisco/123456/10169.m3u8
-#EXTINF:-1 tvg-id="hdbeinsportsmax2.tr" tvg-name="HD: beIN Sports MAX 2" tvg-logo="https://easilycdn.net/images/live/hd-max-2.png" group-title="|TR| SPOR",HD: beIN Sports MAX 2
-https://goldvod.org/live/hpgdisco/123456/10170.m3u8
-#EXTINF:-1 tvg-id="fullhdbeinsports1.tr" tvg-name="Full HD: beIN Sports 1" tvg-logo="https://easilycdn.net/images/live/fullhd-1.png" group-title="|TR| SPOR",Full HD: beIN Sports 1
-https://goldvod.org/live/hpgdisco/123456/10171.m3u8
-#EXTINF:-1 tvg-id="fullhdbeinsports2.tr" tvg-name="Full HD: beIN Sports 2" tvg-logo="https://easilycdn.net/images/live/fullhd-2.png" group-title="|TR| SPOR",Full HD: beIN Sports 2
-https://goldvod.org/live/hpgdisco/123456/10172.m3u8
-#EXTINF:-1 tvg-id="fullhdbeinsports3.tr" tvg-name="Full HD: beIN Sports 3" tvg-logo="https://easilycdn.net/images/live/fullhd-3.png" group-title="|TR| SPOR",Full HD: beIN Sports 3
-https://goldvod.org/live/hpgdisco/123456/10173.m3u8
-#EXTINF:-1 tvg-id="fullhdbeinsports4.tr" tvg-name="Full HD: beIN Sports 4" tvg-logo="https://easilycdn.net/images/live/fullhd-4.png" group-title="|TR| SPOR",Full HD: beIN Sports 4
-https://goldvod.org/live/hpgdisco/123456/10174.m3u8
-#EXTINF:-1 tvg-id="fullhdbeinsports5.tr" tvg-name="Full HD: beIN Sports 5" tvg-logo="https://easilycdn.net/images/live/fullhd-5.png" group-title="|TR| SPOR",Full HD: beIN Sports 5
-https://goldvod.org/live/hpgdisco/123456/10175.m3u8
-#EXTINF:-1 tvg-id="fullhdbeinsportsmax1.tr" tvg-name="Full HD: beIN Sports MAX 1" tvg-logo="https://easilycdn.net/images/live/fullhd-max-1.png" group-title="|TR| SPOR",Full HD: beIN Sports MAX 1
-https://goldvod.org/live/hpgdisco/123456/10176.m3u8
-#EXTINF:-1 tvg-id="fullhdbeinsportsmax2.tr" tvg-name="Full HD: beIN Sports MAX 2" tvg-logo="https://easilycdn.net/images/live/fullhd-max-2.png" group-title="|TR| SPOR",Full HD: beIN Sports MAX 2
-https://goldvod.org/live/hpgdisco/123456/10177.m3u8
-#EXTINF:-1 tvg-id="4kbeinsportshevc.tr" tvg-name="4K: beIN Sports HEVC" tvg-logo="https://easilycdn.net/images/live/bs-4k.png" group-title="|TR| SPOR",4K: beIN Sports HEVC
-https://goldvod.org/live/hpgdisco/123456/10178.m3u8
-#EXTINF:-1 tvg-id="ssport1.tr" tvg-name="S Sport 1 HD" tvg-logo="https://easilycdn.net/images/live/5b59b6a0.png" group-title="|TR| SPOR",S Sport 1 HD
-https://goldvod.org/live/hpgdisco/123456/10226.m3u8
-#EXTINF:-1 tvg-id="ssport2.tr" tvg-name="S Sport 2 HD" tvg-logo="https://easilycdn.net/images/live/add44a8c.png" group-title="|TR| SPOR",S Sport 2 HD
-https://goldvod.org/live/hpgdisco/123456/10227.m3u8
-#EXTINF:-1 tvg-id="sporsmart1.tr" tvg-name="Spor Smart 1 HD" tvg-logo="https://easilycdn.net/images/live/1e05831a.png" group-title="|TR| SPOR",Spor Smart 1 HD
-https://goldvod.org/live/hpgdisco/123456/10228.m3u8
-#EXTINF:-1 tvg-id="sporsmart2.tr" tvg-name="Spor Smart 2 HD" tvg-logo="https://easilycdn.net/images/live/a67a3c8b.png" group-title="|TR| SPOR",Spor Smart 2 HD
-https://goldvod.org/live/hpgdisco/123456/10229.m3u8
-#EXTINF:-1 tvg-id="tivibuspor1.tr" tvg-name="Tivibu Spor 1" tvg-logo="https://easilycdn.net/images/live/bc4c1a33.png" group-title="|TR| SPOR",Tivibu Spor 1
-https://goldvod.org/live/hpgdisco/123456/10230.m3u8
 #EXTINF:-1 tvg-id="FLASH HABER.tr" tvg-name="Flash Haber" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/flash_haber_L5U.png" group-title="|TR| HABER",Flash Haber
 https://goldvod.org/live/hpgdisco/123456/115.m3u8
-#EXTINF:-1 tvg-id="tivibuspor2.tr" tvg-name="Tivibu Spor 2" tvg-logo="https://easilycdn.net/images/live/d2fe6d53.png" group-title="|TR| SPOR",Tivibu Spor 2
-https://goldvod.org/live/hpgdisco/123456/10231.m3u8
-#EXTINF:-1 tvg-id="tarihtv.tr" tvg-name="Tarih TV" tvg-logo="https://easilycdn.net/images/live/98353b3c.png" group-title="|TR| BELGESEL",Tarih TV
-https://goldvod.org/live/hpgdisco/123456/10184.m3u8
-#EXTINF:-1 tvg-id="history.tr" tvg-name="History" tvg-logo="https://easilycdn.net/images/live/ad1e74e9.png" group-title="|TR| BELGESEL",History
-https://goldvod.org/live/hpgdisco/123456/10185.m3u8
-#EXTINF:-1 tvg-id="viasathstory.tr" tvg-name="Viasat Hıstory" tvg-logo="https://easilycdn.net/images/live/af2d32d6.png" group-title="|TR| BELGESEL",Viasat Hıstory
-https://goldvod.org/live/hpgdisco/123456/10186.m3u8
-#EXTINF:-1 tvg-id="davincilearnng.tr" tvg-name="Da Vinci Learnıng" tvg-logo="https://easilycdn.net/images/live/542aff7e.png" group-title="|TR| BELGESEL",Da Vinci Learnıng
-https://goldvod.org/live/hpgdisco/123456/10187.m3u8
-#EXTINF:-1 tvg-id="dscoverychannel.tr" tvg-name="Dıscovery Channel" tvg-logo="https://easilycdn.net/images/live/a489dfb8.png" group-title="|TR| BELGESEL",Dıscovery Channel
-https://goldvod.org/live/hpgdisco/123456/10188.m3u8
-#EXTINF:-1 tvg-id="dmax.tr" tvg-name="D-Max" tvg-logo="https://easilycdn.net/images/live/a4214fca.png" group-title="|TR| BELGESEL",D-Max
-https://goldvod.org/live/hpgdisco/123456/10189.m3u8
-#EXTINF:-1 tvg-id="fx.tr" tvg-name="FX" tvg-logo="https://easilycdn.net/images/live/0225907a.png" group-title="|TR| SİNEMA &amp; DİZİ",FX
-https://goldvod.org/live/hpgdisco/123456/10212.m3u8
-#EXTINF:-1 tvg-id="filmscreen.tr" tvg-name="FilmScreen" tvg-logo="https://easilycdn.net/images/live/992bf3a5.png" group-title="|TR| SİNEMA &amp; DİZİ",FilmScreen
-https://goldvod.org/live/hpgdisco/123456/10213.m3u8
-#EXTINF:-1 tvg-id="epicdrama.tr" tvg-name="Epic Drama" tvg-logo="https://easilycdn.net/images/live/cb987a8b.png" group-title="|TR| SİNEMA &amp; DİZİ",Epic Drama
-https://goldvod.org/live/hpgdisco/123456/10214.m3u8
-#EXTINF:-1 tvg-id="docuscreen.tr" tvg-name="DocuScreen" tvg-logo="https://easilycdn.net/images/live/f1b13d1b.png" group-title="|TR| BELGESEL",DocuScreen
-https://goldvod.org/live/hpgdisco/123456/10190.m3u8
-#EXTINF:-1 tvg-id="yabanntv.tr" tvg-name="Yabann TV" tvg-logo="https://easilycdn.net/images/live/6941dce0.png" group-title="|TR| BELGESEL",Yabann TV
-https://goldvod.org/live/hpgdisco/123456/10191.m3u8
-#EXTINF:-1 tvg-id="tivibuspor3.tr" tvg-name="Tivibu Spor 3" tvg-logo="https://easilycdn.net/images/live/6564008f.png" group-title="|TR| SPOR",Tivibu Spor 3
-https://goldvod.org/live/hpgdisco/123456/10232.m3u8
 #EXTINF:-1 tvg-id="beinsport.tr" tvg-name="beIN Sport SD" tvg-logo="http://mediacms01.digiturkplay.com/channel_logo/w2_Bein_Sport1_250x150_2022.png" group-title="|TR| SPOR",beIN Sport SD
 https://goldvod.org/live/hpgdisco/123456/178.m3u8
 #EXTINF:-1 tvg-id="beinsport.tr" tvg-name="beIN SPORT 1 480P" tvg-logo="http://mediacms01.digiturkplay.com/channel_logo/w2_Bein_Sport1_250x150_2022.png" group-title="|TR| SPOR",beIN SPORT 1 480P
@@ -207,28 +103,10 @@ https://goldvod.org/live/hpgdisco/123456/180.m3u8
 https://goldvod.org/live/hpgdisco/123456/141.m3u8
 #EXTINF:-1 tvg-id="beINSports1.tr" tvg-name="beIN SPORTS 1 FEED (V)" tvg-logo="http://mediacms01.digiturkplay.com/channel_logo/w2_Bein_Sport1_250x150_2022.png" group-title="|TR| SPOR",beIN SPORTS 1 FEED (V)
 https://goldvod.org/live/hpgdisco/123456/142.m3u8
-#EXTINF:-1 tvg-id="blutvplay1.tr" tvg-name="BluTV Play 1" tvg-logo="https://easilycdn.net/images/live/00edf4f3.png" group-title="|TR| SİNEMA &amp; DİZİ",BluTV Play 1
-https://goldvod.org/live/hpgdisco/123456/10215.m3u8
-#EXTINF:-1 tvg-id="tgrtbelgesell.tr" tvg-name="TGRT Belgesell" tvg-logo="https://easilycdn.net/images/live/a6020108.png" group-title="|TR| BELGESEL",TGRT Belgesell
-https://goldvod.org/live/hpgdisco/123456/10192.m3u8
-#EXTINF:-1 tvg-id="blutvplay2.tr" tvg-name="BluTV Play 2" tvg-logo="https://easilycdn.net/images/live/99e4a549.png" group-title="|TR| SİNEMA &amp; DİZİ",BluTV Play 2
-https://goldvod.org/live/hpgdisco/123456/10216.m3u8
-#EXTINF:-1 tvg-id="dizismartmax.tr" tvg-name="Dizi Smart Max" tvg-logo="https://easilycdn.net/images/live/ef7292ea.png" group-title="|TR| SİNEMA &amp; DİZİ",Dizi Smart Max
-https://goldvod.org/live/hpgdisco/123456/10217.m3u8
-#EXTINF:-1 tvg-id="beinmoviestrk.tr" tvg-name="beIN Movies Türk" tvg-logo="https://easilycdn.net/images/live/aa13ed8a.png" group-title="|TR| SİNEMA &amp; DİZİ",beIN Movies Türk
-https://goldvod.org/live/hpgdisco/123456/10218.m3u8
-#EXTINF:-1 tvg-id="beinmovesstars.tr" tvg-name="beIN Movıes Stars" tvg-logo="https://easilycdn.net/images/live/4bb2fb2e.png" group-title="|TR| SİNEMA &amp; DİZİ",beIN Movıes Stars
-https://goldvod.org/live/hpgdisco/123456/10219.m3u8
 #EXTINF:-1 tvg-id="beINSports1.tr" tvg-name="beIN SPORTS 1 8K FEED" tvg-logo="http://mediacms01.digiturkplay.com/channel_logo/w2_Bein_Sport1_250x150_2022.png" group-title="|TR| SPOR",beIN SPORTS 1 8K FEED
 https://goldvod.org/live/hpgdisco/123456/150.m3u8
-#EXTINF:-1 tvg-id="lovenaturee.tr" tvg-name="Love Naturee" tvg-logo="https://easilycdn.net/images/live/cdb71017.png" group-title="|TR| BELGESEL",Love Naturee
-https://goldvod.org/live/hpgdisco/123456/10193.m3u8
 #EXTINF:-1 tvg-id="beINSports1.tr" tvg-name="beIN SPORTS 1 720P FEED" tvg-logo="http://mediacms01.digiturkplay.com/channel_logo/w2_Bein_Sport1_250x150_2022.png" group-title="|TR| SPOR",beIN SPORTS 1 720P FEED
 https://goldvod.org/live/hpgdisco/123456/149.m3u8
-#EXTINF:-1 tvg-id="beinmoviespremere.tr" tvg-name="beIN Movies Premıere" tvg-logo="https://easilycdn.net/images/live/5aafd0b5.png" group-title="|TR| SİNEMA &amp; DİZİ",beIN Movies Premıere
-https://goldvod.org/live/hpgdisco/123456/10220.m3u8
-#EXTINF:-1 tvg-id="beinmoviespremiere2.tr" tvg-name="beIN Movies Premiere 2" tvg-logo="https://easilycdn.net/images/live/6001f121.png" group-title="|TR| SİNEMA &amp; DİZİ",beIN Movies Premiere 2
-https://goldvod.org/live/hpgdisco/123456/10221.m3u8
 #EXTINF:-1 tvg-id="diyanettv.tr" tvg-name="DİYANET TV HD" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/trt_diyanet_enZ.png" group-title="|TR| DİNİ KANALLAR",DİYANET TV HD
 https://goldvod.org/live/hpgdisco/123456/298.m3u8
 #EXTINF:-1 tvg-id="diyanettv.tr" tvg-name="DİYANET TV" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/trt_diyanet_enZ.png" group-title="|TR| DİNİ KANALLAR",DİYANET TV
@@ -245,8 +123,6 @@ https://goldvod.org/live/hpgdisco/123456/186.m3u8
 https://goldvod.org/live/hpgdisco/123456/187.m3u8
 #EXTINF:-1 tvg-id="dosttv.tr" tvg-name="DOST TV HD" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/dost_tv_rsq.png" group-title="|TR| DİNİ KANALLAR",DOST TV HD
 https://goldvod.org/live/hpgdisco/123456/301.m3u8
-#EXTINF:-1 tvg-id="beinboxoffice.tr" tvg-name="beIN Box Office" tvg-logo="https://easilycdn.net/images/live/c83db7d.png" group-title="|TR| SİNEMA &amp; DİZİ",beIN Box Office
-https://goldvod.org/live/hpgdisco/123456/10222.m3u8
 #EXTINF:-1 tvg-id="TELE1.tr" tvg-name="Tele 1" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/tele1_tRP.png" group-title="|TR| HABER",Tele 1
 https://goldvod.org/live/hpgdisco/123456/107.m3u8
 #EXTINF:-1 tvg-id="4ktrbloomberghthdd.tr" tvg-name="4K TR: BLOOMBERG HT HD |D" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/bloomberg_ht_21c.png" group-title="|TR| HABER",4K TR: BLOOMBERG HT HD |D
@@ -275,14 +151,8 @@ https://goldvod.org/live/hpgdisco/123456/130.m3u8
 https://goldvod.org/live/hpgdisco/123456/290.m3u8
 #EXTINF:-1 tvg-id="tvnet.tr" tvg-name="TVNET" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/tvnet_uFd.png" group-title="|TR| HABER",TVNET
 https://goldvod.org/live/hpgdisco/123456/118.m3u8
-#EXTINF:-1 tvg-id="trtbelgesell.tr" tvg-name="TRT Belgesell" tvg-logo="https://easilycdn.net/images/live/3516d99b.png" group-title="|TR| BELGESEL",TRT Belgesell
-https://goldvod.org/live/hpgdisco/123456/10194.m3u8
-#EXTINF:-1 tvg-id="ifttv.tr" tvg-name="Çiftçı TV" tvg-logo="https://easilycdn.net/images/live/7cf94dc2.png" group-title="|TR| BELGESEL",Çiftçı TV
-https://goldvod.org/live/hpgdisco/123456/10195.m3u8
 #EXTINF:-1 tvg-id="4ktrbeyaztvhdd.tr" tvg-name="4K  BEYAZ TV" tvg-logo="https://m.beyaztv.com.tr/images/logo.png" group-title="|TR| ULUSAL",4K  BEYAZ TV
 https://goldvod.org/live/hpgdisco/123456/497.m3u8
-#EXTINF:-1 tvg-id="cartoonio.tr" tvg-name="Cartooniıo" tvg-logo="https://easilycdn.net/images/live/4eac0e54.png" group-title="|TR| ÇOCUK",Cartooniıo
-https://goldvod.org/live/hpgdisco/123456/10204.m3u8
 #EXTINF:-1 tvg-id="BEYAZTV.tr" tvg-name="Beyaz TV" tvg-logo="https://www.beyaztv.com.tr/images/logo.png" group-title="|TR| ULUSAL",Beyaz TV
 https://goldvod.org/live/hpgdisco/123456/4.m3u8
 #EXTINF:-1 tvg-id="kanal7.tr" tvg-name="4K KANAL 7" tvg-logo="https://cdn.kanal7.com/kanal7/wp-content/themes/kanal7/v2/images/kanal7-logo.svg" group-title="|TR| ULUSAL",4K KANAL 7
@@ -323,8 +193,6 @@ https://goldvod.org/live/hpgdisco/123456/291.m3u8
 https://goldvod.org/live/hpgdisco/123456/216.m3u8
 #EXTINF:-1 tvg-id="GZT TV.tr" tvg-name="GZT TV" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/gzttv.png" group-title="|TR| HABER",GZT TV
 https://goldvod.org/live/hpgdisco/123456/217.m3u8
-#EXTINF:-1 tvg-id="habitat.tr" tvg-name="Habitat" tvg-logo="https://habitattv.com.tr/hbtt/assets/img/HABITAT_TV_LOGO_small.png" group-title="|TR| BELGESEL",Habitat
-https://goldvod.org/live/hpgdisco/123456/10196.m3u8
 #EXTINF:-1 tvg-id="gztht.tr" tvg-name="GZT HT" tvg-logo="https://cdn-tr.tivimivi.com/images//channels/1760745834996_images.png" group-title="|TR| HABER",GZT HT
 https://goldvod.org/live/hpgdisco/123456/218.m3u8
 #EXTINF:-1 tvg-id="krt.tr" tvg-name="KRT TV HD" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/krt_tv_7YR.png" group-title="|TR| HABER",KRT TV HD
@@ -333,8 +201,6 @@ https://goldvod.org/live/hpgdisco/123456/292.m3u8
 https://goldvod.org/live/hpgdisco/123456/220.m3u8
 #EXTINF:-1 tvg-id="ekol.tr" tvg-name="EKOL TV HD" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/ekol_tv_Fms.png" group-title="|TR| HABER",EKOL TV HD
 https://goldvod.org/live/hpgdisco/123456/293.m3u8
-#EXTINF:-1 tvg-id="vasatexplore.tr" tvg-name="Vıasat Explore" tvg-logo="https://easilycdn.net/images/live/19663d5d.png" group-title="|TR| BELGESEL",Vıasat Explore
-https://goldvod.org/live/hpgdisco/123456/10197.m3u8
 #EXTINF:-1 tvg-id="dosttv.tr" tvg-name="DOST TV" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/dost_tv_rsq.png" group-title="|TR| DİNİ KANALLAR",DOST TV
 https://goldvod.org/live/hpgdisco/123456/188.m3u8
 #EXTINF:-1 tvg-id="TV5.tr" tvg-name="TV5" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/tv_5_QtK.png" group-title="|TR| DİNİ KANALLAR",TV5
@@ -343,24 +209,12 @@ https://goldvod.org/live/hpgdisco/123456/189.m3u8
 https://goldvod.org/live/hpgdisco/123456/190.m3u8
 #EXTINF:-1 tvg-id="kabetv.tr" tvg-name="KabeTV" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/kabe_tv_PVy.png" group-title="|TR| DİNİ KANALLAR",KabeTV
 https://goldvod.org/live/hpgdisco/123456/191.m3u8
-#EXTINF:-1 tvg-id="beinhe.tr" tvg-name="beIN H&amp;E" tvg-logo="https://easilycdn.net/images/live/65d6fde.png" group-title="|TR| SİNEMA &amp; DİZİ",beIN H&E
-https://goldvod.org/live/hpgdisco/123456/10223.m3u8
-#EXTINF:-1 tvg-id="beinseres1.tr" tvg-name="beIN Serıes 1" tvg-logo="https://easilycdn.net/images/live/e6e65e05.png" group-title="|TR| SİNEMA &amp; DİZİ",beIN Serıes 1
-https://goldvod.org/live/hpgdisco/123456/10224.m3u8
-#EXTINF:-1 tvg-id="beinseres2.tr" tvg-name="beIN Serıes 2" tvg-logo="https://easilycdn.net/images/live/7fef0fbf.png" group-title="|TR| SİNEMA &amp; DİZİ",beIN Serıes 2
-https://goldvod.org/live/hpgdisco/123456/10225.m3u8
 #EXTINF:-1 tvg-id="beinboxoffice1.tr" tvg-name="beIN BOX OFFICE 1" tvg-logo="https://apkx.xyz/tv-tum-dunya-logolar/logolar/tv-tum-dunya-logolar/turkey/be_in_tr_box_office_01_hd.png" group-title="|TR| SİNEMA &amp; DİZİ",beIN BOX OFFICE 1
 https://goldvod.org/live/hpgdisco/123456/161.m3u8
-#EXTINF:-1 tvg-id="beinboxoffice1.tr" tvg-name="beIN BOX OFFICE 1 W" tvg-logo="https://apkx.xyz/tv-tum-dunya-logolar/logolar/tv-tum-dunya-logolar/turkey/be_in_tr_box_office_01_hd.png" group-title="|TR| SİNEMA &amp; DİZİ",beIN BOX OFFICE 1 W
-https://goldvod.org/live/hpgdisco/123456/303.m3u8
 #EXTINF:-1 tvg-id="beinboxoffice2.tr" tvg-name="beIN BOX OFFICE 2" tvg-logo="https://apkx.xyz/tv-tum-dunya-logolar/logolar/tv-tum-dunya-logolar/turkey/be_in_tr_box_office_02_hd.png" group-title="|TR| SİNEMA &amp; DİZİ",beIN BOX OFFICE 2
 https://goldvod.org/live/hpgdisco/123456/162.m3u8
-#EXTINF:-1 tvg-id="beinboxoffice2.tr" tvg-name="beIN BOX OFFICE 2 W" tvg-logo="https://apkx.xyz/tv-tum-dunya-logolar/logolar/tv-tum-dunya-logolar/turkey/be_in_tr_box_office_02_hd.png" group-title="|TR| SİNEMA &amp; DİZİ",beIN BOX OFFICE 2 W
-https://goldvod.org/live/hpgdisco/123456/304.m3u8
 #EXTINF:-1 tvg-id="beinboxoffice3.tr" tvg-name="beIN BOX OFFICE 3" tvg-logo="https://apkx.xyz/tv-tum-dunya-logolar/logolar/tv-tum-dunya-logolar/turkey/be_in_tr_box_office_03_hd.png" group-title="|TR| SİNEMA &amp; DİZİ",beIN BOX OFFICE 3
 https://goldvod.org/live/hpgdisco/123456/163.m3u8
-#EXTINF:-1 tvg-id="beinboxoffice3.tr" tvg-name="beIN BOX OFFICE 3 W" tvg-logo="https://apkx.xyz/tv-tum-dunya-logolar/logolar/tv-tum-dunya-logolar/turkey/be_in_tr_box_office_03_hd.png" group-title="|TR| SİNEMA &amp; DİZİ",beIN BOX OFFICE 3 W
-https://goldvod.org/live/hpgdisco/123456/305.m3u8
 #EXTINF:-1 tvg-id="beinmoviesstarshd.tr" tvg-name="beIN MOVIES STARS" tvg-logo="https://www.tvyayinakisi.com/wp-content/uploads/2020/05/bein-movies-stars-logo.png" group-title="|TR| SİNEMA &amp; DİZİ",beIN MOVIES STARS
 https://goldvod.org/live/hpgdisco/123456/346.m3u8
 #EXTINF:-1 tvg-id="beinmoviesturkhd.tr" tvg-name="beIN Movies Turk" tvg-logo="https://www.digiturkburada.com.tr/kanal3/kanal-buyuk/bein-movies-turk-hd-buyuk2.png?rkt=DfS6Tgv6Hjr93k3" group-title="|TR| SİNEMA &amp; DİZİ",beIN Movies Turk
@@ -421,8 +275,6 @@ https://goldvod.org/live/hpgdisco/123456/316.m3u8
 https://goldvod.org/live/hpgdisco/123456/317.m3u8
 #EXTINF:-1 tvg-id="fixcinemacomedy.tr" tvg-name="FIX CINEMA COMEDY" group-title="|TR| SİNEMA &amp; DİZİ",FIX CINEMA COMEDY
 https://goldvod.org/live/hpgdisco/123456/318.m3u8
-#EXTINF:-1 tvg-id="ocuksmartt.tr" tvg-name="Çocuk Smartt" tvg-logo="https://easilycdn.net/images/live/d988790c.png" group-title="|TR| ÇOCUK",Çocuk Smartt
-https://goldvod.org/live/hpgdisco/123456/10205.m3u8
 #EXTINF:-1 tvg-id="fixcinemadram.tr" tvg-name="FIX CINEMA DRAM" group-title="|TR| SİNEMA &amp; DİZİ",FIX CINEMA DRAM
 https://goldvod.org/live/hpgdisco/123456/319.m3u8
 #EXTINF:-1 tvg-id="nationalgeographic.tr" tvg-name="National Geographic HD" tvg-logo="https://apkx.xyz/tv-tum-dunya-logolar/logolar/tv-tum-dunya-logolar/TURKIYE/NGCHD.png" group-title="|TR| BELGESEL",National Geographic HD
@@ -455,20 +307,8 @@ https://goldvod.org/live/hpgdisco/123456/139.m3u8
 https://goldvod.org/live/hpgdisco/123456/351.m3u8
 #EXTINF:-1 tvg-id="beinsport3hd.tr" tvg-name="beIN SPORT 3 HD" tvg-logo="http://mediacms01.digiturkplay.com/channel_logo/w2_Bein_Sport3_250x150_2022.png" group-title="|TR| SPOR",beIN SPORT 3 HD
 https://goldvod.org/live/hpgdisco/123456/350.m3u8
-#EXTINF:-1 tvg-id="cartooonnetwork.tr" tvg-name="Cartooon Network" tvg-logo="https://easilycdn.net/images/live/6bc333d5.png" group-title="|TR| ÇOCUK",Cartooon Network
-https://goldvod.org/live/hpgdisco/123456/10206.m3u8
-#EXTINF:-1 tvg-id="nicktooons.tr" tvg-name="Nicktooons" tvg-logo="https://easilycdn.net/images/live/93482d27.png" group-title="|TR| ÇOCUK",Nicktooons
-https://goldvod.org/live/hpgdisco/123456/10207.m3u8
-#EXTINF:-1 tvg-id="nckelodeon.tr" tvg-name="Nıckelodeon" tvg-logo="https://easilycdn.net/images/live/ce25d6a8.png" group-title="|TR| ÇOCUK",Nıckelodeon
-https://goldvod.org/live/hpgdisco/123456/10208.m3u8
 #EXTINF:-1 tvg-id="nationalgeographicwild.tr" tvg-name="National Geographic Wild 4K" tvg-logo="https://apkx.xyz/tv-tum-dunya-logolar/logolar/tv-tum-dunya-logolar/TURKIYE/NGCWILDHDPLUS.png" group-title="|TR| BELGESEL",National Geographic Wild 4K
 https://goldvod.org/live/hpgdisco/123456/9953.m3u8
-#EXTINF:-1 tvg-id="moonbugkidstv.tr" tvg-name="Moonbug Kids TV" tvg-logo="https://easilycdn.net/images/live/7853c46b.png" group-title="|TR| ÇOCUK",Moonbug Kids TV
-https://goldvod.org/live/hpgdisco/123456/10209.m3u8
-#EXTINF:-1 tvg-id="nickjr.tr" tvg-name="Nick Jr." tvg-logo="https://easilycdn.net/images/live/e5761cba.png" group-title="|TR| ÇOCUK",Nick Jr.
-https://goldvod.org/live/hpgdisco/123456/10210.m3u8
-#EXTINF:-1 tvg-id="diyanetocuk.tr" tvg-name="Diyanet Çocuk" tvg-logo="https://easilycdn.net/images/live/192932e4.png" group-title="|TR| ÇOCUK",Diyanet Çocuk
-https://goldvod.org/live/hpgdisco/123456/10211.m3u8
 #EXTINF:-1 tvg-id="fixcinemamacera.tr" tvg-name="FIX CINEMA MACERA" group-title="|TR| SİNEMA &amp; DİZİ",FIX CINEMA MACERA
 https://goldvod.org/live/hpgdisco/123456/322.m3u8
 #EXTINF:-1 tvg-id="fixcinemanetflix.tr" tvg-name="FIX CINEMA NETFLIX" group-title="|TR| SİNEMA &amp; DİZİ",FIX CINEMA NETFLIX
@@ -19935,3 +19775,175 @@ https://goldvod.org/live/hpgdisco/123456/10408.m3u8
 https://goldvod.org/live/hpgdisco/123456/10409.m3u8
 #EXTINF:-1 tvg-id="rainews24.tr" tvg-name="Rai News 24" tvg-logo="http://portal.connect.az:8180/media/upload/epg_icons/466/466.png" group-title="|TR| KARMA LİSTE",Rai News 24
 https://goldvod.org/live/hpgdisco/123456/10410.m3u8
+#EXTINF:-1 tvg-id="rcsporsmart2.tr" tvg-name="RC Spor Smart 2" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/cabc0eca8d8333d022305c01b433f367.png" group-title="|TR| RC TV KANALLARI",RC Spor Smart 2
+https://goldvod.org/live/hpgdisco/123456/10411.m3u8
+#EXTINF:-1 tvg-id="rceurosport1.tr" tvg-name="RC Euro Sport 1" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/f40c9c2ad62bd4e3ff87d5859ea2bb54.jpg" group-title="|TR| RC TV KANALLARI",RC Euro Sport 1
+https://goldvod.org/live/hpgdisco/123456/10412.m3u8
+#EXTINF:-1 tvg-id="rceurosport2.tr" tvg-name="RC Euro Sport 2" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/8802d4e354a9ca77d6aa3bbd8362e3e8.png" group-title="|TR| RC TV KANALLARI",RC Euro Sport 2
+https://goldvod.org/live/hpgdisco/123456/10413.m3u8
+#EXTINF:-1 tvg-id="rctivibuspor1.tr" tvg-name="RC Tivibu Spor 1" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/e0837009bbe1e595a7c7364aa45d02f7.jpg" group-title="|TR| RC TV KANALLARI",RC Tivibu Spor 1
+https://goldvod.org/live/hpgdisco/123456/10414.m3u8
+#EXTINF:-1 tvg-id="rctivibuspor2.tr" tvg-name="RC Tivibu Spor 2" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/8c23cd76a1f7c2b12ab4e757b45ca87f.jpg" group-title="|TR| RC TV KANALLARI",RC Tivibu Spor 2
+https://goldvod.org/live/hpgdisco/123456/10415.m3u8
+#EXTINF:-1 tvg-id="rctivibuspor3.tr" tvg-name="RC Tivibu Spor 3" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/2dd58a06227ac0410461a0be92123f12.jpg" group-title="|TR| RC TV KANALLARI",RC Tivibu Spor 3
+https://goldvod.org/live/hpgdisco/123456/10416.m3u8
+#EXTINF:-1 tvg-id="rctrtsporhd.tr" tvg-name="RC Trt Spor HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/c9aa0ea0e7cf2e4ec3523352f7dfd8ff.jpg" group-title="|TR| RC TV KANALLARI",RC Trt Spor HD
+https://goldvod.org/live/hpgdisco/123456/10417.m3u8
+#EXTINF:-1 tvg-id="rcasporhd.tr" tvg-name="RC A Spor HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/b8582c521e6d1bf91ef06f34b7c58c37.jpg" group-title="|TR| RC TV KANALLARI",RC A Spor HD
+https://goldvod.org/live/hpgdisco/123456/10418.m3u8
+#EXTINF:-1 tvg-id="rcgstv.tr" tvg-name="RC GS TV" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/155c62b2d55c69b9abbb2d9867adc1b8.jpg" group-title="|TR| RC TV KANALLARI",RC GS TV
+https://goldvod.org/live/hpgdisco/123456/10419.m3u8
+#EXTINF:-1 tvg-id="rcfbtv.tr" tvg-name="RC FB TV" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/56c7f2499a5ba8bab88be9cebaedd6be.jpg" group-title="|TR| RC TV KANALLARI",RC FB TV
+https://goldvod.org/live/hpgdisco/123456/10420.m3u8
+#EXTINF:-1 tvg-id="rcnbatv.tr" tvg-name="RC Nba TV" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/7b8b88c5d436a3cdecf4facb78342019.jpg" group-title="|TR| RC TV KANALLARI",RC Nba TV
+https://goldvod.org/live/hpgdisco/123456/10421.m3u8
+#EXTINF:-1 tvg-id="rchtsporhd.tr" tvg-name="RC HT SPOR HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/3173922d598840a24005bc0c04cc926e.jpg" group-title="|TR| RC TV KANALLARI",RC HT SPOR HD
+https://goldvod.org/live/hpgdisco/123456/10422.m3u8
+#EXTINF:-1 tvg-id="rcsportstv.tr" tvg-name="RC Sports TV" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/d3fa136e0548a46e2b55393a00a93296.jpg" group-title="|TR| RC TV KANALLARI",RC Sports TV
+https://goldvod.org/live/hpgdisco/123456/10423.m3u8
+#EXTINF:-1 tvg-id="rcekolsport.tr" tvg-name="RC EKOL SPORT" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/80d8999029533191ed8383fb12ccf042.jpg" group-title="|TR| RC TV KANALLARI",RC EKOL SPORT
+https://goldvod.org/live/hpgdisco/123456/10424.m3u8
+#EXTINF:-1 tvg-id="rctrt1.tr" tvg-name="RC  TRT 1" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/14f516e981f4bc0961c5a162665814bf.jpg" group-title="|TR| RC TV KANALLARI",RC  TRT 1
+https://goldvod.org/live/hpgdisco/123456/10425.m3u8
+#EXTINF:-1 tvg-id="rcstartv.tr" tvg-name="RC  STAR TV" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/9077322c9860d2cd30e3f5cc3d46d56d.jpg" group-title="|TR| RC TV KANALLARI",RC  STAR TV
+https://goldvod.org/live/hpgdisco/123456/10426.m3u8
+#EXTINF:-1 tvg-id="rckanald.tr" tvg-name="RC  KANAL D" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/7c5c8e0ca5549732e5ceda6fcc62748d.jpg" group-title="|TR| RC TV KANALLARI",RC  KANAL D
+https://goldvod.org/live/hpgdisco/123456/10427.m3u8
+#EXTINF:-1 tvg-id="rcshowtv.tr" tvg-name="RC  SHOW TV" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/93eebff893a76defd8ab61fdb69943c3.jpg" group-title="|TR| RC TV KANALLARI",RC  SHOW TV
+https://goldvod.org/live/hpgdisco/123456/10428.m3u8
+#EXTINF:-1 tvg-id="rcatv.tr" tvg-name="RC  ATV" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/50f26ac81150eb251be02f16e329d5ff.jpg" group-title="|TR| RC TV KANALLARI",RC  ATV
+https://goldvod.org/live/hpgdisco/123456/10429.m3u8
+#EXTINF:-1 tvg-id="rctv8hd.tr" tvg-name="RC  TV 8 HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/33204f43b374b3d0b662a80afa712518.jpg" group-title="|TR| RC TV KANALLARI",RC  TV 8 HD
+https://goldvod.org/live/hpgdisco/123456/10430.m3u8
+#EXTINF:-1 tvg-id="rctv85.tr" tvg-name="RC  TV 8.5" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/48ec74f19b2e7707d89f70ace71eae1c.jpg" group-title="|TR| RC TV KANALLARI",RC  TV 8.5
+https://goldvod.org/live/hpgdisco/123456/10431.m3u8
+#EXTINF:-1 tvg-id="rcnowtvfox.tr" tvg-name="RC  NOW TV (FOX)" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/50824b68e8d4a1377f0d6ed9242d68d7.jpg" group-title="|TR| RC TV KANALLARI",RC  NOW TV (FOX)
+https://goldvod.org/live/hpgdisco/123456/10432.m3u8
+#EXTINF:-1 tvg-id="rckanal7.tr" tvg-name="RC  KANAL 7" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/9ebd243aafd11f7e8bd8409e04a13860.jpg" group-title="|TR| RC TV KANALLARI",RC  KANAL 7
+https://goldvod.org/live/hpgdisco/123456/10433.m3u8
+#EXTINF:-1 tvg-id="rcbeyaztv.tr" tvg-name="RC  BEYAZ TV" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/f52aae2d29699a04cf4209cbe7367996.png" group-title="|TR| RC TV KANALLARI",RC  BEYAZ TV
+https://goldvod.org/live/hpgdisco/123456/10434.m3u8
+#EXTINF:-1 tvg-id="rcteve2hd.tr" tvg-name="RC  TEVE 2 HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/2cf916833b3c64448b36830d2b238685.png" group-title="|TR| RC TV KANALLARI",RC  TEVE 2 HD
+https://goldvod.org/live/hpgdisco/123456/10435.m3u8
+#EXTINF:-1 tvg-id="rctrthaberhd.tr" tvg-name="RC  TRT HABER HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/d066e7368bc1ea6388e912650ec7354c.png" group-title="|TR| RC TV KANALLARI",RC  TRT HABER HD
+https://goldvod.org/live/hpgdisco/123456/10436.m3u8
+#EXTINF:-1 tvg-id="rchaberturkhd.tr" tvg-name="RC  HABER TURK HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/8cc654161cccc4a0b183615672809444.jpg" group-title="|TR| RC TV KANALLARI",RC  HABER TURK HD
+https://goldvod.org/live/hpgdisco/123456/10437.m3u8
+#EXTINF:-1 tvg-id="rcahaberhd.tr" tvg-name="RC  A HABER HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/dc748243e0ce52f5315946c0f26f50fe.jpg" group-title="|TR| RC TV KANALLARI",RC  A HABER HD
+https://goldvod.org/live/hpgdisco/123456/10438.m3u8
+#EXTINF:-1 tvg-id="rccnnturkhd.tr" tvg-name="RC  CNN TURK HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/59310b5017a91855a65fd3993f085710.jpg" group-title="|TR| RC TV KANALLARI",RC  CNN TURK HD
+https://goldvod.org/live/hpgdisco/123456/10439.m3u8
+#EXTINF:-1 tvg-id="rcntvhd.tr" tvg-name="RC  NTV HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/fc2233de54eddcc4b38e07e8eedb8446.jpg" group-title="|TR| RC TV KANALLARI",RC  NTV HD
+https://goldvod.org/live/hpgdisco/123456/10440.m3u8
+#EXTINF:-1 tvg-id="rc24haberhd.tr" tvg-name="RC  24 HABER HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/a7ee2263901d79464e2249d0b23217cf.jpg" group-title="|TR| RC TV KANALLARI",RC  24 HABER HD
+https://goldvod.org/live/hpgdisco/123456/10441.m3u8
+#EXTINF:-1 tvg-id="rcbloomberghthd.tr" tvg-name="RC  BLOOMBERG HT HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/fe34ebd140199c087be663e2c57ceb2f.jpg" group-title="|TR| RC TV KANALLARI",RC  BLOOMBERG HT HD
+https://goldvod.org/live/hpgdisco/123456/10442.m3u8
+#EXTINF:-1 tvg-id="rchalktv.tr" tvg-name="RC  HALK TV" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/ba872632eff716bff680517fd72de5fd.jpg" group-title="|TR| RC TV KANALLARI",RC  HALK TV
+https://goldvod.org/live/hpgdisco/123456/10443.m3u8
+#EXTINF:-1 tvg-id="rchaberglobal.tr" tvg-name="RC  HABER GLOBAL" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/aa5d0e853efaf9070117c772c4db6358.jpg" group-title="|TR| RC TV KANALLARI",RC  HABER GLOBAL
+https://goldvod.org/live/hpgdisco/123456/10444.m3u8
+#EXTINF:-1 tvg-id="rctgrthaberhd.tr" tvg-name="RC  TGRT HABER HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/fb4488783f29ccc9b6873395f6c001bd.jpg" group-title="|TR| RC TV KANALLARI",RC  TGRT HABER HD
+https://goldvod.org/live/hpgdisco/123456/10445.m3u8
+#EXTINF:-1 tvg-id="rclketvhd.tr" tvg-name="RC  ÜLKE TV HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/f308a739f78540555d8b8819f785eb4f.jpg" group-title="|TR| RC TV KANALLARI",RC  ÜLKE TV HD
+https://goldvod.org/live/hpgdisco/123456/10446.m3u8
+#EXTINF:-1 tvg-id="rcekoltv.tr" tvg-name="RC  EKOL TV" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/2adaac7b2a1e39ca67dc34115ce40f3c.jpg" group-title="|TR| RC TV KANALLARI",RC  EKOL TV
+https://goldvod.org/live/hpgdisco/123456/10447.m3u8
+#EXTINF:-1 tvg-id="rcnationalgeohd.tr" tvg-name="RC  NATIONAL GEO HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/666cbc1feac437aea3fc2c8218b9539e.jpg" group-title="|TR| RC TV KANALLARI",RC  NATIONAL GEO HD
+https://goldvod.org/live/hpgdisco/123456/10448.m3u8
+#EXTINF:-1 tvg-id="rcnationalgeowild.tr" tvg-name="RC  NATIONAL GEO WILD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/ae18d42e87a266954420b315bb23c749.jpg" group-title="|TR| RC TV KANALLARI",RC  NATIONAL GEO WILD
+https://goldvod.org/live/hpgdisco/123456/10449.m3u8
+#EXTINF:-1 tvg-id="rchistorychannel.tr" tvg-name="RC  HISTORY CHANNEL" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/77f52eb67864c8f809626fa5c7d1bae6.png" group-title="|TR| RC TV KANALLARI",RC  HISTORY CHANNEL
+https://goldvod.org/live/hpgdisco/123456/10450.m3u8
+#EXTINF:-1 tvg-id="rcbbcearthhd.tr" tvg-name="RC  BBC EARTH HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/9ed6faa15f968198d17c0362658f6b50.jpg" group-title="|TR| RC TV KANALLARI",RC  BBC EARTH HD
+https://goldvod.org/live/hpgdisco/123456/10451.m3u8
+#EXTINF:-1 tvg-id="rctarhtv.tr" tvg-name="RC  TARİH TV" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/b61d518744b390174e6f672d7171107d.png" group-title="|TR| RC TV KANALLARI",RC  TARİH TV
+https://goldvod.org/live/hpgdisco/123456/10452.m3u8
+#EXTINF:-1 tvg-id="rcdocubox.tr" tvg-name="RC  Docubox" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/d90ba2bcb80b997800fbe4824f1d71c6.png" group-title="|TR| RC TV KANALLARI",RC  Docubox
+https://goldvod.org/live/hpgdisco/123456/10453.m3u8
+#EXTINF:-1 tvg-id="rctlc.tr" tvg-name="RC  TLC" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/08cd8548f90ea341ac8bf315ec5ab4f9.jpg" group-title="|TR| RC TV KANALLARI",RC  TLC
+https://goldvod.org/live/hpgdisco/123456/10454.m3u8
+#EXTINF:-1 tvg-id="rcdmaxhd.tr" tvg-name="RC  DMAX HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/8c8f9b27a338d4b5713098251d9f5284.png" group-title="|TR| RC TV KANALLARI",RC  DMAX HD
+https://goldvod.org/live/hpgdisco/123456/10455.m3u8
+#EXTINF:-1 tvg-id="rcyabantv.tr" tvg-name="RC  YABAN TV" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/717339637240b8d0ade5063ae8a18fcd.png" group-title="|TR| RC TV KANALLARI",RC  YABAN TV
+https://goldvod.org/live/hpgdisco/123456/10456.m3u8
+#EXTINF:-1 tvg-id="rcdiscoverychannel.tr" tvg-name="RC  DISCOVERY CHANNEL" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/45a6752ed9a833b4d0303885092b8f54.png" group-title="|TR| RC TV KANALLARI",RC  DISCOVERY CHANNEL
+https://goldvod.org/live/hpgdisco/123456/10457.m3u8
+#EXTINF:-1 tvg-id="rcdiscoveryscience.tr" tvg-name="RC  DISCOVERY SCIENCE" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/a83bf94e67fe34718d644ed9da8ca82d.png" group-title="|TR| RC TV KANALLARI",RC  DISCOVERY SCIENCE
+https://goldvod.org/live/hpgdisco/123456/10458.m3u8
+#EXTINF:-1 tvg-id="rcbsaction1.tr" tvg-name="RC  BS ACTION 1" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/1883f1dfa1e69b6788849eaab4b1f8e7.png" group-title="|TR| RC TV KANALLARI",RC  BS ACTION 1
+https://goldvod.org/live/hpgdisco/123456/10459.m3u8
+#EXTINF:-1 tvg-id="rcbsturk.tr" tvg-name="RC  BS TURK" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/b2d030cf4ca567bf7c8358b15c8177a9.png" group-title="|TR| RC TV KANALLARI",RC  BS TURK
+https://goldvod.org/live/hpgdisco/123456/10460.m3u8
+#EXTINF:-1 tvg-id="rcbsfamily.tr" tvg-name="RC  BS FAMILY" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/a2f7541d9a7a2947275ba3b3d3b6cb47.png" group-title="|TR| RC TV KANALLARI",RC  BS FAMILY
+https://goldvod.org/live/hpgdisco/123456/10461.m3u8
+#EXTINF:-1 tvg-id="rcbeinserieshdkaynak1.tr" tvg-name="RC  Bein Series HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/cac143893c2e56485498895df040b2b1.png" group-title="|TR| RC TV KANALLARI",RC  Bein Series HD
+https://goldvod.org/live/hpgdisco/123456/10462.m3u8
+#EXTINF:-1 tvg-id="rcbsstars.tr" tvg-name="RC  BS STARS" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/45d92ce49a65dd1e9823a55694fe2a7e.png" group-title="|TR| RC TV KANALLARI",RC  BS STARS
+https://goldvod.org/live/hpgdisco/123456/10463.m3u8
+#EXTINF:-1 tvg-id="rcbspremier.tr" tvg-name="RC  BS PREMIER" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/05607925151ae07d26cdf2c93b99e006.png" group-title="|TR| RC TV KANALLARI",RC  BS PREMIER
+https://goldvod.org/live/hpgdisco/123456/10464.m3u8
+#EXTINF:-1 tvg-id="rcbsboxoffice1.tr" tvg-name="RC  BS BOX OFFICE 1" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/a5e035e5aad903052fdb35a3a7984518.jpg" group-title="|TR| RC TV KANALLARI",RC  BS BOX OFFICE 1
+https://goldvod.org/live/hpgdisco/123456/10465.m3u8
+#EXTINF:-1 tvg-id="rcmoviesmartturk.tr" tvg-name="RC  MOVIESMART TURK" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/771bc3c19a6cfa2187001771d74ba63c.jpg" group-title="|TR| RC TV KANALLARI",RC  MOVIESMART TURK
+https://goldvod.org/live/hpgdisco/123456/10466.m3u8
+#EXTINF:-1 tvg-id="rcfxkanali.tr" tvg-name="RC  FX KANALI" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/6c4faa576fe3d2fe9e850efd5c57005d.jpg" group-title="|TR| RC TV KANALLARI",RC  FX KANALI
+https://goldvod.org/live/hpgdisco/123456/10467.m3u8
+#EXTINF:-1 tvg-id="rcsinematvhd.tr" tvg-name="RC  SINEMA TV HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/40b261b65aeef4696661f2b497c55c89.png" group-title="|TR| RC TV KANALLARI",RC  SINEMA TV HD
+https://goldvod.org/live/hpgdisco/123456/10468.m3u8
+#EXTINF:-1 tvg-id="rcsinematvaksiyon.tr" tvg-name="RC  SINEMA TV AKSIYON" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/11ae72baa495a639e5193cbed5fd92da.png" group-title="|TR| RC TV KANALLARI",RC  SINEMA TV AKSIYON
+https://goldvod.org/live/hpgdisco/123456/10469.m3u8
+#EXTINF:-1 tvg-id="rcsinematvkomedi.tr" tvg-name="RC  SINEMA TV KOMEDI" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/bb0d39dbbdee543eb42f4e77fd30c324.png" group-title="|TR| RC TV KANALLARI",RC  SINEMA TV KOMEDI
+https://goldvod.org/live/hpgdisco/123456/10470.m3u8
+#EXTINF:-1 tvg-id="rcsinematvyerli.tr" tvg-name="RC  SINEMA TV YERLI" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/aefea49a94d29d26305b35ffd21ca4e7.png" group-title="|TR| RC TV KANALLARI",RC  SINEMA TV YERLI
+https://goldvod.org/live/hpgdisco/123456/10471.m3u8
+#EXTINF:-1 tvg-id="rctrtbelgeselhd.tr" tvg-name="RC  TRT BELGESEL HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/cee1ae3bfe067fe869b8e20c0272938b.jpg" group-title="|TR| RC TV KANALLARI",RC  TRT BELGESEL HD
+https://goldvod.org/live/hpgdisco/123456/10472.m3u8
+#EXTINF:-1 tvg-id="rcdreamturktvhd.tr" tvg-name="RC  DREAM TURK TV HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/9756196c45fab27cf682ca813c12ceee.png" group-title="|TR| RC TV KANALLARI",RC  DREAM TURK TV HD
+https://goldvod.org/live/hpgdisco/123456/10473.m3u8
+#EXTINF:-1 tvg-id="rctrtmuzikhd.tr" tvg-name="RC  TRT MUZIK HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/08508325378853b59bcb51a2451cb872.jpg" group-title="|TR| RC TV KANALLARI",RC  TRT MUZIK HD
+https://goldvod.org/live/hpgdisco/123456/10474.m3u8
+#EXTINF:-1 tvg-id="rcpowerturkhd.tr" tvg-name="RC  POWER TURK HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/3817afb79e408b0a106a2c1c51281de9.jpg" group-title="|TR| RC TV KANALLARI",RC  POWER TURK HD
+https://goldvod.org/live/hpgdisco/123456/10475.m3u8
+#EXTINF:-1 tvg-id="rcpowertvhd.tr" tvg-name="RC  POWER TV HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/8610a3cb93710691265a4b50e76bf57d.jpg" group-title="|TR| RC TV KANALLARI",RC  POWER TV HD
+https://goldvod.org/live/hpgdisco/123456/10476.m3u8
+#EXTINF:-1 tvg-id="rcnr1turkhd.tr" tvg-name="RC  NR1 TURK HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/6a1816b24244ae99036e04ea13af3663.jpg" group-title="|TR| RC TV KANALLARI",RC  NR1 TURK HD
+https://goldvod.org/live/hpgdisco/123456/10477.m3u8
+#EXTINF:-1 tvg-id="rccartoonnetwork.tr" tvg-name="RC  CARTOON NETWORK" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/1a8262974a202c19d6543b82335e39de.jpg" group-title="|TR| RC TV KANALLARI",RC  CARTOON NETWORK
+https://goldvod.org/live/hpgdisco/123456/10478.m3u8
+#EXTINF:-1 tvg-id="rcnickelodeonhd.tr" tvg-name="RC  NICKELODEON HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/4a6d8c2049dd4c014cd443a9cd411f3b.png" group-title="|TR| RC TV KANALLARI",RC  NICKELODEON HD
+https://goldvod.org/live/hpgdisco/123456/10479.m3u8
+#EXTINF:-1 tvg-id="rcgzttv.tr" tvg-name="RC  GZT TV" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/b329450ea66cb793aef8e2accc313d62.jpg" group-title="|TR| RC TV KANALLARI",RC  GZT TV
+https://goldvod.org/live/hpgdisco/123456/10480.m3u8
+#EXTINF:-1 tvg-id="rcbkanal.tr" tvg-name="RC  Bİ KANAL" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/b709f8b25cbb59b00b3f3aab0f8c07aa.jpg" group-title="|TR| RC TV KANALLARI",RC  Bİ KANAL
+https://goldvod.org/live/hpgdisco/123456/10481.m3u8
+#EXTINF:-1 tvg-id="rcsozcutv.tr" tvg-name="RC  SOZCU TV" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/d2b37e56c23f53095350038e36c1c8ce.png" group-title="|TR| RC TV KANALLARI",RC  SOZCU TV
+https://goldvod.org/live/hpgdisco/123456/10482.m3u8
+#EXTINF:-1 tvg-id="rctv100.tr" tvg-name="RC  TV 100" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/54ebd649dea5b3654544975b9352f100.png" group-title="|TR| RC TV KANALLARI",RC  TV 100
+https://goldvod.org/live/hpgdisco/123456/10483.m3u8
+#EXTINF:-1 tvg-id="rctvnet.tr" tvg-name="RC  TVNET" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/27c80e3806fdd33e2f72b20cd4256dec.jpg" group-title="|TR| RC TV KANALLARI",RC  TVNET
+https://goldvod.org/live/hpgdisco/123456/10484.m3u8
+#EXTINF:-1 tvg-id="rctrt2.tr" tvg-name="RC  TRT 2" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/614e1863861a3dbba1b1e107367b3e53.jpg" group-title="|TR| RC TV KANALLARI",RC  TRT 2
+https://goldvod.org/live/hpgdisco/123456/10485.m3u8
+#EXTINF:-1 tvg-id="rctv4.tr" tvg-name="RC  TV4" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpeg/e97aaf070fbc2858ecabd8625f360eb2.jpeg" group-title="|TR| RC TV KANALLARI",RC  TV4
+https://goldvod.org/live/hpgdisco/123456/10486.m3u8
+#EXTINF:-1 tvg-id="rcbenguturk.tr" tvg-name="RC  BENGUTURK" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/cad74c9ef922f64138434a3ebb0980be.jpg" group-title="|TR| RC TV KANALLARI",RC  BENGUTURK
+https://goldvod.org/live/hpgdisco/123456/10487.m3u8
+#EXTINF:-1 tvg-id="rctrttrk.tr" tvg-name="RC  TRT TÜRK" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/45fd54765eebb0b4e708c7448a2c8a93.jpg" group-title="|TR| RC TV KANALLARI",RC  TRT TÜRK
+https://goldvod.org/live/hpgdisco/123456/10488.m3u8
+#EXTINF:-1 tvg-id="rctrtavaz.tr" tvg-name="RC  TRT AVAZ" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/c1e29a27bff35f6c081fe9b7103953b8.jpg" group-title="|TR| RC TV KANALLARI",RC  TRT AVAZ
+https://goldvod.org/live/hpgdisco/123456/10489.m3u8
+#EXTINF:-1 tvg-id="rcsemerkandtv.tr" tvg-name="RC  SEMERKAND TV" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/8ac54924b9791ceedab2f302d9fe2946.jpg" group-title="|TR| RC TV KANALLARI",RC  SEMERKAND TV
+https://goldvod.org/live/hpgdisco/123456/10490.m3u8
+#EXTINF:-1 tvg-id="rctvbuspor4.tr" tvg-name="RC TİVİBU SPOR 4" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/921670222d56e1af5cde5b3474185425.jpg" group-title="|TR| RC TV KANALLARI",RC TİVİBU SPOR 4
+https://goldvod.org/live/hpgdisco/123456/10491.m3u8
+#EXTINF:-1 tvg-id="rctrtsporyildiz.tr" tvg-name="RC TRT SPOR YILDIZ" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/ddc793321e06b9f205e7b99ebca71e4b.jpg" group-title="|TR| RC TV KANALLARI",RC TRT SPOR YILDIZ
+https://goldvod.org/live/hpgdisco/123456/10492.m3u8
+#EXTINF:-1 tvg-id="rclovenature.tr" tvg-name="RC  LOVE NATURE" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/c34095b97dc3f94306666eec346defb8.png" group-title="|TR| RC TV KANALLARI",RC  LOVE NATURE
+https://goldvod.org/live/hpgdisco/123456/10493.m3u8
+#EXTINF:-1 tvg-id="rcviasathistory.tr" tvg-name="RC  VIASAT HISTORY" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/8ea2619561935fed906ee2278d5fa961.png" group-title="|TR| RC TV KANALLARI",RC  VIASAT HISTORY
+https://goldvod.org/live/hpgdisco/123456/10494.m3u8
+#EXTINF:-1 tvg-id="rcdisneyjr.tr" tvg-name="RC  DISNEY JR" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/4a33046f4748f1d987b710da68d7b58f.png" group-title="|TR| RC TV KANALLARI",RC  DISNEY JR
+https://goldvod.org/live/hpgdisco/123456/10495.m3u8
+#EXTINF:-1 tvg-id="rcfashiontv.tr" tvg-name="RC  FASHION TV" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/0ae3cc600b74755cd008b1695c274f3c.png" group-title="|TR| RC TV KANALLARI",RC  FASHION TV
+https://goldvod.org/live/hpgdisco/123456/10496.m3u8
