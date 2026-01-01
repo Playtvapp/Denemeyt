@@ -44,15 +44,20 @@ logo=https://yt3.ggpht.com/i2TaaYn_QBW_W0xsJ79qFQ58bw28wKxlopm9Cocq6O_Ws-Z0C84ap
 
 isim=Kral Şakir
 içerik=https://m.youtube.com/watch?v=5Whk9MVTpI4&pp=ygUTw4dpemdpIGZpbG0gY2FubMSxIA%3D%3D
-logo=https://yt3.ggpht.com/pdVy_rG78xQRFbsEJjBy2u3BfLE6oSDCKX9BBQBufV2KQVRYM70Tb5PZIB7s1oHdKbR7qPZcvA=s48-c-k-c0x00ffffff-no-rj
+logo=https://motherslifemagazine.com/wp-content/uploads/2018/11/Cartoon-Network-Kral-%C5%9Eakir.png
 
 
 isim=Leyla ile Mecnun
 içerik=https://m.youtube.com/watch?v=3nlND4audLg?si=BFq-qaaIcShQi6RV
 logo=https://img-s1.onedio.com/id-682f7236257417dd5597655b/rev-0/w-600/h-502/f-jpg/s-dc99d6ad1583d5fd8f5cf49482c6dbc65c647393.jpg
 
+isim=TJK YurtDışı
+içerik=https://m.youtube.com/watch?v=ri4rR0H2i9c?si=KjEAH9Ks2ZjDn5JZ
+logo=https://demokrathaberorg.teimg.com/demokrathaber-org/images/haberler/tjk_tv_canli_yayin_h26745.jpg
 
-
+ isim=beIN SPORTS HABER 
+içerik=https://m.youtube.com/watch?v=9xVXWLwT0vA
+logo=https://media06.ligtv.com.tr/img/news/2020/4/10/gundem-yaratacak-ozel-roportajlar-bein-sports-haberde/748_416/11_1.png
 
 
 
