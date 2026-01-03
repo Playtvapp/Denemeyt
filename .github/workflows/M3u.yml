@@ -1,160 +1,158 @@
-name: M3U Playlist Otomatik Duzenleyici
+name: M3U Playlist Otomatik Guncelleyici
 
 on:
-  workflow_dispatch:
+  workflow_dispatch:      # Manuel tetikleme butonu
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '0 */6 * * *' # 6 saatte bir otomatik calis
 
 jobs:
-  duzenle-ve-guncelle:
+  guncelle:
     runs-on: ubuntu-latest
     permissions:
       contents: write
 
     steps:
-      - name: Depoyu Klonla
+      - name: Depoyu Kontrol Et (Checkout)
         uses: actions/checkout@v4
 
-      - name: Python Kurulumu
+      - name: Python Kur
         uses: actions/setup-python@v4
         with:
           python-version: '3.9'
 
-      - name: Gerekli Kutuphaneleri Yukle
+      - name: Kutuphaneleri Yukle
         run: pip install requests
 
-      # --- PYTHON SCRIPTI (GÜNCELLENDİ: User-Agent Eklendi) ---
-      - name: Python Scriptini Olustur
+      # --- PYTHON SCRIPTI BASLANGICI ---
+      - name: Python Scriptini Hazirla
         run: |
           cat << 'EOF' > splitter.py
           import os
           import requests
           import re
 
-          # LINK AYARI
-          M3U_URL = "http://plusjustone.xyz:8080/get.php?username=b4h8feZC&password=cRzefU4&type=m3u"
+          # --- AYARLAR ---
+          URL = "http://plusjustone.xyz:8080/get.php?username=b4h8feZC&password=cRzefU4&type=m3u"
+          
+          # Sunucunun bizi engellememesi icin sahte kimlik (User-Agent)
+          HEADERS = {
+              'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+          }
 
-          # KLASORLER
           DIR_LIVE = "CanliTV"
           DIR_MOVIES = "Filmler"
           DIR_SERIES = "Diziler"
 
-          def sanitize_filename(name):
+          def sanitize(name):
               return re.sub(r'[<>:"/\\|?*]', '', name).strip()
 
           def main():
-              print("Playlist indiriliyor...")
-              
-              # --- DUZELTME: User-Agent Eklendi (Sunucu engellemesin diye) ---
-              headers = {
-                  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
-              }
-              
+              print("Baglanti kuruluyor...")
               try:
-                  response = requests.get(M3U_URL, headers=headers, timeout=60)
-                  response.raise_for_status()
-                  content = response.text
-                  print(f"Indirilen veri boyutu: {len(content)} karakter.")
+                  # Timeout suresini uzattik ve Headers ekledik
+                  resp = requests.get(URL, headers=HEADERS, timeout=60)
+                  resp.raise_for_status()
+                  content = resp.text
                   
                   if len(content) < 100:
-                      print("UYARI: Indirilen dosya cok kucuk veya bos!")
+                      print("HATA: Sunucudan bos veya cok kisa veri geldi!")
+                      print("Gelen veri:", content[:200])
+                      exit(1) # Hata verip durdur
+                      
+                  print(f"Basarili! {len(content)} karakter indirildi.")
+                  
               except Exception as e:
-                  print(f"Hata: {e}")
+                  print(f"Baglanti Hatasi: {e}")
                   exit(1)
 
               lines = content.split('\n')
               
+              # Klasorleri olustur
               os.makedirs(DIR_LIVE, exist_ok=True)
               os.makedirs(DIR_MOVIES, exist_ok=True)
               os.makedirs(DIR_SERIES, exist_ok=True)
 
-              master_live = ["#EXTM3U"]
-              master_movies = ["#EXTM3U"]
-              master_series = ["#EXTM3U"]
+              # Ana listeler
+              m_live = ["#EXTM3U"]
+              m_mov = ["#EXTM3U"]
+              m_ser = ["#EXTM3U"]
               
-              cat_live = {}
-              cat_movies = {}
-              cat_series = {}
+              # Kategori listeleri
+              c_live = {}
+              c_mov = {}
+              c_ser = {}
 
-              current_group = "Diger"
-              is_extinf = False
-              buffer_line = ""
+              curr_grp = "Diger"
+              is_inf = False
+              buf = ""
 
               print("Ayristirma basliyor...")
               
-              count = 0
               for line in lines:
                   line = line.strip()
                   if not line: continue
 
                   if line.startswith("#EXTINF"):
-                      is_extinf = True
-                      buffer_line = line
+                      is_inf = True
+                      buf = line
                       match = re.search(r'group-title="([^"]+)"', line)
-                      if match:
-                          current_group = match.group(1)
-                      else:
-                          current_group = "Genel"
+                      curr_grp = match.group(1) if match else "Genel"
                       
-                  elif not line.startswith("#") and is_extinf:
+                  elif not line.startswith("#") and is_inf:
                       url = line
-                      full_entry = f"{buffer_line}\n{url}"
-                      group_upper = current_group.upper()
-                      count += 1
+                      full = f"{buf}\n{url}"
+                      grp_up = curr_grp.upper()
 
-                      # KATEGORI MANTIGI
-                      if any(x in group_upper for x in ["VOD", "FILM", "MOVIE", "SINEMA", "CINEMA", "2023", "2024", "2025"]):
-                          master_movies.append(full_entry)
-                          if current_group not in cat_movies: cat_movies[current_group] = ["#EXTM3U"]
-                          cat_movies[current_group].append(full_entry)
-                      
-                      elif any(x in group_upper for x in ["DIZI", "SERIES", "SEZON", "SEASON", "EPISODE"]):
-                          master_series.append(full_entry)
-                          if current_group not in cat_series: cat_series[current_group] = ["#EXTM3U"]
-                          cat_series[current_group].append(full_entry)
-                      
+                      # Kategori Mantigi
+                      if any(x in grp_up for x in ["VOD", "FILM", "MOVIE", "SINEMA", "2023", "2024"]):
+                          m_mov.append(full)
+                          if curr_grp not in c_mov: c_mov[curr_grp] = ["#EXTM3U"]
+                          c_mov[curr_grp].append(full)
+                          
+                      elif any(x in grp_up for x in ["DIZI", "SERIES", "SEZON", "EPISODE"]):
+                          m_ser.append(full)
+                          if curr_grp not in c_ser: c_ser[curr_grp] = ["#EXTM3U"]
+                          c_ser[curr_grp].append(full)
+                          
                       else:
-                          master_live.append(full_entry)
-                          if current_group not in cat_live: cat_live[current_group] = ["#EXTM3U"]
-                          cat_live[current_group].append(full_entry)
+                          m_live.append(full)
+                          if curr_grp not in c_live: c_live[curr_grp] = ["#EXTM3U"]
+                          c_live[curr_grp].append(full)
+                      
+                      is_inf = False
 
-                      is_extinf = False
+              # Dosyalari Yazdirma Fonksiyonu
+              def save_cats(cats, folder):
+                  for name, items in cats.items():
+                      safe = sanitize(name) or "Isimsiz"
+                      with open(f"{folder}/{safe}.m3u", "w", encoding="utf-8") as f:
+                          f.write("\n".join(items))
 
-              print(f"Toplam {count} kanal/icerik islendi.")
+              save_cats(c_live, DIR_LIVE)
+              save_cats(c_mov, DIR_MOVIES)
+              save_cats(c_ser, DIR_SERIES)
 
-              # DOSYALARI KAYDET
-              def write_cats(category_dict, base_folder):
-                  for cat_name, entries in category_dict.items():
-                      safe_name = sanitize_filename(cat_name)
-                      if not safe_name: safe_name = "Isimsiz"
-                      path = os.path.join(base_folder, f"{safe_name}.m3u")
-                      with open(path, "w", encoding="utf-8") as f:
-                          f.write("\n".join(entries))
-
-              write_cats(cat_live, DIR_LIVE)
-              write_cats(cat_movies, DIR_MOVIES)
-              write_cats(cat_series, DIR_SERIES)
-
-              with open(os.path.join(DIR_LIVE, "TUM_CANLI.m3u"), "w", encoding="utf-8") as f: f.write("\n".join(master_live))
-              with open(os.path.join(DIR_MOVIES, "TUM_FILMLER.m3u"), "w", encoding="utf-8") as f: f.write("\n".join(master_movies))
-              with open(os.path.join(DIR_SERIES, "TUM_DIZILER.m3u"), "w", encoding="utf-8") as f: f.write("\n".join(master_series))
-
-              print("Islem Tamam.")
+              # Toplu dosyalari yaz
+              with open(f"{DIR_LIVE}/TUM_CANLI.m3u", "w", encoding="utf-8") as f: f.write("\n".join(m_live))
+              with open(f"{DIR_MOVIES}/TUM_FILMLER.m3u", "w", encoding="utf-8") as f: f.write("\n".join(m_mov))
+              with open(f"{DIR_SERIES}/TUM_DIZILER.m3u", "w", encoding="utf-8") as f: f.write("\n".join(m_ser))
+              
+              print("Islem tamamlandi.")
           EOF
+      # --- PYTHON SCRIPTI BITIS ---
 
-      - name: Ayristirmayi Baslat
+      - name: Scripti Calistir
         run: python splitter.py
 
-      # --- COMMIT ADIMI (DUZELTİLDİ) ---
-      - name: Degisiklikleri Kaydet
+      - name: GitHub'a Kaydet
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           
-          # HATA COZUMU: Klasor ismi vermek yerine tum degisiklikleri ekle (.)
+          # HATA COZUMU: Isim vererek degil, noktayla "her seyi" ekle diyoruz.
           git add .
           
-          # Eger dosya yoksa veya degisiklik yoksa hata verme
-          git commit -m "Playlist Guncellendi" || echo "Commit atilacak degisiklik yok, islem pas geciliyor."
+          # Eger dosya degismemisse hata verme, devam et
+          git commit -m "Playlist Guncellendi" || echo "Degisiklik yok, commit atlanildi."
           
           git push
