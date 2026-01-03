@@ -1,4 +1,4 @@
-name: M3U Playlist Güncelleme (curl Yöntemi)
+name: M3U Playlist Kategorize Edici
 
 on:
   workflow_dispatch:
@@ -6,7 +6,7 @@ on:
     - cron: '0 */6 * * *'
 
 jobs:
-  fetch-and-commit:
+  fetch-process-commit:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -16,43 +16,102 @@ jobs:
       - name: Depoyu Klonla (Checkout)
         uses: actions/checkout@v4
 
-      # 2. Python veya bağımlılığa GEREK YOK
-      # Doğrudan 'curl' komutu ile playlist'i indir
-      #
-      # --- !!! GÜVENLİK UYARISI !!! ---
-      # URL herkes tarafından görülebilir.
-      # -----------------------------------
-      - name: Playlist'i Çek (curl)
-        run: |
-          curl -L -o indirilen_playlist.m3u \
-          "http://plusjustone.xyz:8080/get.php?username=b4h8feZC&password=cRzefU4&type=m3u" \
-          --fail --silent
-        
-        # 'continue-on-error: true'
-        # Bu, 404 hatası (veya --fail ile yakalanan başka bir hata)
-        # alırsak iş akışını durdurmaz, bir sonraki adıma geçer.
-        # Bu, 1001390031.jpg'deki 'git add' hatasını önler.
-        continue-on-error: true
+      # 2. Python Kurulumu (Metin işleme için gerekli)
+      - name: Python Kurulumu
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
 
-      # 3. Değişiklikleri Depoya Gönder (Commit)
-      - name: Değişiklikleri Depoya Gönder (Commit)
-        run: |
-          # Önce indirilen dosyanın var olup olmadığını kontrol et
-          # Eğer curl başarısız olduysa (örn: 404 aldıysa) dosya oluşmaz
-          # ve bu adım hata vermeden atlanır.
-          if [ ! -f indirilen_playlist.m3u ]; then
-            echo "indirilen_playlist.m3u dosyası bulunamadı. Muhtemelen curl adımı 404 hatası aldı."
-            echo "Commit atılacak yeni bir dosya yok."
-            exit 0 # Başarılı olarak çık
-          fi
+      # 3. Gerekli Kütüphaneyi Yükle
+      - name: Requests Kütüphanesini Yükle
+        run: pip install requests
 
-          echo "indirilen_playlist.m3u bulundu, commit atılıyor..."
+      # 4. Listeyi İndir ve Kategorilere Ayır (Python Script)
+      - name: Listeyi İşle ve Kategorize Et
+        shell: python
+        run: |
+          import requests
+          import re
+          import os
+          import shutil
+
+          # --- AYARLAR ---
+          url = "http://plusjustone.xyz:8080/get.php?username=b4h8feZC&password=cRzefU4&type=m3u"
+          output_folder = "kategoriler"
+
+          # Klasör temizliği (Eski dosyaları silip yenilerini oluşturmak için)
+          if os.path.exists(output_folder):
+              shutil.rmtree(output_folder)
+          os.makedirs(output_folder)
+
+          print("Liste indiriliyor...")
+          try:
+              response = requests.get(url, timeout=60)
+              response.raise_for_status()
+              content = response.text
+          except Exception as e:
+              print(f"Hata oluştu: {e}")
+              exit(0) # Hata olsa bile akışı bozma (continue-on-error mantığı)
+
+          print("İçerik analiz ediliyor...")
+          lines = content.splitlines()
+          categories = {}
+          
+          # M3U İşleme Mantığı
+          for i in range(len(lines)):
+              line = lines[i].strip()
+              
+              if line.startswith("#EXTINF"):
+                  # group-title="..." kısmını bul
+                  match = re.search(r'group-title="([^"]+)"', line)
+                  
+                  if match:
+                      # Kategori ismini al
+                      category_name = match.group(1).strip()
+                  else:
+                      # Kategori yoksa "Genel" yap
+                      category_name = "Genel"
+
+                  # Dosya isminde sorun çıkaracak karakterleri temizle
+                  safe_filename = re.sub(r'[\\/*?:"<>|]', "", category_name)
+                  if not safe_filename: safe_filename = "Diger"
+
+                  if safe_filename not in categories:
+                      categories[safe_filename] = []
+
+                  # EXTINF satırını ekle
+                  categories[safe_filename].append(line)
+                  
+                  # Bir sonraki satır (URL) var mı kontrol et ve ekle
+                  if i + 1 < len(lines):
+                      url_line = lines[i+1].strip()
+                      if not url_line.startswith("#"):
+                          categories[safe_filename].append(url_line)
+
+          # Dosyaları Yazdır
+          print(f"Toplam {len(categories)} kategori bulundu. Dosyalar yazılıyor...")
+          
+          for cat_name, lines_list in categories.items():
+              file_path = os.path.join(output_folder, f"{cat_name}.m3u")
+              with open(file_path, "w", encoding="utf-8") as f:
+                  f.write("#EXTM3U\n")
+                  f.write("\n".join(lines_list))
+
+          print("İşlem tamamlandı.")
+
+      # 5. Değişiklikleri Depoya Gönder (Commit)
+      - name: Değişiklikleri Commit'le ve Push'la
+        run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           
-          git add indirilen_playlist.m3u
+          # Yeni oluşan klasörü git'e ekle
+          git add kategoriler/
           
-          # Sadece dosya değiştiyse commit at
-          git diff-index --quiet HEAD || git commit -m "Otomatik Güncelleme: M3U playlist yenilendi"
-          
-          git push
+          # Değişiklik varsa commit at
+          if git diff-index --quiet HEAD; then
+            echo "Değişiklik yok, commit atılmayacak."
+          else
+            git commit -m "Otomatik Güncelleme: Kategorize edilmiş listeler yüklendi"
+            git push
+          fi
