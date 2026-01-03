@@ -25,7 +25,7 @@ jobs:
       - name: Playlist'i Çek (curl)
         run: |
           curl -L -o indirilen_playlist.m3u \
-          "https://goldvod.org/get.php?username=hpgdisco&password=123456&type=m3u_plus&output=m3u" \
+          "http://plusjustone.xyz:8080/get.php?username=b4h8feZC&password=cRzefU4&type=m3u_plus&output=m3u" \
           --fail --silent
         
         # 'continue-on-error: true'
