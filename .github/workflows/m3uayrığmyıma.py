@@ -1,4 +1,4 @@
-Name: M3U Playlist Güncelleme (Python ile Ayrıştırma)
+Name: M3U yeni Playlist Güncelleme (Python ile Ayrıştırma)
 
 on:
   workflow_dispatch:
