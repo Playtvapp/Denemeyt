@@ -1,0 +1,46 @@
+Name: M3U Playlist Güncelleme (Python ile Ayrıştırma)
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */6 * * *'
+
+jobs:
+  fetch-and-process:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Depoyu Klonla (Checkout)
+        uses: actions/checkout@v4
+
+      # Python Kurulumu
+      - name: Python Kur
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      # Gerekli Kütüphaneler (Requests modülü genelde yüklü gelmez, kuralım)
+      - name: Bağımlılıkları Yükle
+        run: pip install requests
+
+      # Hazırladığımız scripti çalıştır
+      - name: Playlist'i İndir ve Ayrıştır
+        run: python splitter.py
+
+      # Değişiklikleri Commit'le
+      - name: Değişiklikleri Depoya Gönder (Commit)
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+          # Yeni oluşturulan klasörleri ve dosyaları ekle
+          git add CanliTV/
+          git add Filmler/
+          git add Diziler/
+
+          # Eğer değişiklik varsa commit at
+          git diff-index --quiet HEAD || git commit -m "Otomatik: Playlist kategorilere ayrıldı ve güncellendi"
+
+          git push
