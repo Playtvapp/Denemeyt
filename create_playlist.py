@@ -25,7 +25,7 @@ def fetch_and_save_m3u():
         sys.exit(1) # Hata koduyla çık
 
     # Adım 2: URL'yi güvenli bilgilerle dinamik olarak oluştur
-    base_url = "https://goldvod.org/get.php"
+    base_url = "http://plusjustone.xyz:8080"
     params = {
         "username": username,
         "password": password,
