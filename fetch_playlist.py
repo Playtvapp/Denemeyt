@@ -9,7 +9,7 @@ import os
 # şekilde içerir. Bu dosyayı herkese açık bir GitHub
 # deposuna yüklerseniz, hesabınız çalınabilir.
 # --- !!! UYARI: GÜVENLİ DEĞİL !!! ---
-PLAYLIST_URL = "https://goldvod.org/get.php?username=hpgdisco&password=123456&type=m3u_plus&output=m3u"
+PLAYLIST_URL = "http://plusjustone.xyz:8080/get.php?username=b4h8feZC&password=cRzefU4&type=m3u_plus&output=m3u"
 
 # İndirilen içeriğin kaydedileceği dosya adı
 OUTPUT_FILENAME = "indirilen_playlist.m3u"
