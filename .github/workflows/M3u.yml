@@ -1,46 +1,151 @@
-Name: M3U Playlist Güncelleme (Python ile Ayrıştırma)
+name: M3U Playlist Otomatik Duzenleyici
 
 on:
-  workflow_dispatch:
+  workflow_dispatch:      # Manuel tetikleme için
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '0 */6 * * *' # 6 saatte bir çalışır
 
 jobs:
-  fetch-and-process:
+  duzenle-ve-guncelle:
     runs-on: ubuntu-latest
     permissions:
       contents: write
 
     steps:
-      - name: Depoyu Klonla (Checkout)
+      - name: Depoyu Klonla
         uses: actions/checkout@v4
 
-      # Python Kurulumu
-      - name: Python Kur
+      - name: Python Kurulumu
         uses: actions/setup-python@v4
         with:
           python-version: '3.9'
 
-      # Gerekli Kütüphaneler (Requests modülü genelde yüklü gelmez, kuralım)
-      - name: Bağımlılıkları Yükle
+      - name: Gerekli Kutuphaneleri Yukle
         run: pip install requests
 
-      # Hazırladığımız scripti çalıştır
-      - name: Playlist'i İndir ve Ayrıştır
+      # --- BURASI PYTHON KODUNU OTOMATİK OLUŞTURUR ---
+      - name: Python Scriptini Olustur
+        run: |
+          cat << 'EOF' > splitter.py
+          import os
+          import requests
+          import re
+
+          # LINK AYARI
+          M3U_URL = "http://plusjustone.xyz:8080/get.php?username=b4h8feZC&password=cRzefU4&type=m3u"
+
+          # KLASORLER
+          DIR_LIVE = "CanliTV"
+          DIR_MOVIES = "Filmler"
+          DIR_SERIES = "Diziler"
+
+          def sanitize_filename(name):
+              return re.sub(r'[<>:"/\\|?*]', '', name).strip()
+
+          def main():
+              print("Playlist indiriliyor...")
+              try:
+                  response = requests.get(M3U_URL, timeout=60)
+                  response.raise_for_status()
+                  content = response.text
+              except Exception as e:
+                  print(f"Hata: {e}")
+                  exit(1)
+
+              lines = content.split('\n')
+              
+              # Klasorleri temizle/olustur
+              os.makedirs(DIR_LIVE, exist_ok=True)
+              os.makedirs(DIR_MOVIES, exist_ok=True)
+              os.makedirs(DIR_SERIES, exist_ok=True)
+
+              master_live = ["#EXTM3U"]
+              master_movies = ["#EXTM3U"]
+              master_series = ["#EXTM3U"]
+              
+              cat_live = {}
+              cat_movies = {}
+              cat_series = {}
+
+              current_group = "Diger"
+              is_extinf = False
+              buffer_line = ""
+
+              print("Ayristirma basliyor...")
+
+              for line in lines:
+                  line = line.strip()
+                  if not line: continue
+
+                  if line.startswith("#EXTINF"):
+                      is_extinf = True
+                      buffer_line = line
+                      match = re.search(r'group-title="([^"]+)"', line)
+                      if match:
+                          current_group = match.group(1)
+                      else:
+                          current_group = "Genel"
+                      
+                  elif not line.startswith("#") and is_extinf:
+                      url = line
+                      full_entry = f"{buffer_line}\n{url}"
+                      group_upper = current_group.upper()
+
+                      # --- KATEGORI MANTIGI ---
+                      # 1. Filmler
+                      if any(x in group_upper for x in ["VOD", "FILM", "MOVIE", "SINEMA", "CINEMA", "2023", "2024", "2025"]):
+                          master_movies.append(full_entry)
+                          if current_group not in cat_movies: cat_movies[current_group] = ["#EXTM3U"]
+                          cat_movies[current_group].append(full_entry)
+                      
+                      # 2. Diziler
+                      elif any(x in group_upper for x in ["DIZI", "SERIES", "SEZON", "SEASON", "EPISODE"]):
+                          master_series.append(full_entry)
+                          if current_group not in cat_series: cat_series[current_group] = ["#EXTM3U"]
+                          cat_series[current_group].append(full_entry)
+                      
+                      # 3. Canli TV (Geriye kalan her sey)
+                      else:
+                          master_live.append(full_entry)
+                          if current_group not in cat_live: cat_live[current_group] = ["#EXTM3U"]
+                          cat_live[current_group].append(full_entry)
+
+                      is_extinf = False
+
+              # --- DOSYALARI KAYDET ---
+              def write_cats(category_dict, base_folder):
+                  for cat_name, entries in category_dict.items():
+                      safe_name = sanitize_filename(cat_name)
+                      if not safe_name: safe_name = "Isimsiz"
+                      path = os.path.join(base_folder, f"{safe_name}.m3u")
+                      with open(path, "w", encoding="utf-8") as f:
+                          f.write("\n".join(entries))
+
+              write_cats(cat_live, DIR_LIVE)
+              write_cats(cat_movies, DIR_MOVIES)
+              write_cats(cat_series, DIR_SERIES)
+
+              # Toplu Dosyalar
+              with open(os.path.join(DIR_LIVE, "TUM_CANLI.m3u"), "w", encoding="utf-8") as f: f.write("\n".join(master_live))
+              with open(os.path.join(DIR_MOVIES, "TUM_FILMLER.m3u"), "w", encoding="utf-8") as f: f.write("\n".join(master_movies))
+              with open(os.path.join(DIR_SERIES, "TUM_DIZILER.m3u"), "w", encoding="utf-8") as f: f.write("\n".join(master_series))
+
+              print("Islem Tamam.")
+          EOF
+
+      # --- SCRIPT CALISTIRMA ---
+      - name: Ayristirmayi Baslat
         run: python splitter.py
 
-      # Değişiklikleri Commit'le
-      - name: Değişiklikleri Depoya Gönder (Commit)
+      # --- GITHUB'A KAYDETME ---
+      - name: Degisiklikleri Kaydet (Commit & Push)
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-
-          # Yeni oluşturulan klasörleri ve dosyaları ekle
-          git add CanliTV/
-          git add Filmler/
-          git add Diziler/
-
-          # Eğer değişiklik varsa commit at
-          git diff-index --quiet HEAD || git commit -m "Otomatik: Playlist kategorilere ayrıldı ve güncellendi"
-
+          
+          git add CanliTV/ Filmler/ Diziler/
+          
+          # Hata vermemesi icin || true ekledik
+          git commit -m "Playlist Guncellendi ve Kategorize Edildi" || echo "Degisiklik yok"
+          
           git push
