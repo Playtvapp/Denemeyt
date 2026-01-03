@@ -1,9 +1,9 @@
 name: M3U Playlist Otomatik Duzenleyici
 
 on:
-  workflow_dispatch:      # Manuel tetikleme için
+  workflow_dispatch:
   schedule:
-    - cron: '0 */6 * * *' # 6 saatte bir çalışır
+    - cron: '0 */6 * * *'
 
 jobs:
   duzenle-ve-guncelle:
@@ -23,7 +23,7 @@ jobs:
       - name: Gerekli Kutuphaneleri Yukle
         run: pip install requests
 
-      # --- BURASI PYTHON KODUNU OTOMATİK OLUŞTURUR ---
+      # --- PYTHON SCRIPTI (GÜNCELLENDİ: User-Agent Eklendi) ---
       - name: Python Scriptini Olustur
         run: |
           cat << 'EOF' > splitter.py
@@ -44,17 +44,26 @@ jobs:
 
           def main():
               print("Playlist indiriliyor...")
+              
+              # --- DUZELTME: User-Agent Eklendi (Sunucu engellemesin diye) ---
+              headers = {
+                  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+              }
+              
               try:
-                  response = requests.get(M3U_URL, timeout=60)
+                  response = requests.get(M3U_URL, headers=headers, timeout=60)
                   response.raise_for_status()
                   content = response.text
+                  print(f"Indirilen veri boyutu: {len(content)} karakter.")
+                  
+                  if len(content) < 100:
+                      print("UYARI: Indirilen dosya cok kucuk veya bos!")
               except Exception as e:
                   print(f"Hata: {e}")
                   exit(1)
 
               lines = content.split('\n')
               
-              # Klasorleri temizle/olustur
               os.makedirs(DIR_LIVE, exist_ok=True)
               os.makedirs(DIR_MOVIES, exist_ok=True)
               os.makedirs(DIR_SERIES, exist_ok=True)
@@ -72,7 +81,8 @@ jobs:
               buffer_line = ""
 
               print("Ayristirma basliyor...")
-
+              
+              count = 0
               for line in lines:
                   line = line.strip()
                   if not line: continue
@@ -90,21 +100,19 @@ jobs:
                       url = line
                       full_entry = f"{buffer_line}\n{url}"
                       group_upper = current_group.upper()
+                      count += 1
 
-                      # --- KATEGORI MANTIGI ---
-                      # 1. Filmler
+                      # KATEGORI MANTIGI
                       if any(x in group_upper for x in ["VOD", "FILM", "MOVIE", "SINEMA", "CINEMA", "2023", "2024", "2025"]):
                           master_movies.append(full_entry)
                           if current_group not in cat_movies: cat_movies[current_group] = ["#EXTM3U"]
                           cat_movies[current_group].append(full_entry)
                       
-                      # 2. Diziler
                       elif any(x in group_upper for x in ["DIZI", "SERIES", "SEZON", "SEASON", "EPISODE"]):
                           master_series.append(full_entry)
                           if current_group not in cat_series: cat_series[current_group] = ["#EXTM3U"]
                           cat_series[current_group].append(full_entry)
                       
-                      # 3. Canli TV (Geriye kalan her sey)
                       else:
                           master_live.append(full_entry)
                           if current_group not in cat_live: cat_live[current_group] = ["#EXTM3U"]
@@ -112,7 +120,9 @@ jobs:
 
                       is_extinf = False
 
-              # --- DOSYALARI KAYDET ---
+              print(f"Toplam {count} kanal/icerik islendi.")
+
+              # DOSYALARI KAYDET
               def write_cats(category_dict, base_folder):
                   for cat_name, entries in category_dict.items():
                       safe_name = sanitize_filename(cat_name)
@@ -125,7 +135,6 @@ jobs:
               write_cats(cat_movies, DIR_MOVIES)
               write_cats(cat_series, DIR_SERIES)
 
-              # Toplu Dosyalar
               with open(os.path.join(DIR_LIVE, "TUM_CANLI.m3u"), "w", encoding="utf-8") as f: f.write("\n".join(master_live))
               with open(os.path.join(DIR_MOVIES, "TUM_FILMLER.m3u"), "w", encoding="utf-8") as f: f.write("\n".join(master_movies))
               with open(os.path.join(DIR_SERIES, "TUM_DIZILER.m3u"), "w", encoding="utf-8") as f: f.write("\n".join(master_series))
@@ -133,19 +142,19 @@ jobs:
               print("Islem Tamam.")
           EOF
 
-      # --- SCRIPT CALISTIRMA ---
       - name: Ayristirmayi Baslat
         run: python splitter.py
 
-      # --- GITHUB'A KAYDETME ---
-      - name: Degisiklikleri Kaydet (Commit & Push)
+      # --- COMMIT ADIMI (DUZELTİLDİ) ---
+      - name: Degisiklikleri Kaydet
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           
-          git add CanliTV/ Filmler/ Diziler/
+          # HATA COZUMU: Klasor ismi vermek yerine tum degisiklikleri ekle (.)
+          git add .
           
-          # Hata vermemesi icin || true ekledik
-          git commit -m "Playlist Guncellendi ve Kategorize Edildi" || echo "Degisiklik yok"
+          # Eger dosya yoksa veya degisiklik yoksa hata verme
+          git commit -m "Playlist Guncellendi" || echo "Commit atilacak degisiklik yok, islem pas geciliyor."
           
           git push
