@@ -60,6 +60,8 @@ içerik=https://m.youtube.com/watch?v=9xVXWLwT0vA
 logo=https://media06.ligtv.com.tr/img/news/2020/4/10/gundem-yaratacak-ozel-roportajlar-bein-sports-haberde/748_416/11_1.png
 
 
-
+isim=Selena
+içerik=https://m.youtube.com/watch?v=1lyLi6l74fs&pp=ygUUc2VsZW5hIGNhbmzEsSB5YXnEsW4%3D
+logo=https://yt3.ggpht.com/ytc/AIdro_kNsbnulP8chkQ8olu-OlJUU8sNxsEquVHcEJEXqx3V3_0=s48-c-k-c0x00ffffff-no-rj
 
 
